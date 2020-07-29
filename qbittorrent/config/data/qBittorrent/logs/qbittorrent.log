@@ -1,0 +1,98 @@
+(N) 2020-06-27T14:03:20 - qBittorrent v4.2.5 started
+(N) 2020-06-27T14:03:20 - Using config directory: /config/qBittorrent/
+(I) 2020-06-27T14:03:20 - Trying to listen on: 0.0.0.0:6881,[::]:6881
+(N) 2020-06-27T14:03:20 - Peer ID: -qB4250-
+(N) 2020-06-27T14:03:20 - HTTP User-Agent is 'qBittorrent/4.2.5'
+(I) 2020-06-27T14:03:20 - DHT support [ON]
+(I) 2020-06-27T14:03:20 - Local Peer Discovery support [ON]
+(I) 2020-06-27T14:03:20 - PeX support [ON]
+(I) 2020-06-27T14:03:20 - Anonymous mode [OFF]
+(I) 2020-06-27T14:03:20 - Encryption support [ON]
+(W) 2020-06-27T14:03:20 - Couldn't load IP geolocation database. Reason: No such file or directory
+(N) 2020-06-27T14:03:20 - Using built-in Web UI.
+(W) 2020-06-27T14:03:20 - Couldn't load Web UI translation for selected locale (en_US).
+(N) 2020-06-27T14:03:20 - Web UI: Now listening on IP: *, port: 8080
+(I) 2020-06-27T14:03:20 - Successfully listening on IP: 127.0.0.1, port: TCP/6881
+(I) 2020-06-27T14:03:20 - Successfully listening on IP: 127.0.0.1, port: UDP/6881
+(I) 2020-06-27T14:03:20 - Successfully listening on IP: 172.25.0.2, port: TCP/6881
+(I) 2020-06-27T14:03:20 - Successfully listening on IP: 172.25.0.2, port: UDP/6881
+(I) 2020-06-27T14:03:24 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Sun May 31 20:55:08 2020.
+(I) 2020-06-27T14:03:24 - Successfully updated IP geolocation database.
+(W) 2020-06-27T14:03:47 - WebAPI login failure. Reason: invalid credentials, attempt count: 1, IP: ::ffff:172.25.0.1, username: duran
+(I) 2020-06-27T14:04:00 - Detected external IP: 201.0.184.241
+(N) 2020-06-27T14:04:10 - WebAPI login success. IP: ::ffff:172.25.0.1
+(N) 2020-06-27T14:06:01 - Web UI: Now listening on IP: *, port: 8080
+(N) 2020-06-27T14:07:18 - Download first and last piece first: Off, torrent: 'Mr. Robot - 2ª Temporada'
+(N) 2020-06-27T14:07:18 - 'Mr. Robot - 2ª Temporada' added to download list.
+(N) 2020-06-27T14:32:49 - qBittorrent v4.2.5 started
+(N) 2020-06-27T14:32:49 - Using config directory: /config/qBittorrent/
+(I) 2020-06-27T14:32:49 - Trying to listen on: 0.0.0.0:6881,[::]:6881
+(N) 2020-06-27T14:32:49 - Peer ID: -qB4250-
+(N) 2020-06-27T14:32:49 - HTTP User-Agent is 'qBittorrent/4.2.5'
+(I) 2020-06-27T14:32:49 - DHT support [ON]
+(I) 2020-06-27T14:32:49 - Local Peer Discovery support [ON]
+(I) 2020-06-27T14:32:49 - PeX support [ON]
+(I) 2020-06-27T14:32:49 - Anonymous mode [OFF]
+(I) 2020-06-27T14:32:49 - Encryption support [ON]
+(I) 2020-06-27T14:32:49 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Sun May 31 20:55:08 2020.
+(N) 2020-06-27T14:32:49 - Using built-in Web UI.
+(W) 2020-06-27T14:32:49 - Couldn't load Web UI translation for selected locale (en_US).
+(N) 2020-06-27T14:32:49 - Web UI: Now listening on IP: *, port: 8080
+(I) 2020-06-27T14:32:49 - Successfully listening on IP: 127.0.0.1, port: TCP/6881
+(I) 2020-06-27T14:32:49 - Successfully listening on IP: 127.0.0.1, port: UDP/6881
+(I) 2020-06-27T14:32:49 - Successfully listening on IP: 172.30.0.3, port: TCP/6881
+(I) 2020-06-27T14:32:49 - Successfully listening on IP: 172.30.0.3, port: UDP/6881
+(N) 2020-06-27T14:32:49 - 'Mr. Robot - 2ª Temporada' restored.
+(I) 2020-06-27T14:32:50 - Detected external IP: 201.0.184.241
+(N) 2020-06-27T14:32:54 - WebAPI login success. IP: ::ffff:172.30.0.1
+(N) 2020-06-27T14:33:07 - 'Mr. Robot - 2ª Temporada' was removed from the transfer list and hard disk.
+(N) 2020-07-05T09:59:47 - qBittorrent v4.2.5 started
+(N) 2020-07-05T09:59:47 - Using config directory: /config/qBittorrent/
+(I) 2020-07-05T09:59:47 - Trying to listen on: 0.0.0.0:6881,[::]:6881
+(N) 2020-07-05T09:59:47 - Peer ID: -qB4250-
+(N) 2020-07-05T09:59:47 - HTTP User-Agent is 'qBittorrent/4.2.5'
+(I) 2020-07-05T09:59:47 - DHT support [ON]
+(I) 2020-07-05T09:59:47 - Local Peer Discovery support [ON]
+(I) 2020-07-05T09:59:47 - PeX support [ON]
+(I) 2020-07-05T09:59:47 - Anonymous mode [OFF]
+(I) 2020-07-05T09:59:47 - Encryption support [ON]
+(I) 2020-07-05T09:59:47 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Sun May 31 20:55:08 2020.
+(N) 2020-07-05T09:59:47 - Using built-in Web UI.
+(W) 2020-07-05T09:59:47 - Couldn't load Web UI translation for selected locale (en_US).
+(N) 2020-07-05T09:59:47 - Web UI: Now listening on IP: *, port: 8080
+(I) 2020-07-05T09:59:47 - Successfully listening on IP: 127.0.0.1, port: TCP/6881
+(I) 2020-07-05T09:59:47 - Successfully listening on IP: 127.0.0.1, port: UDP/6881
+(I) 2020-07-05T09:59:47 - Successfully listening on IP: 172.19.0.2, port: TCP/6881
+(I) 2020-07-05T09:59:47 - Successfully listening on IP: 172.19.0.2, port: UDP/6881
+(I) 2020-07-05T09:59:48 - Detected external IP: 201.0.184.237
+(I) 2020-07-05T09:59:48 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Tue Jun 30 20:57:33 2020.
+(I) 2020-07-05T09:59:48 - Successfully updated IP geolocation database.
+(I) 2020-07-05T10:00:52 - UPnP / NAT-PMP support [OFF]
+(N) 2020-07-05T10:00:56 - qBittorrent v4.2.5 started
+(N) 2020-07-05T10:00:56 - Using config directory: /config/qBittorrent/
+(I) 2020-07-05T10:00:56 - Trying to listen on: 0.0.0.0:6881,[::]:6881
+(N) 2020-07-05T10:00:56 - Peer ID: -qB4250-
+(N) 2020-07-05T10:00:56 - HTTP User-Agent is 'qBittorrent/4.2.5'
+(I) 2020-07-05T10:00:56 - DHT support [ON]
+(I) 2020-07-05T10:00:56 - Local Peer Discovery support [ON]
+(I) 2020-07-05T10:00:56 - PeX support [ON]
+(I) 2020-07-05T10:00:56 - Anonymous mode [OFF]
+(I) 2020-07-05T10:00:56 - Encryption support [ON]
+(I) 2020-07-05T10:00:56 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Tue Jun 30 20:57:33 2020.
+(N) 2020-07-05T10:00:56 - Using built-in Web UI.
+(W) 2020-07-05T10:00:56 - Couldn't load Web UI translation for selected locale (en_US).
+(N) 2020-07-05T10:00:56 - Web UI: Now listening on IP: *, port: 8080
+(I) 2020-07-05T10:00:56 - Successfully listening on IP: 127.0.0.1, port: TCP/6881
+(I) 2020-07-05T10:00:56 - Successfully listening on IP: 127.0.0.1, port: UDP/6881
+(I) 2020-07-05T10:00:56 - Successfully listening on IP: 172.19.0.2, port: TCP/6881
+(I) 2020-07-05T10:00:56 - Successfully listening on IP: 172.19.0.2, port: UDP/6881
+(I) 2020-07-05T10:00:56 - Detected external IP: 201.0.184.237
+(N) 2020-07-05T10:01:08 - WebAPI login success. IP: ::ffff:172.19.0.1
+(N) 2020-07-05T10:09:26 - Download first and last piece first: Off, torrent: 'Bad.Boys.Para.Sempre.2020.1080p.BluRay.x264-EVO.DUAL-RK'
+(N) 2020-07-05T10:09:26 - 'Bad.Boys.Para.Sempre.2020.1080p.BluRay.x264-EVO.DUAL-RK' added to download list.
+(W) 2020-07-05T10:09:29 - File error alert. Torrent: "Bad.Boys.Para.Sempre.2020.1080p.BluRay.x264-EVO.DUAL-RK". File: "/movies/Bad.Boys.Para.Sempre.2020.1080p.BluRay.x264-EVO.DUAL-RK/Bad.Boys.Para.Sempre.2020.1080p.BluRay.x264-EVO.DUAL-RK.mkv". Reason: Bad.Boys.Para.Sempre.2020.1080p.BluRay.x264-EVO.DUAL-RK mkdir (/movies/Bad.Boys.Para.Sempre.2020.1080p.BluRay.x264-EVO.DUAL-RK/Bad.Boys.Para.Sempre.2020.1080p.BluRay.x264-EVO.DUAL-RK.mkv) error: Permission denied
+(N) 2020-07-05T10:09:55 - Web UI: Now listening on IP: *, port: 8080
+(N) 2020-07-05T10:11:21 - Download first and last piece first: Off, torrent: 'Sonic.O.Filme.2020.1080p.BluRay.x264.DD5.1-Manning.DUAL-Vinci'
+(N) 2020-07-05T10:11:21 - 'Sonic.O.Filme.2020.1080p.BluRay.x264.DD5.1-Manning.DUAL-Vinci' added to download list.
+(N) 2020-07-05T10:45:20 - 'Bad.Boys.Para.Sempre.2020.1080p.BluRay.x264-EVO.DUAL-RK' was removed from the transfer list and hard disk.
+(I) 2020-07-05T10:47:41 - UPnP / NAT-PMP support [OFF]

@@ -1,0 +1,22 @@
+---
+version: "2.1"
+services:
+  transmission:
+    image: linuxserver/qbittorrent
+    container_name: qbitorrent
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=America/Sao_Paulo 
+      - UMASK_SET=022
+      - WEBUI_PORT=8080
+    volumes:
+      - ./config:/config
+      - ../downloads:/downloads
+      - ../downloads/filmes:/filmes
+      - ../downloads/seriados:/seriados
+    ports:
+      - 8080:8080
+      - 6882:6881
+      - 6882:6881/udp
+    restart: unless-stopped

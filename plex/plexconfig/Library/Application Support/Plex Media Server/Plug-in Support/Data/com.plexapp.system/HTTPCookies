@@ -1,0 +1,6 @@
+# Netscape HTTP Cookie File
+# http://curl.haxx.se/rfc/cookie_spec.html
+# This is a generated file!  Do not edit.
+
+.plex.tv	TRUE	/	FALSE	1596545991	__cfduid	decc9c5c2abf78e611bea7de3a51b4df51593953991
+.plexapp.com	TRUE	/	FALSE	1596545992	__cfduid	d4844bef41fbac4960bd8ef8ba16310651593953992

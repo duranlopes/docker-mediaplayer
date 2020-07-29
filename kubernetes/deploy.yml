@@ -1,0 +1,51 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: plex
+  labels:
+    app: plex
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: plex
+  template:
+    metadata:
+      labels:
+        app: plex
+    spec:
+      volumes:
+      - name: config
+        persistentVolumeClaim:
+          claimName: nas-rabbit-pms
+      containers:
+      - name: plex-container
+        image: linuxserver/plex
+        ports:
+        - containerPort: 32400
+        env:
+          - name: "PGID"
+            value: "1000"
+          - name: "PUID"
+            value: "1000"
+          - name: "VERSION"
+            value: "docker"
+          - name: "UMASK_SET"
+            value: "022"     
+        volumeMounts:
+        - name: config
+          mountPath: /config
+        - name: tv
+          mountPath: /tv
+        - name: movies
+          mountPath: /movies
+        volumes:
+        - name: config
+          persistentVolumeClaim:
+            claimName: config-pv
+        - name: tv
+          persistentVolumeClaim:
+            claimName: tv-pv
+        - name: movies
+          persistentVolumeClaim:
+            claimName: tv-pv

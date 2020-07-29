@@ -1,0 +1,1315 @@
+Jul 05, 2020 13:06:42.463 [0x7f7682817700] INFO - Plex Media Server v1.19.4.2935-79e214ead - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 debian - GMT 00:00
+Jul 05, 2020 13:06:42.463 [0x7f7682817700] INFO - Linux version: 4.19.104-microsoft-standard, language: en-US
+Jul 05, 2020 13:06:42.463 [0x7f7682817700] INFO - Processor Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz
+Jul 05, 2020 13:06:42.463 [0x7f7682817700] INFO - /usr/lib/plexmediaserver/Plex Media Server
+Jul 05, 2020 13:06:42.463 [0x7f768beaff40] DEBUG - BPQ: [Idle] -> [Starting]
+Jul 05, 2020 13:06:42.464 [0x7f768beaff40] DEBUG - FeatureManager: Using cached data for features list
+Jul 05, 2020 13:06:42.465 [0x7f768beaff40] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.26.0, threadsafe=1
+Jul 05, 2020 13:06:42.484 [0x7f768beaff40] DEBUG - Running migrations. (EPG 0)
+Jul 05, 2020 13:06:42.484 [0x7f768beaff40] DEBUG - ChangestampAllocator: initialized to 0
+Jul 05, 2020 13:06:42.484 [0x7f768beaff40] DEBUG - Opening 2 database sessions to library (com.plexapp.plugins.library.blobs), SQLite 3.26.0, threadsafe=1
+Jul 05, 2020 13:06:42.486 [0x7f768beaff40] DEBUG - Running migrations. (EPG 0)
+Jul 05, 2020 13:06:42.492 [0x7f768beaff40] DEBUG - HttpServer: Listening on IPv6 as well as IPv4.
+Jul 05, 2020 13:06:42.492 [0x7f768beaff40] DEBUG - HttpServer: Listening on port 32400.
+Jul 05, 2020 13:06:42.492 [0x7f768beaff40] DEBUG - HttpServer: Listening on port 32401.
+Jul 05, 2020 13:06:42.494 [0x7f7681815700] DEBUG - Grabber: Cleaning up orphaned grabs.
+Jul 05, 2020 13:06:42.494 [0x7f7681815700] DEBUG - Grabber: Cleaned up 0 decrepit directories in 0.0 sec.
+Jul 05, 2020 13:06:42.494 [0x7f768beaff40] DEBUG - Media Provider: Registering provider com.plexapp.plugins.library
+Jul 05, 2020 13:06:42.494 [0x7f768beaff40] DEBUG - Auth: Refreshing tokens inside the token-based authentication filter.
+Jul 05, 2020 13:06:42.494 [0x7f768beaff40] DEBUG - MyPlex: mapping state set to 'Unknown'.
+Jul 05, 2020 13:06:42.494 [0x7f768beaff40] DEBUG - Relay: read 0 cached entries from hosts file
+Jul 05, 2020 13:06:42.494 [0x7f7681815700] DEBUG - HTTP requesting GET https://plex.tv/media/providers?X-Plex-Token=
+Jul 05, 2020 13:06:42.494 [0x7f767bfff700] DEBUG - Auth: Refreshing tokens inside the token-based authentication filter.
+Jul 05, 2020 13:06:42.494 [0x7f768beaff40] DEBUG - Opening 1 database sessions to library (), SQLite 3.26.0, threadsafe=1
+Jul 05, 2020 13:06:42.495 [0x7f767a948700] DEBUG - File "/usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead" changed: -1 => 2020-07-02 04:50:33 (1593665433).
+Jul 05, 2020 13:06:42.495 [0x7f767a948700] DEBUG - File "/config/Library/Application Support/Plex Media Server/Plug-ins" changed: -1 => 2020-07-05 13:00:52 (1593954052).
+Jul 05, 2020 13:06:42.495 [0x7f767a948700] DEBUG - Scanning for plug-ins in "/usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead"
+Jul 05, 2020 13:06:42.497 [0x7f767a948700] DEBUG - Scanning for plug-ins in "/config/Library/Application Support/Plex Media Server/Plug-ins"
+Jul 05, 2020 13:06:42.497 [0x7f767a948700] DEBUG - PluginRepository::setStartState: 1, startingSystem
+Jul 05, 2020 13:06:42.497 [0x7f767a948700] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/System.bundle.
+Jul 05, 2020 13:06:42.497 [0x7f767a948700] DEBUG - [com.plexapp.system] Setting plug-in to always running (daemon mode).
+Jul 05, 2020 13:06:42.497 [0x7f767a948700] DEBUG - Starting file watcher for com.plexapp.system
+Jul 05, 2020 13:06:42.497 [0x7f767a948700] DEBUG - Plugin: not setting user token for plugin
+Jul 05, 2020 13:06:42.498 [0x7f767a948700] DEBUG - Spawned plug-in com.plexapp.system with PID 320
+Jul 05, 2020 13:06:42.498 [0x7f767a948700] DEBUG - [com.plexapp.system] Sending command: GET /:/prefixes
+Jul 05, 2020 13:06:43.533 [0x7f7681815700] DEBUG - HTTP 401 response from GET https://plex.tv/media/providers?X-Plex-Token=
+Jul 05, 2020 13:06:44.214 [0x7f767a948700] DEBUG - Reading 486 bytes in the body, code is 200
+Jul 05, 2020 13:06:44.214 [0x7f767a948700] DEBUG - [com.plexapp.system] Plug-in running on port 43703.
+Jul 05, 2020 13:06:44.214 [0x7f767a948700] DEBUG -  * Plug-in handles prefix: /system
+Jul 05, 2020 13:06:44.214 [0x7f767a948700] DEBUG -  * Plug-in handles prefix: /player
+Jul 05, 2020 13:06:44.214 [0x7f767a948700] DEBUG - Read configuration for [com.plexapp.system], had 2 prefixes
+Jul 05, 2020 13:06:44.215 [0x7f767a948700] DEBUG - Done with 1 synchronous plug-in starts, starting the rest in parallel.
+Jul 05, 2020 13:06:44.215 [0x7f767a948700] DEBUG - PluginRepository::setStartState: 2, startingPlugins
+Jul 05, 2020 13:06:44.215 [0x7f767a948700] DEBUG - Updating the list of agents known by the system.
+Jul 05, 2020 13:06:44.215 [0x7f767a948700] DEBUG - [com.plexapp.system] Sending command over HTTP (GET): /system/agents
+Jul 05, 2020 13:06:44.215 [0x7f768beaff40] DEBUG - Image transcode cache directory: "/config/Library/Application Support/Plex Media Server/Cache/PhotoTranscoder"
+Jul 05, 2020 13:06:44.215 [0x7f767a948700] DEBUG - HTTP requesting GET http://127.0.0.1:43703/system/agents
+Jul 05, 2020 13:06:44.215 [0x7f768beaff40] DEBUG - Transcoder: Cleaning old transcode directories.
+Jul 05, 2020 13:06:44.215 [0x7f768beaff40] DEBUG - MyPlex: stop public ip check and mapping - current mapped state: 'Unknown'.
+Jul 05, 2020 13:06:44.215 [0x7f768beaff40] DEBUG - NetworkInterface: Starting watch thread.
+Jul 05, 2020 13:06:44.215 [0x7f768beaff40] DEBUG - Network change.
+Jul 05, 2020 13:06:44.215 [0x7f7679145700] DEBUG - NetworkInterface: Watching for changes on the interfaces.
+Jul 05, 2020 13:06:44.215 [0x7f768beaff40] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Jul 05, 2020 13:06:44.215 [0x7f768beaff40] DEBUG - Detected primary interface: 172.19.0.3
+Jul 05, 2020 13:06:44.215 [0x7f768beaff40] DEBUG - Network interfaces:
+Jul 05, 2020 13:06:44.215 [0x7f768beaff40] DEBUG -  * 1 lo (127.0.0.1) (loopback: 1)
+Jul 05, 2020 13:06:44.215 [0x7f768beaff40] DEBUG -  * 13 eth0 (172.19.0.3) (loopback: 0)
+Jul 05, 2020 13:06:44.215 [0x7f768beaff40] DEBUG - Creating NetworkServices singleton.
+Jul 05, 2020 13:06:44.215 [0x7f768beaff40] DEBUG - NetworkServices: Initializing...
+Jul 05, 2020 13:06:44.215 [0x7f768beaff40] DEBUG - NetworkService: Creating new service.
+Jul 05, 2020 13:06:44.215 [0x7f768beaff40] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+Jul 05, 2020 13:06:44.215 [0x7f768beaff40] DEBUG - NetworkService: Quick dispatch of network change.
+Jul 05, 2020 13:06:44.215 [0x7f768beaff40] DEBUG - NetworkService: Creating new service.
+Jul 05, 2020 13:06:44.215 [0x7f768beaff40] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+Jul 05, 2020 13:06:44.215 [0x7f768beaff40] DEBUG - NetworkService: Quick dispatch of network change.
+Jul 05, 2020 13:06:44.215 [0x7f768beaff40] DEBUG - NetworkService: Creating new service.
+Jul 05, 2020 13:06:44.215 [0x7f768beaff40] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+Jul 05, 2020 13:06:44.215 [0x7f768beaff40] DEBUG - NetworkService: Quick dispatch of network change.
+Jul 05, 2020 13:06:44.215 [0x7f768beaff40] DEBUG - NetworkService: Creating new service.
+Jul 05, 2020 13:06:44.215 [0x7f768beaff40] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+Jul 05, 2020 13:06:44.215 [0x7f768beaff40] DEBUG - NetworkService: Quick dispatch of network change.
+Jul 05, 2020 13:06:44.215 [0x7f768beaff40] DEBUG - NetworkService: Creating new service.
+Jul 05, 2020 13:06:44.215 [0x7f7679946700] DEBUG - Network change for advertiser.
+Jul 05, 2020 13:06:44.215 [0x7f7679946700] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32414
+Jul 05, 2020 13:06:44.216 [0x7f768beaff40] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+Jul 05, 2020 13:06:44.216 [0x7f768beaff40] DEBUG - NetworkService: Quick dispatch of network change.
+Jul 05, 2020 13:06:44.216 [0x7f768beaff40] DEBUG - NetworkService: Creating new service.
+Jul 05, 2020 13:06:44.216 [0x7f768beaff40] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+Jul 05, 2020 13:06:44.216 [0x7f768beaff40] DEBUG - NetworkService: Quick dispatch of network change.
+Jul 05, 2020 13:06:44.216 [0x7f7679946700] DEBUG - Network change for advertiser.
+Jul 05, 2020 13:06:44.216 [0x7f7679946700] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32410
+Jul 05, 2020 13:06:44.216 [0x7f7679946700] DEBUG - Network change for advertiser.
+Jul 05, 2020 13:06:44.216 [0x7f7679946700] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32412
+Jul 05, 2020 13:06:44.216 [0x7f7679946700] DEBUG - NetworkService: Network change for browser (polled=0), closing 0 browse sockets.
+Jul 05, 2020 13:06:44.216 [0x7f7679946700] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32413
+Jul 05, 2020 13:06:44.216 [0x7f768beaff40] DEBUG - Starting HTTP server.
+Jul 05, 2020 13:06:44.216 [0x7f768beaff40] DEBUG - Running server...
+Jul 05, 2020 13:06:44.216 [0x7f7679946700] DEBUG - NetworkService: Browsing on interface 127.0.0.1 on broadcast address 127.255.255.255 (index: 0)
+Jul 05, 2020 13:06:44.216 [0x7f7679946700] DEBUG - NetworkService: Browsing on interface 172.19.0.3 on broadcast address 172.19.255.255 (index: 1)
+Jul 05, 2020 13:06:44.216 [0x7f7679946700] DEBUG - NetworkService: Network change for browser (polled=1), closing 0 browse sockets.
+Jul 05, 2020 13:06:44.216 [0x7f7679946700] DEBUG - NetworkService: Browsing on interface 127.0.0.1 on broadcast address 127.255.255.255 (index: 0)
+Jul 05, 2020 13:06:44.216 [0x7f7679946700] DEBUG - NetworkService: Browsing on interface 172.19.0.3 on broadcast address 172.19.255.255 (index: 1)
+Jul 05, 2020 13:06:44.216 [0x7f7679946700] DEBUG - NetworkService: Network change for browser (polled=0), closing 0 browse sockets.
+Jul 05, 2020 13:06:44.216 [0x7f7679946700] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:1901
+Jul 05, 2020 13:06:44.216 [0x7f7679946700] DEBUG - NetworkService: Browsing on interface 172.19.0.3 on broadcast address 239.255.255.250 (index: 0)
+Jul 05, 2020 13:06:44.216 [0x7f768beaff40] DEBUG - Waiting for server condition to be signaled.
+Jul 05, 2020 13:06:44.216 [0x7f7678944700] DEBUG - Plex Tuner Service starting.
+Jul 05, 2020 13:06:44.216 [0x7f7678944700] DEBUG - Job running: '/usr/lib/plexmediaserver/Plex Tuner Service' '/usr/lib/plexmediaserver/Resources/Tuner/Private' '/usr/lib/plexmediaserver/Resources/Tuner/Shared' '1.19.4.2935-79e214ead' '32600' '/waitmutex'
+Jul 05, 2020 13:06:44.216 [0x7f7667fff700] DEBUG - HttpServer: Set up a thread pool with 2 threads.
+Jul 05, 2020 13:06:44.216 [0x7f7678944700] DEBUG - Jobs: Starting child process with pid 359
+Jul 05, 2020 13:06:44.218 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54866 (Subnet)] GET / (5 live) GZIP
+Jul 05, 2020 13:06:44.218 [0x7f7667fff700] DEBUG - HTTP requesting GET https://plex.tv/api/v2/user/privacy?X-Plex-Token=
+Jul 05, 2020 13:06:44.218 [0x7f76677fe700] DEBUG - Translator: Found locale zh_CN
+Jul 05, 2020 13:06:44.219 [0x7f76677fe700] DEBUG - Translator: Found locale ar
+Jul 05, 2020 13:06:44.219 [0x7f76677fe700] DEBUG - Translator: Found locale et_EE
+Jul 05, 2020 13:06:44.219 [0x7f76677fe700] DEBUG - Translator: Found locale it
+Jul 05, 2020 13:06:44.219 [0x7f76677fe700] DEBUG - Translator: Found locale fi
+Jul 05, 2020 13:06:44.219 [0x7f76677fe700] DEBUG - Translator: Found locale sv
+Jul 05, 2020 13:06:44.219 [0x7f76677fe700] DEBUG - Translator: Found locale ru
+Jul 05, 2020 13:06:44.219 [0x7f76677fe700] DEBUG - Translator: Found locale sr
+Jul 05, 2020 13:06:44.219 [0x7f76677fe700] DEBUG - Translator: Found locale pl
+Jul 05, 2020 13:06:44.219 [0x7f76677fe700] DEBUG - Translator: Found locale nl
+Jul 05, 2020 13:06:44.219 [0x7f76677fe700] DEBUG - Translator: Found locale he
+Jul 05, 2020 13:06:44.219 [0x7f76677fe700] DEBUG - Translator: Found locale ro
+Jul 05, 2020 13:06:44.219 [0x7f76677fe700] DEBUG - Translator: Found locale hu
+Jul 05, 2020 13:06:44.219 [0x7f76677fe700] DEBUG - Translator: Found locale ja_JP
+Jul 05, 2020 13:06:44.219 [0x7f76677fe700] DEBUG - Translator: Found locale ko
+Jul 05, 2020 13:06:44.219 [0x7f76677fe700] DEBUG - Translator: Found locale en
+Jul 05, 2020 13:06:44.219 [0x7f76677fe700] DEBUG - Translator: Found locale da
+Jul 05, 2020 13:06:44.219 [0x7f76677fe700] DEBUG - Translator: Found locale no
+Jul 05, 2020 13:06:44.219 [0x7f76677fe700] DEBUG - Translator: Found locale hu_HU
+Jul 05, 2020 13:06:44.219 [0x7f76677fe700] DEBUG - Translator: Found locale fr
+Jul 05, 2020 13:06:44.219 [0x7f7666ffd700] DEBUG - Request: [127.0.0.1:34044 (Loopback)] GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_ (6 live) GZIP
+Jul 05, 2020 13:06:44.219 [0x7f76677fe700] DEBUG - Translator: Found locale nl_BE
+Jul 05, 2020 13:06:44.219 [0x7f76677fe700] DEBUG - Translator: Found locale af
+Jul 05, 2020 13:06:44.219 [0x7f76677fe700] DEBUG - Translator: Found locale pt_BR
+Jul 05, 2020 13:06:44.219 [0x7f76677fe700] DEBUG - Translator: Found locale de
+Jul 05, 2020 13:06:44.219 [0x7f76677fe700] DEBUG - Translator: Found locale hr_HR
+Jul 05, 2020 13:06:44.219 [0x7f76677fe700] DEBUG - Translator: Found locale lt
+Jul 05, 2020 13:06:44.219 [0x7f76677fe700] DEBUG - Translator: Found locale es
+Jul 05, 2020 13:06:44.219 [0x7f76677fe700] DEBUG - Translator: Found locale cs_CZ
+Jul 05, 2020 13:06:44.219 [0x7f7665ffb700] DEBUG - Request: [127.0.0.1:34048 (Loopback)] GET / (6 live) GZIP
+Jul 05, 2020 13:06:44.219 [0x7f76667fc700] DEBUG - Request: [127.0.0.1:34046 (Loopback)] GET / (6 live) GZIP
+Jul 05, 2020 13:06:44.220 [0x7f76657fa700] DEBUG - Request: [127.0.0.1:34050 (Loopback)] GET /servers (6 live) GZIP
+Jul 05, 2020 13:06:44.223 [0x7f7666ffd700] DEBUG - [com.plexapp.system] Sending command over HTTP (GET): /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
+Jul 05, 2020 13:06:44.223 [0x7f7666ffd700] DEBUG - HTTP requesting GET http://127.0.0.1:43703/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
+Jul 05, 2020 13:06:44.224 [0x7f7680813700] DEBUG - Completed: [127.0.0.1:34048] 200 GET / (6 live) GZIP 5ms 1977 bytes
+Jul 05, 2020 13:06:44.224 [0x7f7681014700] DEBUG - Completed: [127.0.0.1:34046] 200 GET / (6 live) GZIP 5ms 1977 bytes
+Jul 05, 2020 13:06:44.227 [0x7f7681014700] DEBUG - Completed: [127.0.0.1:34050] 200 GET /servers (4 live) GZIP 7ms 490 bytes
+Jul 05, 2020 13:06:44.227 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:54866] 200 GET / (3 live) GZIP 10ms 2006 bytes (pipelined: 1)
+Jul 05, 2020 13:06:44.249 [0x7f7665ffb700] DEBUG - Request: [127.0.0.1:34064 (Loopback)] GET / (4 live) GZIP
+Jul 05, 2020 13:06:44.250 [0x7f7681014700] DEBUG - Completed: [127.0.0.1:34064] 200 GET / (4 live) GZIP 0ms 1977 bytes
+Jul 05, 2020 13:06:44.261 [0x7f76667fc700] DEBUG - Request: [127.0.0.1:34066 (Loopback)] GET /library/sections (4 live) GZIP
+Jul 05, 2020 13:06:44.261 [0x7f7681014700] DEBUG - Completed: [127.0.0.1:34066] 200 GET /library/sections (4 live) GZIP 0ms 475 bytes
+Jul 05, 2020 13:06:44.270 [0x7f76657fa700] DEBUG - Request: [127.0.0.1:34068 (Loopback)] GET /channels/all (4 live) GZIP
+Jul 05, 2020 13:06:44.270 [0x7f7681014700] DEBUG - Completed: [127.0.0.1:34068] 200 GET /channels/all (4 live) GZIP 0ms 387 bytes
+Jul 05, 2020 13:06:44.315 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54866 (Subnet)] GET /favicon.ico (3 live) GZIP
+Jul 05, 2020 13:06:44.315 [0x7f76677fe700] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/WebClient.bundle/Contents/Resources/favicon.ico is 5430 (of total: 5430).
+Jul 05, 2020 13:06:44.316 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:54866] 200 GET /favicon.ico (3 live) GZIP 0ms 5430 bytes (pipelined: 2)
+Jul 05, 2020 13:06:44.462 [0x7f7681815700] DEBUG - Job running: '/usr/lib/plexmediaserver/CrashUploader' '--directory=/config/Library/Application Support/Plex Media Server/Crash Reports/1.19.4.2935-79e214ead' '--version=1.19.4.2935-79e214ead' '--platform=Linux' '--platformVersion=4.19.104-microsoft-standard' '--serverUuid=84babd2b6413574365ceb3daa97f2ed6a2151f97' '--userId=NOUSERID' '--sentryUrl=https://sentry.io/api/1233455/minidump' '--sentryKey=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx' '--vendor=Docker' '--model=x86_64' '--device=Docker Container (LinuxServer.io)'
+Jul 05, 2020 13:06:44.462 [0x7f7681815700] DEBUG - Jobs: Starting child process with pid 383
+Jul 05, 2020 13:06:44.468 [0x7f7682016700] DEBUG - Jobs: '/usr/lib/plexmediaserver/CrashUploader' exit code for process 383 is 0 (success)
+Jul 05, 2020 13:06:44.514 [0x7f767a948700] DEBUG - HTTP 200 response from GET http://127.0.0.1:43703/system/agents
+Jul 05, 2020 13:06:44.514 [0x7f767a948700] DEBUG - [com.plexapp.system] HTTP reply status 200, with 12079 bytes of content.
+Jul 05, 2020 13:06:44.516 [0x7f767a948700] DEBUG - The system knows about 15 agents.
+Jul 05, 2020 13:06:44.517 [0x7f7664ff9700] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/TheTVDB.bundle.
+Jul 05, 2020 13:06:44.517 [0x7f76337fe700] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/MoviePosterDB.bundle.
+Jul 05, 2020 13:06:44.517 [0x7f767a948700] DEBUG - Waiting for 20 plug-ins to finish starting.
+Jul 05, 2020 13:06:44.517 [0x7f7633fff700] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/PlexMovie.bundle.
+Jul 05, 2020 13:06:44.517 [0x7f7633fff700] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.imdb] yet.
+Jul 05, 2020 13:06:44.517 [0x7f7633fff700] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/PlexThemeMusic.bundle.
+Jul 05, 2020 13:06:44.517 [0x7f7664ff9700] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.thetvdb] yet.
+Jul 05, 2020 13:06:44.517 [0x7f7664ff9700] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/Musicbrainz.bundle.
+Jul 05, 2020 13:06:44.517 [0x7f76337fe700] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.movieposterdb] yet.
+Jul 05, 2020 13:06:44.517 [0x7f76337fe700] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/LyricFind.bundle.
+Jul 05, 2020 13:06:44.518 [0x7f7664ff9700] DEBUG - Perfect cache hit, we don't need to start [org.musicbrainz.agents.music] yet.
+Jul 05, 2020 13:06:44.518 [0x7f7664ff9700] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/Framework.bundle.
+Jul 05, 2020 13:06:44.518 [0x7f7633fff700] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.plexthememusic] yet.
+Jul 05, 2020 13:06:44.518 [0x7f7633fff700] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/TheMovieDB.bundle.
+Jul 05, 2020 13:06:44.518 [0x7f76337fe700] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.lyricfind] yet.
+Jul 05, 2020 13:06:44.518 [0x7f76337fe700] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/OpenSubtitles.bundle.
+Jul 05, 2020 13:06:44.518 [0x7f7664ff9700] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/HTbackdrops.bundle.
+Jul 05, 2020 13:06:44.518 [0x7f7633fff700] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.themoviedb] yet.
+Jul 05, 2020 13:06:44.518 [0x7f76337fe700] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.opensubtitles] yet.
+Jul 05, 2020 13:06:44.518 [0x7f7664ff9700] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.htbackdrops] yet.
+Jul 05, 2020 13:06:44.518 [0x7f7633fff700] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/WebClient.bundle.
+Jul 05, 2020 13:06:44.518 [0x7f7664ff9700] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/Fanart-TV.bundle.
+Jul 05, 2020 13:06:44.518 [0x7f76337fe700] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/PlexMusic.bundle.
+Jul 05, 2020 13:06:44.519 [0x7f7633fff700] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/LastFM.bundle.
+Jul 05, 2020 13:06:44.519 [0x7f76337fe700] DEBUG - Perfect cache hit, we don't need to start [tv.plex.agents.music] yet.
+Jul 05, 2020 13:06:44.519 [0x7f76337fe700] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/Media-Flags.bundle.
+Jul 05, 2020 13:06:44.519 [0x7f7664ff9700] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.fanarttv] yet.
+Jul 05, 2020 13:06:44.519 [0x7f7664ff9700] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/LocalMedia.bundle.
+Jul 05, 2020 13:06:44.519 [0x7f76337fe700] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/Scanners.bundle.
+Jul 05, 2020 13:06:44.519 [0x7f7633fff700] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.lastfm] yet.
+Jul 05, 2020 13:06:44.519 [0x7f7633fff700] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/PersonalMedia.bundle.
+Jul 05, 2020 13:06:44.519 [0x7f76337fe700] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/PlexMovieNew.bundle.
+Jul 05, 2020 13:06:44.519 [0x7f7664ff9700] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.localmedia] yet.
+Jul 05, 2020 13:06:44.519 [0x7f7664ff9700] DEBUG - Starting plug-in /config/Library/Application Support/Plex Media Server/Plug-ins/Services.bundle.
+Jul 05, 2020 13:06:44.519 [0x7f7633fff700] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.none] yet.
+Jul 05, 2020 13:06:44.520 [0x7f76337fe700] DEBUG - Perfect cache hit, we don't need to start [tv.plex.agents.movie] yet.
+Jul 05, 2020 13:06:44.520 [0x7f767a948700] DEBUG - Starting scheduled updates, every 3600 seconds
+Jul 05, 2020 13:06:44.520 [0x7f767a948700] INFO - LibraryUpdateManager path watching is disabled
+Jul 05, 2020 13:06:44.520 [0x7f767a948700] DEBUG - Done waiting for all plug-ins to start.
+Jul 05, 2020 13:06:44.520 [0x7f767a948700] DEBUG - PluginRepository::setStartState: 3, complete
+Jul 05, 2020 13:06:44.520 [0x7f76327fc700] DEBUG - Downloading document http://127.0.0.1:32400/:/plugins/com.plexapp.agents.imdb/prefs
+Jul 05, 2020 13:06:44.520 [0x7f76327fc700] DEBUG - Starting file watcher for com.plexapp.agents.imdb
+Jul 05, 2020 13:06:44.520 [0x7f76327fc700] DEBUG - Plugin: not setting user token for plugin
+Jul 05, 2020 13:06:44.521 [0x7f76327fc700] DEBUG - Spawned plug-in com.plexapp.agents.imdb with PID 393
+Jul 05, 2020 13:06:44.521 [0x7f76327fc700] DEBUG - [com.plexapp.agents.imdb] Sending command: GET /:/prefixes
+Jul 05, 2020 13:06:44.540 [0x7f7666ffd700] DEBUG - HTTP 200 response from GET http://127.0.0.1:43703/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
+Jul 05, 2020 13:06:44.540 [0x7f7666ffd700] DEBUG - [com.plexapp.system] HTTP reply status 200, with 59966 bytes of content.
+Jul 05, 2020 13:06:44.542 [0x7f7680813700] DEBUG - Completed: [127.0.0.1:34044] 200 GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_ (3 live) GZIP 324ms 19262 bytes
+Jul 05, 2020 13:06:45.147 [0x7f76657fa700] DEBUG - Request: [127.0.0.1:34072 (Loopback)] GET /system/messaging/clear_events/com.plexapp.agents.imdb (3 live) GZIP
+Jul 05, 2020 13:06:45.147 [0x7f76657fa700] DEBUG - [com.plexapp.system] Sending command over HTTP (GET): /system/messaging/clear_events/com.plexapp.agents.imdb
+Jul 05, 2020 13:06:45.147 [0x7f76657fa700] DEBUG - HTTP requesting GET http://127.0.0.1:43703/system/messaging/clear_events/com.plexapp.agents.imdb
+Jul 05, 2020 13:06:45.179 [0x7f76657fa700] DEBUG - HTTP 200 response from GET http://127.0.0.1:43703/system/messaging/clear_events/com.plexapp.agents.imdb
+Jul 05, 2020 13:06:45.180 [0x7f76657fa700] DEBUG - [com.plexapp.system] HTTP reply status 200, with 0 bytes of content.
+Jul 05, 2020 13:06:45.180 [0x7f7680813700] DEBUG - Completed: [127.0.0.1:34072] 200 GET /system/messaging/clear_events/com.plexapp.agents.imdb (3 live) GZIP 33ms 167 bytes
+Jul 05, 2020 13:06:45.188 [0x7f7667fff700] DEBUG - HTTP 200 response from GET https://plex.tv/api/v2/user/privacy?X-Plex-Token=
+Jul 05, 2020 13:06:45.189 [0x7f7667fff700] DEBUG - HTTP requesting GET https://plex.tv/api/v2/release_channels?X-Plex-Token=
+Jul 05, 2020 13:06:45.253 [0x7f7665ffb700] DEBUG - Request: [127.0.0.1:34082 (Loopback)] GET /:/plugins/com.plexapp.system/resourceHashes (3 live) GZIP
+Jul 05, 2020 13:06:45.253 [0x7f7665ffb700] DEBUG - [com.plexapp.system] Sending command over HTTP (GET): /:/plugins/com.plexapp.system/resourceHashes
+Jul 05, 2020 13:06:45.253 [0x7f7665ffb700] DEBUG - HTTP requesting GET http://127.0.0.1:43703/:/plugins/com.plexapp.system/resourceHashes
+Jul 05, 2020 13:06:45.385 [0x7f7665ffb700] DEBUG - HTTP 200 response from GET http://127.0.0.1:43703/:/plugins/com.plexapp.system/resourceHashes
+Jul 05, 2020 13:06:45.385 [0x7f7665ffb700] DEBUG - [com.plexapp.system] HTTP reply status 200, with 13276 bytes of content.
+Jul 05, 2020 13:06:45.386 [0x7f7680813700] DEBUG - Completed: [127.0.0.1:34082] 200 GET /:/plugins/com.plexapp.system/resourceHashes (3 live) GZIP 133ms 3335 bytes
+Jul 05, 2020 13:06:45.397 [0x7f7666ffd700] DEBUG - Request: [127.0.0.1:34090 (Loopback)] GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_ (3 live) GZIP
+Jul 05, 2020 13:06:45.397 [0x7f7666ffd700] DEBUG - [com.plexapp.system] Sending command over HTTP (GET): /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
+Jul 05, 2020 13:06:45.397 [0x7f7666ffd700] DEBUG - HTTP requesting GET http://127.0.0.1:43703/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
+Jul 05, 2020 13:06:45.399 [0x7f76677fe700] DEBUG - Request: [127.0.0.1:34096 (Loopback)] GET / (4 live) GZIP
+Jul 05, 2020 13:06:45.400 [0x7f7681014700] DEBUG - Completed: [127.0.0.1:34096] 200 GET / (4 live) GZIP 0ms 1968 bytes
+Jul 05, 2020 13:06:45.416 [0x7f7666ffd700] DEBUG - HTTP 200 response from GET http://127.0.0.1:43703/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
+Jul 05, 2020 13:06:45.416 [0x7f7666ffd700] DEBUG - [com.plexapp.system] HTTP reply status 200, with 59966 bytes of content.
+Jul 05, 2020 13:06:45.418 [0x7f7681014700] DEBUG - Completed: [127.0.0.1:34090] 200 GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_ (3 live) GZIP 21ms 19262 bytes
+Jul 05, 2020 13:06:46.168 [0x7f7665ffb700] DEBUG - Request: [127.0.0.1:34098 (Loopback)] GET /:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczEwClBsZXggTW92aWVzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_ (3 live) GZIP
+Jul 05, 2020 13:06:46.169 [0x7f7665ffb700] DEBUG - [com.plexapp.system] Sending command over HTTP (GET): /:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczEwClBsZXggTW92aWVzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_
+Jul 05, 2020 13:06:46.169 [0x7f7665ffb700] DEBUG - HTTP requesting GET http://127.0.0.1:43703/:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczEwClBsZXggTW92aWVzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_
+Jul 05, 2020 13:06:46.173 [0x7f7665ffb700] DEBUG - HTTP 200 response from GET http://127.0.0.1:43703/:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczEwClBsZXggTW92aWVzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_
+Jul 05, 2020 13:06:46.173 [0x7f7665ffb700] DEBUG - [com.plexapp.system] HTTP reply status 200, with 16 bytes of content.
+Jul 05, 2020 13:06:46.173 [0x7f7681014700] DEBUG - Completed: [127.0.0.1:34098] 200 GET /:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczEwClBsZXggTW92aWVzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_ (3 live) GZIP 5ms 302 bytes
+Jul 05, 2020 13:06:46.177 [0x7f76327fc700] DEBUG - Reading 148 bytes in the body, code is 200
+Jul 05, 2020 13:06:46.177 [0x7f76327fc700] DEBUG - [com.plexapp.agents.imdb] Plug-in running on port 33023.
+Jul 05, 2020 13:06:46.177 [0x7f76327fc700] DEBUG - Read configuration for [com.plexapp.agents.imdb], had 0 prefixes
+Jul 05, 2020 13:06:46.177 [0x7f76327fc700] DEBUG - [com.plexapp.agents.imdb] Sending command over HTTP (GET): /:/plugins/com.plexapp.agents.imdb/prefs
+Jul 05, 2020 13:06:46.177 [0x7f76327fc700] DEBUG - HTTP requesting GET http://127.0.0.1:33023/:/plugins/com.plexapp.agents.imdb/prefs
+Jul 05, 2020 13:06:46.191 [0x7f76327fc700] DEBUG - HTTP 200 response from GET http://127.0.0.1:33023/:/plugins/com.plexapp.agents.imdb/prefs
+Jul 05, 2020 13:06:46.191 [0x7f76327fc700] DEBUG - [com.plexapp.agents.imdb] HTTP reply status 200, with 2224 bytes of content.
+Jul 05, 2020 13:06:46.191 [0x7f76327fc700] DEBUG - Caching document http://127.0.0.1:32400/:/plugins/com.plexapp.agents.imdb/prefs as bf1bfc5622b4356c7f44ced8cdf69d934adf09c3
+Jul 05, 2020 13:06:46.191 [0x7f76327fc700] DEBUG - IVA: Downloading trailer lists.
+Jul 05, 2020 13:06:46.227 [0x7f7667fff700] DEBUG - HTTP 200 response from GET https://plex.tv/api/v2/release_channels?X-Plex-Token=
+Jul 05, 2020 13:06:46.228 [0x7f7667fff700] DEBUG - Running database fix-ups.
+Jul 05, 2020 13:06:46.229 [0x7f7667fff700] DEBUG - Database Fixups: Destroyed 0 transient items.
+Jul 05, 2020 13:06:46.230 [0x7f7667fff700] DEBUG - Running database fix-ups completed in 0.0 seconds.
+Jul 05, 2020 13:06:46.230 [0x7f7667fff700] DEBUG - HTTP requesting GET https://plex.tv/api/v2/features?X-Plex-Token=
+Jul 05, 2020 13:06:46.356 [0x7f76327fc700] DEBUG - IVA: Downloaded 12 trailers for source 1.
+Jul 05, 2020 13:06:46.453 [0x7f76327fc700] DEBUG - IVA: Downloaded 0 trailers for source 2.
+Jul 05, 2020 13:06:47.273 [0x7f7667fff700] DEBUG - HTTP 200 response from GET https://plex.tv/api/v2/features?X-Plex-Token=
+Jul 05, 2020 13:06:47.274 [0x7f7632ffd700] DEBUG - DVR: Starting up.
+Jul 05, 2020 13:06:47.274 [0x7f767bfff700] DEBUG - HTTP requesting GET https://plex.tv/media/providers?X-Plex-Token=
+Jul 05, 2020 13:06:47.274 [0x7f7632ffd700] DEBUG - Activity: registered new activity 3eb37b84-a8ef-4654-aa17-e5e43d277fbf - Processing subscriptions
+Jul 05, 2020 13:06:47.541 [0x7f7667fff700] DEBUG - MyPlex: Sending unclaimed device connections
+Jul 05, 2020 13:06:47.542 [0x7f7667fff700] DEBUG - HTTP requesting POST https://plex.tv/devices/84babd2b6413574365ceb3daa97f2ed6a2151f97/unclaimed?Connection[][uri]=http://172.19.0.3:32400
+Jul 05, 2020 13:06:48.356 [0x7f767bfff700] DEBUG - HTTP 401 response from GET https://plex.tv/media/providers?X-Plex-Token=
+Jul 05, 2020 13:06:48.688 [0x7f7667fff700] DEBUG - HTTP 200 response from POST https://plex.tv/devices/84babd2b6413574365ceb3daa97f2ed6a2151f97/unclaimed?Connection[][uri]=http://172.19.0.3:32400
+Jul 05, 2020 13:06:49.217 [0x7f7679946700] DEBUG - NetworkServiceBrowser: SERVER arrived: 127.0.0.1 (1fa4655ae793)
+Jul 05, 2020 13:06:49.217 [0x7f7679946700] DEBUG - Notifying the system bundle an update to server /system/notify/serverUpdated?host=127.0.0.1
+Jul 05, 2020 13:06:49.217 [0x7f7679946700] DEBUG - [com.plexapp.system] Sending command over HTTP (GET): /system/notify/serverUpdated?host=127.0.0.1
+Jul 05, 2020 13:06:49.217 [0x7f7679946700] DEBUG - HTTP requesting GET http://127.0.0.1:43703/system/notify/serverUpdated?host=127.0.0.1
+Jul 05, 2020 13:06:49.230 [0x7f7665ffb700] DEBUG - Request: [127.0.0.1:34146 (Loopback)] GET /servers (3 live) GZIP
+Jul 05, 2020 13:06:49.230 [0x7f7680813700] DEBUG - Completed: [127.0.0.1:34146] 200 GET /servers (3 live) GZIP 0ms 490 bytes
+Jul 05, 2020 13:06:49.233 [0x7f76677fe700] DEBUG - Request: [127.0.0.1:34148 (Loopback)] GET /library/sections (3 live) GZIP
+Jul 05, 2020 13:06:49.234 [0x7f7680813700] DEBUG - Completed: [127.0.0.1:34148] 200 GET /library/sections (3 live) GZIP 0ms 475 bytes
+Jul 05, 2020 13:06:49.236 [0x7f76657fa700] DEBUG - Request: [127.0.0.1:34150 (Loopback)] GET /channels/all (3 live) GZIP
+Jul 05, 2020 13:06:49.236 [0x7f7680813700] DEBUG - Completed: [127.0.0.1:34150] 200 GET /channels/all (3 live) GZIP 0ms 387 bytes
+Jul 05, 2020 13:06:49.238 [0x7f7679946700] DEBUG - HTTP 200 response from GET http://127.0.0.1:43703/system/notify/serverUpdated?host=127.0.0.1
+Jul 05, 2020 13:06:49.238 [0x7f7679946700] DEBUG - [com.plexapp.system] HTTP reply status 200, with 0 bytes of content.
+Jul 05, 2020 13:06:52.481 [0x7f76657fa700] DEBUG - Request: [172.19.0.1:54866 (Subnet)] GET /web (2 live) GZIP
+Jul 05, 2020 13:06:52.481 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:54866] 302 GET /web (2 live) GZIP 0ms 281 bytes (pipelined: 3) -> http://localhost:32400/web/index.html#!/setup/84babd2b6413574365ceb3daa97f2ed6a2151f97
+Jul 05, 2020 13:06:52.487 [0x7f7665ffb700] DEBUG - Request: [172.19.0.1:54866 (Subnet)] GET /web/index.html (2 live) GZIP
+Jul 05, 2020 13:06:52.487 [0x7f7665ffb700] DEBUG - Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/WebClient.bundle/Contents/Resources/index.html"
+Jul 05, 2020 13:06:52.487 [0x7f7665ffb700] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/WebClient.bundle/Contents/Resources/index.html is 11363 (of total: 11363).
+Jul 05, 2020 13:06:52.487 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:54866] 200 GET /web/index.html (2 live) GZIP 0ms 11363 bytes (pipelined: 4)
+Jul 05, 2020 13:06:52.494 [0x7f7681815700] DEBUG - DVR:Device: Discovering and refreshing all devices.
+Jul 05, 2020 13:06:52.494 [0x7f7681815700] DEBUG - Grabber: HDHomerun discovered 0 compatible devices.
+Jul 05, 2020 13:06:52.495 [0x7f7681815700] DEBUG - HTTP requesting POST http://127.0.0.1:32600/devices/discover
+Jul 05, 2020 13:06:52.513 [0x7f7666ffd700] DEBUG - Request: [172.19.0.1:54866 (Subnet)] GET /web/chunk-3-3f60d034937c1e92cdb6-plex-4.30.2-225a4ec.css (2 live) GZIP
+Jul 05, 2020 13:06:52.513 [0x7f7666ffd700] DEBUG - Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/WebClient.bundle/Contents/Resources/chunk-3-3f60d034937c1e92cdb6-plex-4.30.2-225a4ec.css"
+Jul 05, 2020 13:06:52.513 [0x7f7666ffd700] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/WebClient.bundle/Contents/Resources/chunk-3-3f60d034937c1e92cdb6-plex-4.30.2-225a4ec.css is 994717 (of total: 994717).
+Jul 05, 2020 13:06:52.516 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:54866] 200 GET /web/chunk-3-3f60d034937c1e92cdb6-plex-4.30.2-225a4ec.css (3 live) GZIP 3ms 994717 bytes (pipelined: 5)
+Jul 05, 2020 13:06:52.516 [0x7f76667fc700] DEBUG - Request: [172.19.0.1:54986 (Subnet)] GET /web/js/chunk-5-7549aa70dd5d5c397569-plex-4.30.2-225a4ec.js (3 live) GZIP
+Jul 05, 2020 13:06:52.516 [0x7f76667fc700] DEBUG - Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/WebClient.bundle/Contents/Resources/js/chunk-5-7549aa70dd5d5c397569-plex-4.30.2-225a4ec.js"
+Jul 05, 2020 13:06:52.516 [0x7f76667fc700] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/WebClient.bundle/Contents/Resources/js/chunk-5-7549aa70dd5d5c397569-plex-4.30.2-225a4ec.js is 970731 (of total: 970731).
+Jul 05, 2020 13:06:52.519 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /web/js/chunk-3-3f60d034937c1e92cdb6-plex-4.30.2-225a4ec.js (4 live) GZIP
+Jul 05, 2020 13:06:52.519 [0x7f76677fe700] DEBUG - Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/WebClient.bundle/Contents/Resources/js/chunk-3-3f60d034937c1e92cdb6-plex-4.30.2-225a4ec.js"
+Jul 05, 2020 13:06:52.519 [0x7f76677fe700] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/WebClient.bundle/Contents/Resources/js/chunk-3-3f60d034937c1e92cdb6-plex-4.30.2-225a4ec.js is 3357157 (of total: 3357157).
+Jul 05, 2020 13:06:52.520 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:54986] 200 GET /web/js/chunk-5-7549aa70dd5d5c397569-plex-4.30.2-225a4ec.js (4 live) GZIP 4ms 970731 bytes (pipelined: 1)
+Jul 05, 2020 13:06:52.526 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /web/js/chunk-3-3f60d034937c1e92cdb6-plex-4.30.2-225a4ec.js (4 live) GZIP 7ms 3357157 bytes (pipelined: 1)
+Jul 05, 2020 13:06:53.020 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /web/translations/pt-BR.json (4 live) GZIP
+Jul 05, 2020 13:06:53.021 [0x7f76677fe700] DEBUG - Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/WebClient.bundle/Contents/Resources/translations/pt-BR.json"
+Jul 05, 2020 13:06:53.021 [0x7f76677fe700] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/WebClient.bundle/Contents/Resources/translations/pt-BR.json is 163869 (of total: 163869).
+Jul 05, 2020 13:06:53.021 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /web/translations/pt-BR.json (4 live) GZIP 0ms 163869 bytes (pipelined: 2)
+Jul 05, 2020 13:06:53.023 [0x7f76667fc700] DEBUG - Request: [172.19.0.1:54986 (Subnet)] GET /web/common/img/backgrounds/preset-dark2.6d2c8336496f761f38de8558a2b9709b.png (4 live) GZIP
+Jul 05, 2020 13:06:53.023 [0x7f76667fc700] DEBUG - Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/WebClient.bundle/Contents/Resources/common/img/backgrounds/preset-dark2.6d2c8336496f761f38de8558a2b9709b.png"
+Jul 05, 2020 13:06:53.023 [0x7f76667fc700] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/WebClient.bundle/Contents/Resources/common/img/backgrounds/preset-dark2.6d2c8336496f761f38de8558a2b9709b.png is 113817 (of total: 113817).
+Jul 05, 2020 13:06:53.024 [0x7f7666ffd700] DEBUG - Request: [172.19.0.1:54866 (Subnet)] GET /web/common/img/backgrounds/noise.8b05ce45d0df59343e206bc9ae78d85d.png (4 live) GZIP
+Jul 05, 2020 13:06:53.024 [0x7f7666ffd700] DEBUG - Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/WebClient.bundle/Contents/Resources/common/img/backgrounds/noise.8b05ce45d0df59343e206bc9ae78d85d.png"
+Jul 05, 2020 13:06:53.024 [0x7f7666ffd700] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/WebClient.bundle/Contents/Resources/common/img/backgrounds/noise.8b05ce45d0df59343e206bc9ae78d85d.png is 54413 (of total: 54413).
+Jul 05, 2020 13:06:53.024 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:54986] 200 GET /web/common/img/backgrounds/preset-dark2.6d2c8336496f761f38de8558a2b9709b.png (4 live) GZIP 1ms 113817 bytes (pipelined: 2)
+Jul 05, 2020 13:06:53.024 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:54866] 200 GET /web/common/img/backgrounds/noise.8b05ce45d0df59343e206bc9ae78d85d.png (4 live) GZIP 0ms 54413 bytes (pipelined: 6)
+Jul 05, 2020 13:06:53.118 [0x7f76657fa700] DEBUG - Request: [172.19.0.1:54986 (Subnet)] GET /media/providers (4 live) GZIP
+Jul 05, 2020 13:06:53.119 [0x7f7665ffb700] DEBUG - Request: [172.19.0.1:54866 (Subnet)] GET / (4 live) GZIP
+Jul 05, 2020 13:06:53.119 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:54986] 200 GET /media/providers (4 live) GZIP 1ms 1984 bytes (pipelined: 3)
+Jul 05, 2020 13:06:53.119 [0x7f7665ffb700] DEBUG - (Capabilities) Platform 'Chrome' not matched by plugin platform requirements
+Jul 05, 2020 13:06:53.120 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:54866] 200 GET / (4 live) GZIP 0ms 1982 bytes (pipelined: 7)
+Jul 05, 2020 13:06:53.132 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:55000 (Subnet)] GET / (6 live) GZIP
+Jul 05, 2020 13:06:53.132 [0x7f76677fe700] DEBUG - (Capabilities) Platform 'Chrome' not matched by plugin platform requirements
+Jul 05, 2020 13:06:53.133 [0x7f76667fc700] DEBUG - Request: [172.19.0.1:54998 (Subnet)] GET /media/providers (6 live) GZIP
+Jul 05, 2020 13:06:53.133 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:55000] 200 GET / (6 live) GZIP 0ms 2096 bytes (pipelined: 1)
+Jul 05, 2020 13:06:53.133 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:54998] 200 GET /media/providers (6 live) GZIP 0ms 2098 bytes (pipelined: 1)
+Jul 05, 2020 13:06:53.200 [0x7f7666ffd700] DEBUG - Request: [172.19.0.1:54866 (Subnet)] GET /:/prefs (6 live) GZIP
+Jul 05, 2020 13:06:53.201 [0x7f76657fa700] DEBUG - Request: [172.19.0.1:54986 (Subnet)] GET /updater/status (6 live) GZIP
+Jul 05, 2020 13:06:53.201 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:54986] 200 GET /updater/status (6 live) GZIP 0ms 433 bytes (pipelined: 4)
+Jul 05, 2020 13:06:53.203 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:54866] 200 GET /:/prefs (6 live) GZIP 2ms 7433 bytes (pipelined: 8)
+Jul 05, 2020 13:06:53.216 [0x7f7665ffb700] DEBUG - Request: [172.19.0.1:55006 (Subnet)] GET /:/websockets/notifications (7 live) GZIP
+Jul 05, 2020 13:06:53.216 [0x7f7665ffb700] DEBUG - WebSocket: Performing handshake from origin http://localhost:32400
+Jul 05, 2020 13:06:53.216 [0x7f7665ffb700] DEBUG - Beginning read from WebSocket
+Jul 05, 2020 13:06:53.221 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54866 (Subnet)] GET /status/sessions (7 live) GZIP
+Jul 05, 2020 13:06:53.221 [0x7f76677fe700] DEBUG - [Now] Adding 0 sessions.
+Jul 05, 2020 13:06:53.221 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:54866] 200 GET /status/sessions (7 live) GZIP 0ms 350 bytes (pipelined: 9)
+Jul 05, 2020 13:06:53.251 [0x7f7680813700] DEBUG - WebSocket: client initiated close
+Jul 05, 2020 13:06:53.251 [0x7f7680813700] DEBUG - handleStreamRead code 2: End of file
+Jul 05, 2020 13:06:53.251 [0x7f7680813700] DEBUG - NotificationStream: Removing because of error
+Jul 05, 2020 13:06:53.251 [0x7f7680813700] DEBUG - Completed after connection close: [172.19.0.1:55006] -3 GET /:/websockets/notifications (7 live) GZIP 36ms 0 bytes
+Jul 05, 2020 13:06:53.261 [0x7f76667fc700] DEBUG - Request: [172.19.0.1:55012 (Subnet)] GET /:/websockets/notifications (7 live) GZIP
+Jul 05, 2020 13:06:53.261 [0x7f76667fc700] DEBUG - WebSocket: Performing handshake from origin http://localhost:32400
+Jul 05, 2020 13:06:53.261 [0x7f76667fc700] DEBUG - Beginning read from WebSocket
+Jul 05, 2020 13:06:53.271 [0x7f76657fa700] DEBUG - Request: [172.19.0.1:54998 (Subnet)] GET /media/providers (7 live) GZIP
+Jul 05, 2020 13:06:53.273 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:54998] 200 GET /media/providers (7 live) GZIP 1ms 2098 bytes (pipelined: 2)
+Jul 05, 2020 13:06:53.403 [0x7f7666ffd700] DEBUG - Request: [172.19.0.1:54866 (Subnet)] GET /activities (7 live) GZIP
+Jul 05, 2020 13:06:53.403 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:54866] 200 GET /activities (7 live) GZIP 0ms 493 bytes (pipelined: 10)
+Jul 05, 2020 13:06:53.414 [0x7f7665ffb700] DEBUG - Request: [172.19.0.1:54866 (Subnet)] PUT /updater/check?download=0 (7 live) GZIP
+Jul 05, 2020 13:06:53.414 [0x7f7665ffb700] DEBUG - AutoUpdate: requesting check endpoint: /updater/products/5/check.xml?build=linux-x86_64&channel=16&distribution=debian&version=1.19.4.2935-79e214ead, download: NO
+Jul 05, 2020 13:06:53.414 [0x7f7665ffb700] DEBUG - Downloading document https://plex.tv/updater/products/5/check.xml?build=linux-x86_64&channel=16&distribution=debian&version=1.19.4.2935-79e214ead
+Jul 05, 2020 13:06:53.414 [0x7f7665ffb700] DEBUG - HTTP requesting GET https://plex.tv/updater/products/5/check.xml?build=linux-x86_64&channel=16&distribution=debian&version=1.19.4.2935-79e214ead
+Jul 05, 2020 13:06:53.456 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54986 (Subnet)] GET /web/favicon.ico (7 live) GZIP
+Jul 05, 2020 13:06:53.456 [0x7f76677fe700] DEBUG - Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/WebClient.bundle/Contents/Resources/favicon.ico"
+Jul 05, 2020 13:06:53.456 [0x7f76677fe700] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/WebClient.bundle/Contents/Resources/favicon.ico is 5430 (of total: 5430).
+Jul 05, 2020 13:06:53.456 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:54986] 200 GET /web/favicon.ico (7 live) GZIP 0ms 5430 bytes (pipelined: 5)
+Jul 05, 2020 13:06:54.484 [0x7f7665ffb700] DEBUG - HTTP 200 response from GET https://plex.tv/updater/products/5/check.xml?build=linux-x86_64&channel=16&distribution=debian&version=1.19.4.2935-79e214ead
+Jul 05, 2020 13:06:54.485 [0x7f7665ffb700] INFO - AutoUpdate: no updates available
+Jul 05, 2020 13:06:54.485 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:54866] 200 PUT /updater/check?download=0 (7 live) GZIP 1071ms 309 bytes (pipelined: 11)
+Jul 05, 2020 13:06:54.707 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54866 (Subnet)] GET /:/prefs (7 live) GZIP
+Jul 05, 2020 13:06:54.712 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:54866] 200 GET /:/prefs (7 live) GZIP 4ms 7433 bytes (pipelined: 12)
+Jul 05, 2020 13:06:54.926 [0x7f7681815700] DEBUG - HTTP 200 response from POST http://127.0.0.1:32600/devices/discover
+Jul 05, 2020 13:06:55.195 [0x7f76667fc700] DEBUG - Request: [172.19.0.1:54866 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (7 live) GZIP
+Jul 05, 2020 13:06:55.195 [0x7f76667fc700] DEBUG - [CompanionProxy] registered new player: tahhxv7oumd6sxzxfxf3hqaz (172.19.0.1)
+Jul 05, 2020 13:06:55.195 [0x7f76667fc700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:06:55.201 [0x7f7681014700] DEBUG - WebSocket: client initiated close
+Jul 05, 2020 13:06:55.201 [0x7f7681014700] DEBUG - handleStreamRead code 2: End of file
+Jul 05, 2020 13:06:55.201 [0x7f7681014700] DEBUG - NotificationStream: Removing because of error
+Jul 05, 2020 13:06:55.201 [0x7f7681014700] DEBUG - Completed after connection close: [172.19.0.1:55012] -3 GET /:/websockets/notifications (7 live) GZIP 1940ms 134 bytes
+Jul 05, 2020 13:06:57.275 [0x7f75f37fe700] DEBUG - Grabber: Cleaning up orphaned grabs.
+Jul 05, 2020 13:06:57.275 [0x7f75f37fe700] DEBUG - Grabber: Cleaned up 0 decrepit directories in 0.0 sec.
+Jul 05, 2020 13:06:57.275 [0x7f75f37fe700] DEBUG - Activity: registered new activity c4a8ccb0-ad7a-43f4-b162-0235ad56f234 - Processing subscriptions
+Jul 05, 2020 13:06:57.275 [0x7f75f37fe700] DEBUG - Subscription: Scheduling subscriptions.
+Jul 05, 2020 13:06:57.276 [0x7f75f37fe700] DEBUG - Subscription: Initialized 0 schedulers.
+Jul 05, 2020 13:06:57.276 [0x7f75f37fe700] DEBUG - Subscription: Starting with 0 grabs, scheduled 0 active ones preemptively.
+Jul 05, 2020 13:06:57.276 [0x7f75f37fe700] DEBUG - Subscription: Scheduled all subscriptions in 0 ms.
+Jul 05, 2020 13:06:57.276 [0x7f75f37fe700] DEBUG - Activity: Ended activity c4a8ccb0-ad7a-43f4-b162-0235ad56f234.
+Jul 05, 2020 13:06:57.276 [0x7f75f37fe700] DEBUG - Subscription: There are 0 active grabs at the end.
+Jul 05, 2020 13:06:57.276 [0x7f75f37fe700] DEBUG - Activity: Ended activity 3eb37b84-a8ef-4654-aa17-e5e43d277fbf.
+Jul 05, 2020 13:06:57.276 [0x7f75f37fe700] DEBUG - Subscription: Refreshed all content in 1 ms.
+Jul 05, 2020 13:06:59.217 [0x7f7679946700] DEBUG - NetworkServiceBrowser: PLAYER arrived: 127.0.0.1
+Jul 05, 2020 13:07:10.241 [0x7f76667fc700] DEBUG - Request: [172.19.0.1:54986 (Subnet)] GET /web/index.html (6 live) GZIP
+Jul 05, 2020 13:07:10.241 [0x7f76667fc700] DEBUG - Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/WebClient.bundle/Contents/Resources/index.html"
+Jul 05, 2020 13:07:10.241 [0x7f76667fc700] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/WebClient.bundle/Contents/Resources/index.html is 11363 (of total: 11363).
+Jul 05, 2020 13:07:10.241 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:54986] 200 GET /web/index.html (6 live) GZIP 0ms 11363 bytes (pipelined: 6)
+Jul 05, 2020 13:07:10.310 [0x7f76667fc700] DEBUG - Request: [172.19.0.1:54986 (Subnet)] GET /web/chunk-3-3f60d034937c1e92cdb6-plex-4.30.2-225a4ec.css (6 live) GZIP
+Jul 05, 2020 13:07:10.311 [0x7f76667fc700] DEBUG - Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/WebClient.bundle/Contents/Resources/chunk-3-3f60d034937c1e92cdb6-plex-4.30.2-225a4ec.css"
+Jul 05, 2020 13:07:10.311 [0x7f76667fc700] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/WebClient.bundle/Contents/Resources/chunk-3-3f60d034937c1e92cdb6-plex-4.30.2-225a4ec.css is 994717 (of total: 994717).
+Jul 05, 2020 13:07:10.313 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:54986] 200 GET /web/chunk-3-3f60d034937c1e92cdb6-plex-4.30.2-225a4ec.css (6 live) GZIP 2ms 994717 bytes (pipelined: 7)
+Jul 05, 2020 13:07:10.323 [0x7f76667fc700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /web/js/chunk-5-7549aa70dd5d5c397569-plex-4.30.2-225a4ec.js (6 live) GZIP
+Jul 05, 2020 13:07:10.323 [0x7f76667fc700] DEBUG - Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/WebClient.bundle/Contents/Resources/js/chunk-5-7549aa70dd5d5c397569-plex-4.30.2-225a4ec.js"
+Jul 05, 2020 13:07:10.323 [0x7f76667fc700] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/WebClient.bundle/Contents/Resources/js/chunk-5-7549aa70dd5d5c397569-plex-4.30.2-225a4ec.js is 970731 (of total: 970731).
+Jul 05, 2020 13:07:10.329 [0x7f76667fc700] DEBUG - Request: [172.19.0.1:55022 (Subnet)] GET /web/js/chunk-3-3f60d034937c1e92cdb6-plex-4.30.2-225a4ec.js (7 live) GZIP
+Jul 05, 2020 13:07:10.329 [0x7f76667fc700] DEBUG - Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/WebClient.bundle/Contents/Resources/js/chunk-3-3f60d034937c1e92cdb6-plex-4.30.2-225a4ec.js"
+Jul 05, 2020 13:07:10.330 [0x7f76667fc700] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/WebClient.bundle/Contents/Resources/js/chunk-3-3f60d034937c1e92cdb6-plex-4.30.2-225a4ec.js is 3357157 (of total: 3357157).
+Jul 05, 2020 13:07:10.335 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /web/js/chunk-5-7549aa70dd5d5c397569-plex-4.30.2-225a4ec.js (7 live) GZIP 12ms 970731 bytes (pipelined: 3)
+Jul 05, 2020 13:07:10.344 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:55022] 200 GET /web/js/chunk-3-3f60d034937c1e92cdb6-plex-4.30.2-225a4ec.js (7 live) GZIP 14ms 3357157 bytes (pipelined: 1)
+Jul 05, 2020 13:07:10.829 [0x7f76667fc700] DEBUG - Request: [172.19.0.1:55022 (Subnet)] GET /web/translations/pt-BR.json (7 live) GZIP
+Jul 05, 2020 13:07:10.829 [0x7f76667fc700] DEBUG - Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/WebClient.bundle/Contents/Resources/translations/pt-BR.json"
+Jul 05, 2020 13:07:10.829 [0x7f76667fc700] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/WebClient.bundle/Contents/Resources/translations/pt-BR.json is 163869 (of total: 163869).
+Jul 05, 2020 13:07:10.830 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:55022] 200 GET /web/translations/pt-BR.json (7 live) GZIP 0ms 163869 bytes (pipelined: 2)
+Jul 05, 2020 13:07:10.831 [0x7f76667fc700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /web/common/img/backgrounds/preset-dark2.6d2c8336496f761f38de8558a2b9709b.png (7 live) GZIP
+Jul 05, 2020 13:07:10.831 [0x7f76667fc700] DEBUG - Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/WebClient.bundle/Contents/Resources/common/img/backgrounds/preset-dark2.6d2c8336496f761f38de8558a2b9709b.png"
+Jul 05, 2020 13:07:10.831 [0x7f76667fc700] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/WebClient.bundle/Contents/Resources/common/img/backgrounds/preset-dark2.6d2c8336496f761f38de8558a2b9709b.png is 113817 (of total: 113817).
+Jul 05, 2020 13:07:10.831 [0x7f76197fa700] DEBUG - Request: [172.19.0.1:54986 (Subnet)] GET /web/common/img/backgrounds/noise.8b05ce45d0df59343e206bc9ae78d85d.png (7 live) GZIP
+Jul 05, 2020 13:07:10.831 [0x7f76197fa700] DEBUG - Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/WebClient.bundle/Contents/Resources/common/img/backgrounds/noise.8b05ce45d0df59343e206bc9ae78d85d.png"
+Jul 05, 2020 13:07:10.831 [0x7f76197fa700] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/WebClient.bundle/Contents/Resources/common/img/backgrounds/noise.8b05ce45d0df59343e206bc9ae78d85d.png is 54413 (of total: 54413).
+Jul 05, 2020 13:07:10.832 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /web/common/img/backgrounds/preset-dark2.6d2c8336496f761f38de8558a2b9709b.png (7 live) GZIP 0ms 113817 bytes (pipelined: 4)
+Jul 05, 2020 13:07:10.832 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:54986] 200 GET /web/common/img/backgrounds/noise.8b05ce45d0df59343e206bc9ae78d85d.png (7 live) GZIP 0ms 54413 bytes (pipelined: 8)
+Jul 05, 2020 13:07:10.948 [0x7f76197fa700] DEBUG - Request: [172.19.0.1:55022 (Subnet)] GET /media/providers (7 live) GZIP
+Jul 05, 2020 13:07:10.949 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:55022] 200 GET /media/providers (7 live) GZIP 2ms 1984 bytes (pipelined: 3)
+Jul 05, 2020 13:07:10.950 [0x7f76667fc700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET / (7 live) GZIP
+Jul 05, 2020 13:07:10.950 [0x7f76667fc700] DEBUG - (Capabilities) Platform 'Chrome' not matched by plugin platform requirements
+Jul 05, 2020 13:07:10.951 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:54992] 200 GET / (7 live) GZIP 1ms 1982 bytes (pipelined: 5)
+Jul 05, 2020 13:07:10.958 [0x7f76197fa700] DEBUG - Request: [172.19.0.1:54998 (Subnet)] GET /media/providers (7 live) GZIP
+Jul 05, 2020 13:07:10.962 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:54998] 200 GET /media/providers (7 live) GZIP 3ms 2098 bytes (pipelined: 3)
+Jul 05, 2020 13:07:10.963 [0x7f76667fc700] DEBUG - Request: [172.19.0.1:55000 (Subnet)] GET / (7 live) GZIP
+Jul 05, 2020 13:07:10.963 [0x7f76667fc700] DEBUG - (Capabilities) Platform 'Chrome' not matched by plugin platform requirements
+Jul 05, 2020 13:07:10.964 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:55000] 200 GET / (7 live) GZIP 1ms 2096 bytes (pipelined: 2)
+Jul 05, 2020 13:07:11.033 [0x7f76197fa700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /:/prefs (7 live) GZIP
+Jul 05, 2020 13:07:11.036 [0x7f76667fc700] DEBUG - Request: [172.19.0.1:55022 (Subnet)] GET /updater/status (7 live) GZIP
+Jul 05, 2020 13:07:11.036 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /:/prefs (7 live) GZIP 3ms 7433 bytes (pipelined: 6)
+Jul 05, 2020 13:07:11.036 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:55022] 200 GET /updater/status (7 live) GZIP 0ms 440 bytes (pipelined: 4)
+Jul 05, 2020 13:07:11.048 [0x7f76197fa700] DEBUG - Request: [172.19.0.1:55028 (Subnet)] GET /:/websockets/notifications (8 live) GZIP
+Jul 05, 2020 13:07:11.049 [0x7f76197fa700] DEBUG - WebSocket: Performing handshake from origin http://localhost:32400
+Jul 05, 2020 13:07:11.049 [0x7f76197fa700] DEBUG - Beginning read from WebSocket
+Jul 05, 2020 13:07:11.054 [0x7f76667fc700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /status/sessions (8 live) GZIP
+Jul 05, 2020 13:07:11.054 [0x7f76667fc700] DEBUG - [Now] Adding 0 sessions.
+Jul 05, 2020 13:07:11.054 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /status/sessions (8 live) GZIP 0ms 350 bytes (pipelined: 7)
+Jul 05, 2020 13:07:11.079 [0x7f7680813700] DEBUG - WebSocket: client initiated close
+Jul 05, 2020 13:07:11.079 [0x7f7680813700] DEBUG - handleStreamRead code 2: End of file
+Jul 05, 2020 13:07:11.079 [0x7f7680813700] DEBUG - NotificationStream: Removing because of error
+Jul 05, 2020 13:07:11.079 [0x7f7680813700] DEBUG - Completed after connection close: [172.19.0.1:55028] -3 GET /:/websockets/notifications (8 live) GZIP 30ms 0 bytes
+Jul 05, 2020 13:07:11.083 [0x7f76197fa700] DEBUG - Request: [172.19.0.1:55034 (Subnet)] GET /:/websockets/notifications (8 live) GZIP
+Jul 05, 2020 13:07:11.083 [0x7f76197fa700] DEBUG - WebSocket: Performing handshake from origin http://localhost:32400
+Jul 05, 2020 13:07:11.083 [0x7f76197fa700] DEBUG - Beginning read from WebSocket
+Jul 05, 2020 13:07:11.097 [0x7f76667fc700] DEBUG - Request: [172.19.0.1:55000 (Subnet)] GET /media/providers (8 live) GZIP
+Jul 05, 2020 13:07:11.097 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:55000] 200 GET /media/providers (8 live) GZIP 0ms 2098 bytes (pipelined: 3)
+Jul 05, 2020 13:07:11.196 [0x7f76197fa700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /activities (8 live) GZIP
+Jul 05, 2020 13:07:11.196 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /activities (8 live) GZIP 0ms 350 bytes (pipelined: 8)
+Jul 05, 2020 13:07:11.205 [0x7f76667fc700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] PUT /updater/check?download=0 (8 live) GZIP
+Jul 05, 2020 13:07:11.205 [0x7f76667fc700] DEBUG - AutoUpdate: requesting check endpoint: /updater/products/5/check.xml?build=linux-x86_64&channel=16&distribution=debian&version=1.19.4.2935-79e214ead, download: NO
+Jul 05, 2020 13:07:11.205 [0x7f76667fc700] DEBUG - Downloading document https://plex.tv/updater/products/5/check.xml?build=linux-x86_64&channel=16&distribution=debian&version=1.19.4.2935-79e214ead
+Jul 05, 2020 13:07:11.205 [0x7f76667fc700] DEBUG - HTTP requesting GET https://plex.tv/updater/products/5/check.xml?build=linux-x86_64&channel=16&distribution=debian&version=1.19.4.2935-79e214ead
+Jul 05, 2020 13:07:11.759 [0x7f76197fa700] DEBUG - Request: [172.19.0.1:55022 (Subnet)] GET /:/prefs (8 live) GZIP
+Jul 05, 2020 13:07:11.763 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:55022] 200 GET /:/prefs (8 live) GZIP 3ms 7433 bytes (pipelined: 5)
+Jul 05, 2020 13:07:12.263 [0x7f76667fc700] DEBUG - HTTP 200 response from GET https://plex.tv/updater/products/5/check.xml?build=linux-x86_64&channel=16&distribution=debian&version=1.19.4.2935-79e214ead
+Jul 05, 2020 13:07:12.263 [0x7f76667fc700] INFO - AutoUpdate: no updates available
+Jul 05, 2020 13:07:12.264 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:54992] 200 PUT /updater/check?download=0 (8 live) GZIP 1059ms 309 bytes (pipelined: 9)
+Jul 05, 2020 13:07:13.029 [0x7f76197fa700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (8 live) GZIP
+Jul 05, 2020 13:07:13.030 [0x7f76197fa700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:07:14.109 [0x7f76197fa700] DEBUG - Request: [172.19.0.1:55022 (Subnet)] GET /web/favicon.ico (8 live) GZIP
+Jul 05, 2020 13:07:14.109 [0x7f76197fa700] DEBUG - Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/WebClient.bundle/Contents/Resources/favicon.ico"
+Jul 05, 2020 13:07:14.109 [0x7f76197fa700] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/WebClient.bundle/Contents/Resources/favicon.ico is 5430 (of total: 5430).
+Jul 05, 2020 13:07:14.109 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:55022] 200 GET /web/favicon.ico (8 live) GZIP 0ms 5430 bytes (pipelined: 6)
+Jul 05, 2020 13:07:14.131 [0x7f76667fc700] DEBUG - Request: [172.19.0.1:55022 (Subnet)] GET /system/agents (8 live) GZIP
+Jul 05, 2020 13:07:14.131 [0x7f76667fc700] DEBUG - [com.plexapp.system] Sending command over HTTP (GET): /system/agents
+Jul 05, 2020 13:07:14.131 [0x7f76667fc700] DEBUG - HTTP requesting GET http://127.0.0.1:43703/system/agents
+Jul 05, 2020 13:07:14.144 [0x7f76667fc700] DEBUG - HTTP 200 response from GET http://127.0.0.1:43703/system/agents
+Jul 05, 2020 13:07:14.145 [0x7f76667fc700] DEBUG - [com.plexapp.system] HTTP reply status 200, with 12079 bytes of content.
+Jul 05, 2020 13:07:14.145 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:55022] 200 GET /system/agents (8 live) GZIP 14ms 1248 bytes (pipelined: 7)
+Jul 05, 2020 13:07:14.162 [0x7f76197fa700] DEBUG - Request: [172.19.0.1:55022 (Subnet)] PUT /:/prefs?AcceptedEULA=true (8 live) GZIP
+Jul 05, 2020 13:07:14.162 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:55022] 200 PUT /:/prefs?AcceptedEULA=true (8 live) GZIP 0ms 309 bytes (pipelined: 8)
+Jul 05, 2020 13:07:14.165 [0x7f76667fc700] DEBUG - Request: [172.19.0.1:54986 (Subnet)] GET /system/appstore/updates (8 live) GZIP
+Jul 05, 2020 13:07:14.165 [0x7f76667fc700] DEBUG - [com.plexapp.system] Sending command over HTTP (GET): /system/appstore/updates
+Jul 05, 2020 13:07:14.165 [0x7f76667fc700] DEBUG - HTTP requesting GET http://127.0.0.1:43703/system/appstore/updates
+Jul 05, 2020 13:07:14.478 [0x7f76667fc700] DEBUG - HTTP 200 response from GET http://127.0.0.1:43703/system/appstore/updates
+Jul 05, 2020 13:07:14.478 [0x7f76667fc700] DEBUG - [com.plexapp.system] HTTP reply status 200, with 143 bytes of content.
+Jul 05, 2020 13:07:14.478 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:54986] 200 GET /system/appstore/updates (8 live) GZIP 313ms 444 bytes (pipelined: 9)
+Jul 05, 2020 13:07:15.197 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:54866] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (8 live) GZIP 20001ms 5 bytes (pipelined: 13)
+Jul 05, 2020 13:07:18.529 [0x7f76197fa700] DEBUG - Request: [172.19.0.1:54986 (Subnet)] PUT /:/prefs?PublishServerOnPlexOnlineKey=1 (7 live) GZIP
+Jul 05, 2020 13:07:18.529 [0x7f76197fa700] DEBUG - MyPlex: Toggling server publish state.
+Jul 05, 2020 13:07:18.530 [0x7f76197fa700] DEBUG - MyPlex: start public ip check and mapping - current mapped state: 'Unknown'.
+Jul 05, 2020 13:07:18.530 [0x7f76197fa700] DEBUG - MyPlex: mapping state set to 'Not Mapped'.
+Jul 05, 2020 13:07:18.530 [0x7f76197fa700] DEBUG - PublicAddressManager: Starting.
+Jul 05, 2020 13:07:18.530 [0x7f76197fa700] DEBUG - PublicAddressManager: Obtaining public address and mapping port.
+Jul 05, 2020 13:07:18.530 [0x7f7664ff9700] DEBUG - NAT: UPnP, attempting port mapping.
+Jul 05, 2020 13:07:18.530 [0x7f761affd700] DEBUG - PublicAddressManager: Obtaining public IP.
+Jul 05, 2020 13:07:18.530 [0x7f761affd700] DEBUG - HTTP requesting GET http://plex.tv/pms/:/ip
+Jul 05, 2020 13:07:18.530 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:54986] 200 PUT /:/prefs?PublishServerOnPlexOnlineKey=1 (7 live) GZIP 1ms 309 bytes (pipelined: 10)
+Jul 05, 2020 13:07:18.597 [0x7f76667fc700] DEBUG - Request: [172.19.0.1:54986 (Subnet)] GET /media/providers (7 live) GZIP Token ()
+Jul 05, 2020 13:07:18.597 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:54986] 200 GET /media/providers (7 live) GZIP 0ms 1987 bytes (pipelined: 11)
+Jul 05, 2020 13:07:18.611 [0x7f76197fa700] DEBUG - Request: [172.19.0.1:55000 (Subnet)] GET /media/providers (7 live) GZIP Token ()
+Jul 05, 2020 13:07:18.611 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:55000] 200 GET /media/providers (7 live) GZIP 0ms 2101 bytes (pipelined: 4)
+Jul 05, 2020 13:07:18.818 [0x7f76667fc700] DEBUG - Request: [172.19.0.1:54986 (Subnet)] POST /myplex/claim?token=xxxxxxxxxxxxxxxxxxxxkeJMXj (7 live) GZIP Token ()
+Jul 05, 2020 13:07:18.819 [0x7f76667fc700] DEBUG - HTTP requesting POST https://plex.tv/api/claim/exchange?token=xxxxxxxxxxxxxxxxxxxxkeJMXj
+Jul 05, 2020 13:07:19.052 [0x7f761affd700] DEBUG - HTTP 200 response from GET http://plex.tv/pms/:/ip
+Jul 05, 2020 13:07:19.052 [0x7f761affd700] DEBUG - PublicAddressManager: Got public IP from http://plex.tv: 201.0.184.237
+Jul 05, 2020 13:07:20.000 [0x7f76667fc700] DEBUG - HTTP 200 response from POST https://plex.tv/api/claim/exchange?token=xxxxxxxxxxxxxxxxxxxxkeJMXj
+Jul 05, 2020 13:07:20.001 [0x7f76667fc700] DEBUG - MyPlex: Did token exchange for claim (returnCode: 200)
+Jul 05, 2020 13:07:20.002 [0x7f76667fc700] DEBUG - MyPlex: Stored token xxxxxxxxxxxxxxxxxxxx
+Jul 05, 2020 13:07:20.002 [0x7f76667fc700] DEBUG - Need to restart some processes because of a change to the security environment.
+Jul 05, 2020 13:07:20.002 [0x7f76667fc700] DEBUG - MyPlex: Got a token poked, let's act on it.
+Jul 05, 2020 13:07:20.003 [0x7f76317fa700] DEBUG - PluginRepository::setStartState: 0, initializing
+Jul 05, 2020 13:07:20.003 [0x7f76317fa700] DEBUG - Stopping [com.plexapp.agents.imdb].
+Jul 05, 2020 13:07:20.003 [0x7f76317fa700] DEBUG - [com.plexapp.agents.imdb] Killing.
+Jul 05, 2020 13:07:20.003 [0x7f76317fa700] DEBUG - Stopping [com.plexapp.system].
+Jul 05, 2020 13:07:20.003 [0x7f76317fa700] DEBUG - [com.plexapp.system] Killing.
+Jul 05, 2020 13:07:20.003 [0x7f76317fa700] DEBUG - PluginRepository::setStartState: 1, startingSystem
+Jul 05, 2020 13:07:20.003 [0x7f76317fa700] DEBUG - Starting file watcher for com.plexapp.system
+Jul 05, 2020 13:07:20.003 [0x7f76667fc700] DEBUG - MyPlex: username is duran750, login is duran750@hotmail.com, home is 0, no pin
+Jul 05, 2020 13:07:20.005 [0x7f76317fa700] DEBUG - Spawned plug-in com.plexapp.system with PID 456
+Jul 05, 2020 13:07:20.005 [0x7f76317fa700] DEBUG - [com.plexapp.system] Sending command: GET /:/prefixes
+Jul 05, 2020 13:07:20.009 [0x7f7682016700] WARN - JobManager: Could not find job for handle 393
+Jul 05, 2020 13:07:20.011 [0x7f7682016700] WARN - JobManager: Could not find job for handle 320
+Jul 05, 2020 13:07:20.016 [0x7f76667fc700] DEBUG - HTTP requesting GET https://plex.tv/api/v2/user/privacy?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jul 05, 2020 13:07:20.016 [0x7f75f3fff700] DEBUG - HTTP requesting GET https://plex.tv/api/v2/server/webhooks?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jul 05, 2020 13:07:20.702 [0x7f7631ffb700] DEBUG - Auth: Refreshing tokens inside the token-based authentication filter.
+Jul 05, 2020 13:07:20.702 [0x7f76197fa700] DEBUG - Request: [127.0.0.1:34246 (Loopback)] GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_ (8 live) GZIP Signed-in Token ()
+Jul 05, 2020 13:07:20.702 [0x7f7631ffb700] DEBUG - HTTP requesting GET https://plex.tv/api/v2/server/access_tokens?auth_token=xxxxxxxxxxxxxxxxxxxx&includeProfiles=1&includeProviders=1
+Jul 05, 2020 13:07:20.703 [0x7f76677fe700] DEBUG - Request: [127.0.0.1:34252 (Loopback)] GET / (9 live) GZIP Signed-in Token ()
+Jul 05, 2020 13:07:20.704 [0x7f7681014700] DEBUG - Completed: [127.0.0.1:34252] 200 GET / (9 live) GZIP 0ms 2005 bytes
+Jul 05, 2020 13:07:21.036 [0x7f75f3fff700] DEBUG - HTTP 403 response from GET https://plex.tv/api/v2/server/webhooks?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jul 05, 2020 13:07:21.041 [0x7f76667fc700] DEBUG - HTTP 200 response from GET https://plex.tv/api/v2/user/privacy?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jul 05, 2020 13:07:21.042 [0x7f76667fc700] DEBUG - HTTP requesting GET https://plex.tv/api/v2/release_channels?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jul 05, 2020 13:07:21.042 [0x7f76657fa700] DEBUG - HTTP requesting GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jul 05, 2020 13:07:21.692 [0x7f76677fe700] DEBUG - Request: [127.0.0.1:34262 (Loopback)] GET / (9 live) GZIP Signed-in Token ()
+Jul 05, 2020 13:07:21.693 [0x7f7680813700] DEBUG - Completed: [127.0.0.1:34262] 200 GET / (9 live) GZIP 0ms 2005 bytes
+Jul 05, 2020 13:07:21.718 [0x7f76677fe700] DEBUG - Request: [127.0.0.1:34266 (Loopback)] GET /servers (9 live) GZIP Signed-in Token ()
+Jul 05, 2020 13:07:21.718 [0x7f7680813700] DEBUG - Completed: [127.0.0.1:34266] 200 GET /servers (9 live) GZIP 0ms 490 bytes
+Jul 05, 2020 13:07:21.729 [0x7f76677fe700] DEBUG - Request: [127.0.0.1:34268 (Loopback)] GET /library/sections (9 live) GZIP Signed-in Token ()
+Jul 05, 2020 13:07:21.729 [0x7f7680813700] DEBUG - Completed: [127.0.0.1:34268] 200 GET /library/sections (9 live) GZIP 0ms 475 bytes
+Jul 05, 2020 13:07:21.734 [0x7f76677fe700] DEBUG - Request: [127.0.0.1:34270 (Loopback)] GET /channels/all (9 live) GZIP Signed-in Token ()
+Jul 05, 2020 13:07:21.734 [0x7f7681014700] DEBUG - Completed: [127.0.0.1:34270] 200 GET /channels/all (9 live) GZIP 0ms 387 bytes
+Jul 05, 2020 13:07:21.748 [0x7f76677fe700] DEBUG - Request: [127.0.0.1:34272 (Loopback)] GET /library/sections (9 live) GZIP Signed-in Token ()
+Jul 05, 2020 13:07:21.748 [0x7f7681014700] DEBUG - Completed: [127.0.0.1:34272] 200 GET /library/sections (9 live) GZIP 0ms 475 bytes
+Jul 05, 2020 13:07:21.757 [0x7f76677fe700] DEBUG - Request: [127.0.0.1:34274 (Loopback)] GET /channels/all (9 live) GZIP Signed-in Token ()
+Jul 05, 2020 13:07:21.757 [0x7f7680813700] DEBUG - Completed: [127.0.0.1:34274] 200 GET /channels/all (9 live) GZIP 0ms 387 bytes
+Jul 05, 2020 13:07:21.764 [0x7f76317fa700] DEBUG - Reading 486 bytes in the body, code is 200
+Jul 05, 2020 13:07:21.764 [0x7f76317fa700] DEBUG - [com.plexapp.system] Plug-in running on port 41139.
+Jul 05, 2020 13:07:21.764 [0x7f76317fa700] DEBUG -  * Plug-in handles prefix: /system
+Jul 05, 2020 13:07:21.764 [0x7f76317fa700] DEBUG -  * Plug-in handles prefix: /player
+Jul 05, 2020 13:07:21.764 [0x7f76317fa700] DEBUG - Read configuration for [com.plexapp.system], had 2 prefixes
+Jul 05, 2020 13:07:21.765 [0x7f76317fa700] DEBUG - System bundle was restarted, we need to notify other plug-ins
+Jul 05, 2020 13:07:21.765 [0x7f76317fa700] DEBUG - PluginRepository::setStartState: 3, complete
+Jul 05, 2020 13:07:21.765 [0x7f76197fa700] DEBUG - [com.plexapp.system] Sending command over HTTP (GET): /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
+Jul 05, 2020 13:07:21.765 [0x7f76197fa700] DEBUG - HTTP requesting GET http://127.0.0.1:41139/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
+Jul 05, 2020 13:07:21.855 [0x7f7631ffb700] DEBUG - HTTP 403 response from GET https://plex.tv/api/v2/server/access_tokens?auth_token=xxxxxxxxxxxxxxxxxxxx&includeProfiles=1&includeProviders=1
+Jul 05, 2020 13:07:21.855 [0x7f7631ffb700] ERROR - MyPlex: Error 403 requesting XML from: https://plex.tv/api/v2/server/access_tokens?auth_token=xxxxxxxxxxxxxxxxxxxx&includeProfiles=1&includeProviders=1
+Jul 05, 2020 13:07:21.855 [0x7f7631ffb700] ERROR - MyPlex: Couldn't get list of access tokens from myPlex.
+Jul 05, 2020 13:07:21.855 [0x7f7630ff9700] DEBUG - Auth: Refreshing tokens inside the token-based authentication filter.
+Jul 05, 2020 13:07:21.856 [0x7f7630ff9700] DEBUG - HTTP requesting GET https://plex.tv/api/v2/server/access_tokens?auth_token=xxxxxxxxxxxxxxxxxxxx&includeProfiles=1&includeProviders=1
+Jul 05, 2020 13:07:21.906 [0x7f76197fa700] DEBUG - HTTP 200 response from GET http://127.0.0.1:41139/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
+Jul 05, 2020 13:07:21.906 [0x7f76197fa700] DEBUG - [com.plexapp.system] HTTP reply status 200, with 59966 bytes of content.
+Jul 05, 2020 13:07:21.908 [0x7f7680813700] DEBUG - Completed: [127.0.0.1:34246] 200 GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_ (8 live) GZIP 1206ms 19375 bytes
+Jul 05, 2020 13:07:22.018 [0x7f76667fc700] DEBUG - HTTP 200 response from GET https://plex.tv/api/v2/release_channels?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jul 05, 2020 13:07:22.019 [0x7f76667fc700] DEBUG - Sync: onMyPlexSignIn
+Jul 05, 2020 13:07:22.019 [0x7f76667fc700] WARN - Sync: Couldn't get sync lists without subscription.
+Jul 05, 2020 13:07:22.020 [0x7f76667fc700] DEBUG - HTTP requesting GET https://plex.tv/api/v2/features?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jul 05, 2020 13:07:22.127 [0x7f76657fa700] DEBUG - HTTP 200 response from GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jul 05, 2020 13:07:22.128 [0x7f7631ffb700] DEBUG - HTTP requesting GET https://vod.provider.plex.tv
+Jul 05, 2020 13:07:22.280 [0x7f76657fa700] DEBUG - HTTP requesting GET https://vod.provider.plex.tv
+Jul 05, 2020 13:07:22.318 [0x7f7631ffb700] DEBUG - HTTP 200 response from GET https://vod.provider.plex.tv
+Jul 05, 2020 13:07:22.384 [0x7f76657fa700] DEBUG - HTTP 200 response from GET https://vod.provider.plex.tv
+Jul 05, 2020 13:07:22.954 [0x7f7630ff9700] DEBUG - HTTP 403 response from GET https://plex.tv/api/v2/server/access_tokens?auth_token=xxxxxxxxxxxxxxxxxxxx&includeProfiles=1&includeProviders=1
+Jul 05, 2020 13:07:22.955 [0x7f7630ff9700] ERROR - MyPlex: Error 403 requesting XML from: https://plex.tv/api/v2/server/access_tokens?auth_token=xxxxxxxxxxxxxxxxxxxx&includeProfiles=1&includeProviders=1
+Jul 05, 2020 13:07:22.955 [0x7f7630ff9700] ERROR - MyPlex: Couldn't get list of access tokens from myPlex.
+Jul 05, 2020 13:07:22.955 [0x7f76327fc700] DEBUG - Auth: Refreshing tokens inside the token-based authentication filter.
+Jul 05, 2020 13:07:22.955 [0x7f76327fc700] DEBUG - HTTP requesting GET https://plex.tv/api/v2/server/access_tokens?auth_token=xxxxxxxxxxxxxxxxxxxx&includeProfiles=1&includeProviders=1
+Jul 05, 2020 13:07:23.016 [0x7f76667fc700] DEBUG - HTTP 200 response from GET https://plex.tv/api/v2/features?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jul 05, 2020 13:07:23.018 [0x7f76667fc700] DEBUG - Activity: registered new activity 040918fc-a7d4-4b28-a54f-ae0696b796cd - Processing subscriptions
+Jul 05, 2020 13:07:23.018 [0x7f7633fff700] DEBUG - Grabber: Cleaning up orphaned grabs.
+Jul 05, 2020 13:07:23.018 [0x7f76667fc700] DEBUG - EventSource: Resolving pubsub.plex.tv port 443
+Jul 05, 2020 13:07:23.019 [0x7f7633fff700] DEBUG - Grabber: Cleaned up 0 decrepit directories in 0.0 sec.
+Jul 05, 2020 13:07:23.019 [0x7f7633fff700] DEBUG - Activity: registered new activity 3c931f1a-7322-49ee-9ef8-028684bab0a2 - Processing subscriptions
+Jul 05, 2020 13:07:23.019 [0x7f7633fff700] DEBUG - Subscription: Scheduling subscriptions.
+Jul 05, 2020 13:07:23.019 [0x7f76667fc700] DEBUG - MyPlex: start public ip check and mapping - current mapped state: 'Not Mapped'.
+Jul 05, 2020 13:07:23.019 [0x7f76667fc700] DEBUG - MyPlex: sendMapping resetting state - previous mapping state: 'Not Mapped'.
+Jul 05, 2020 13:07:23.019 [0x7f76667fc700] DEBUG - MyPlex: mapping state set to 'Unknown'.
+Jul 05, 2020 13:07:23.019 [0x7f7633fff700] DEBUG - Subscription: Initialized 0 schedulers.
+Jul 05, 2020 13:07:23.019 [0x7f7633fff700] DEBUG - Subscription: Starting with 0 grabs, scheduled 0 active ones preemptively.
+Jul 05, 2020 13:07:23.019 [0x7f7633fff700] DEBUG - Subscription: Scheduled all subscriptions in 0 ms.
+Jul 05, 2020 13:07:23.019 [0x7f7633fff700] DEBUG - Activity: Ended activity 3c931f1a-7322-49ee-9ef8-028684bab0a2.
+Jul 05, 2020 13:07:23.019 [0x7f7633fff700] DEBUG - Subscription: There are 0 active grabs at the end.
+Jul 05, 2020 13:07:23.019 [0x7f7633fff700] DEBUG - Activity: Ended activity 040918fc-a7d4-4b28-a54f-ae0696b796cd.
+Jul 05, 2020 13:07:23.019 [0x7f7633fff700] DEBUG - Subscription: Refreshed all content in 1 ms.
+Jul 05, 2020 13:07:23.020 [0x7f76667fc700] DEBUG - MyPlex: Sending Server Info to myPlex (user=duran750@hotmail.com, ip=, port=0)
+Jul 05, 2020 13:07:23.020 [0x7f76667fc700] DEBUG - HTTP requesting POST https://plex.tv/servers.xml?auth_token=xxxxxxxxxxxxxxxxxxxx
+Jul 05, 2020 13:07:23.096 [0x7f7680813700] DEBUG - EventSource: Resolved pubsub.plex.tv to 172.104.213.234
+Jul 05, 2020 13:07:23.526 [0x7f76337fe700] DEBUG - Stopping file watcher for com.plexapp.agents.imdb
+Jul 05, 2020 13:07:23.556 [0x7f7680813700] DEBUG - EventSource: Connected in 304 ms.
+Jul 05, 2020 13:07:23.556 [0x7f7680813700] DEBUG - EventSource: Wrote data, reading reply.
+Jul 05, 2020 13:07:24.011 [0x7f76327fc700] DEBUG - HTTP 403 response from GET https://plex.tv/api/v2/server/access_tokens?auth_token=xxxxxxxxxxxxxxxxxxxx&includeProfiles=1&includeProviders=1
+Jul 05, 2020 13:07:24.012 [0x7f76327fc700] ERROR - MyPlex: Error 403 requesting XML from: https://plex.tv/api/v2/server/access_tokens?auth_token=xxxxxxxxxxxxxxxxxxxx&includeProfiles=1&includeProviders=1
+Jul 05, 2020 13:07:24.012 [0x7f76327fc700] ERROR - MyPlex: Couldn't get list of access tokens from myPlex.
+Jul 05, 2020 13:07:24.012 [0x7f7681815700] DEBUG - Auth: Refreshing tokens inside the token-based authentication filter.
+Jul 05, 2020 13:07:24.013 [0x7f7681815700] DEBUG - HTTP requesting GET https://plex.tv/api/v2/server/access_tokens?auth_token=xxxxxxxxxxxxxxxxxxxx&includeProfiles=1&includeProviders=1
+Jul 05, 2020 13:07:24.035 [0x7f76667fc700] DEBUG - HTTP 422 response from POST https://plex.tv/servers.xml?auth_token=xxxxxxxxxxxxxxxxxxxx
+Jul 05, 2020 13:07:24.036 [0x7f76667fc700] DEBUG - MyPlex: Published Mapping State response was 422
+Jul 05, 2020 13:07:24.036 [0x7f76667fc700] DEBUG - MyPlex: Got response for 84babd2b6413574365ceb3daa97f2ed6a2151f97 ~ registered :0
+Jul 05, 2020 13:07:24.036 [0x7f76667fc700] DEBUG - MyPlex: updating mapped state - current state: 'Not Mapped'
+Jul 05, 2020 13:07:24.036 [0x7f76667fc700] DEBUG - MyPlex: mapping state set to 'Not Mapped'.
+Jul 05, 2020 13:07:24.036 [0x7f76667fc700] DEBUG - MyPlex: Updating device connections (from timer: 0)
+Jul 05, 2020 13:07:24.037 [0x7f76667fc700] DEBUG - HTTP requesting PUT https://plex.tv/devices/84babd2b6413574365ceb3daa97f2ed6a2151f97?Connection[][uri]=http://172.19.0.3:32400&httpsEnabled=0&httpsRequired=0&dnsRebindingProtection=0&X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jul 05, 2020 13:07:25.077 [0x7f7681815700] DEBUG - HTTP 200 response from GET https://plex.tv/api/v2/server/access_tokens?auth_token=xxxxxxxxxxxxxxxxxxxx&includeProfiles=1&includeProviders=1
+Jul 05, 2020 13:07:25.078 [0x7f7681815700] DEBUG - MyPlex: updating with 38 access tokens
+Jul 05, 2020 13:07:25.078 [0x7f7681815700] DEBUG - HTTP requesting GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jul 05, 2020 13:07:25.079 [0x7f7681014700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:07:25.079 [0x7f7680813700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:07:25.079 [0x7f7681014700] DEBUG - MyPlex: Update my mapping state on myPlex
+Jul 05, 2020 13:07:25.080 [0x7f761b7fe700] DEBUG - MyPlex: sendMapping resetting state - previous mapping state: 'Not Mapped'.
+Jul 05, 2020 13:07:25.080 [0x7f761b7fe700] DEBUG - MyPlex: mapping state set to 'Unknown'.
+Jul 05, 2020 13:07:25.080 [0x7f7680813700] DEBUG - EventSource: Read HTTP reply header.
+Jul 05, 2020 13:07:25.080 [0x7f7680813700] DEBUG - MyPlex: We appear to have regained Internet connectivity.
+Jul 05, 2020 13:07:25.080 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:55022 (Subnet)] PUT /myplex/refreshReachability (8 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:07:25.080 [0x7f76197fa700] DEBUG - Request: [172.19.0.1:55156 (Subnet)] PUT /myplex/refreshReachability (8 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:07:25.081 [0x7f761b7fe700] DEBUG - MyPlex: Sending Server Info to myPlex (user=duran750@hotmail.com, ip=, port=0)
+Jul 05, 2020 13:07:25.081 [0x7f761b7fe700] DEBUG - HTTP requesting POST https://plex.tv/servers.xml?auth_token=xxxxxxxxxxxxxxxxxxxx
+Jul 05, 2020 13:07:25.085 [0x7f7680813700] DEBUG - PublicAddressManager: Obtaining public address and mapping port.
+Jul 05, 2020 13:07:25.165 [0x7f76667fc700] DEBUG - HTTP 200 response from PUT https://plex.tv/devices/84babd2b6413574365ceb3daa97f2ed6a2151f97?Connection[][uri]=http://172.19.0.3:32400&httpsEnabled=0&httpsRequired=0&dnsRebindingProtection=0&X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jul 05, 2020 13:07:25.166 [0x7f76667fc700] DEBUG - CERT: Certificate or intermediate did not exist, fetching a new one.
+Jul 05, 2020 13:07:25.166 [0x7f76667fc700] DEBUG - HTTP requesting POST https://plex.tv/devices/84babd2b6413574365ceb3daa97f2ed6a2151f97/certificate?version=2&X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jul 05, 2020 13:07:26.176 [0x7f761b7fe700] DEBUG - HTTP 422 response from POST https://plex.tv/servers.xml?auth_token=xxxxxxxxxxxxxxxxxxxx
+Jul 05, 2020 13:07:26.177 [0x7f761b7fe700] DEBUG - MyPlex: Published Mapping State response was 422
+Jul 05, 2020 13:07:26.177 [0x7f761b7fe700] DEBUG - MyPlex: Got response for 84babd2b6413574365ceb3daa97f2ed6a2151f97 ~ registered :0
+Jul 05, 2020 13:07:26.177 [0x7f761b7fe700] DEBUG - MyPlex: updating mapped state - current state: 'Not Mapped'
+Jul 05, 2020 13:07:26.177 [0x7f761b7fe700] DEBUG - MyPlex: mapping state set to 'Not Mapped'.
+Jul 05, 2020 13:07:26.177 [0x7f76677fe700] DEBUG - MyPlex: async reachability check - current mapped state: 'Not Mapped'.
+Jul 05, 2020 13:07:26.177 [0x7f76677fe700] WARN - MyPlex: attempted a reachability check but we're not yet mapped.
+Jul 05, 2020 13:07:26.177 [0x7f76197fa700] DEBUG - MyPlex: async reachability check - current mapped state: 'Not Mapped'.
+Jul 05, 2020 13:07:26.177 [0x7f76197fa700] WARN - MyPlex: attempted a reachability check but we're not yet mapped.
+Jul 05, 2020 13:07:26.177 [0x7f7680813700] DEBUG - MyPlex: async reachability check - current mapped state: 'Not Mapped'.
+Jul 05, 2020 13:07:26.177 [0x7f7680813700] WARN - MyPlex: attempted a reachability check but we're not yet mapped.
+Jul 05, 2020 13:07:26.177 [0x7f7680813700] DEBUG - EventSource: Successfully connected to pubsub.plex.tv.
+Jul 05, 2020 13:07:26.178 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:55022] 200 PUT /myplex/refreshReachability (8 live) GZIP 1098ms 274 bytes (pipelined: 9)
+Jul 05, 2020 13:07:26.178 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:55156] 200 PUT /myplex/refreshReachability (8 live) GZIP 1098ms 274 bytes (pipelined: 1)
+Jul 05, 2020 13:07:26.186 [0x7f7680813700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:07:26.186 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:55156 (Subnet)] PUT /myplex/refreshReachability (8 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:07:26.186 [0x7f76677fe700] DEBUG - MyPlex: async reachability check - current mapped state: 'Not Mapped'.
+Jul 05, 2020 13:07:26.186 [0x7f76677fe700] WARN - MyPlex: attempted a reachability check but we're not yet mapped.
+Jul 05, 2020 13:07:26.187 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:55156] 200 PUT /myplex/refreshReachability (8 live) GZIP 0ms 274 bytes (pipelined: 2)
+Jul 05, 2020 13:07:26.400 [0x7f7681815700] DEBUG - HTTP 200 response from GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jul 05, 2020 13:07:26.513 [0x7f76667fc700] DEBUG - HTTP 200 response from POST https://plex.tv/devices/84babd2b6413574365ceb3daa97f2ed6a2151f97/certificate?version=2&X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jul 05, 2020 13:07:26.516 [0x7f76667fc700] DEBUG - HTTP requesting GET https://plex.tv/devices/84babd2b6413574365ceb3daa97f2ed6a2151f97/certificate/authority?version=2&X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jul 05, 2020 13:07:27.567 [0x7f76667fc700] DEBUG - HTTP 200 response from GET https://plex.tv/devices/84babd2b6413574365ceb3daa97f2ed6a2151f97/certificate/authority?version=2&X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jul 05, 2020 13:07:27.569 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:54986] 200 POST /myplex/claim?token=xxxxxxxxxxxxxxxxxxxxkeJMXj (8 live) GZIP 8750ms 1893 bytes (pipelined: 12)
+Jul 05, 2020 13:07:27.573 [0x7f7681014700] DEBUG - CERT: Installed certificate with fingerprint 50:53:1d:a1:a4:26:7b:c3:04:f3:fc:d3:93:0c:07:e3:38:b6:12:62.
+Jul 05, 2020 13:07:27.573 [0x7f7681014700] DEBUG - CERT: Installed new private key.
+Jul 05, 2020 13:07:27.573 [0x7f7681014700] DEBUG - CERT: Subject name is /C=US/ST=California/L=Los Gatos/O=Plex, Inc./CN=*.48cd23f1b4da4fd5ab45a016b326620f.plex.direct
+Jul 05, 2020 13:07:27.573 [0x7f7681014700] DEBUG - CERT: OCSP requests for stapling will be made to 'http://ocspx.digicert.com/'.
+Jul 05, 2020 13:07:27.574 [0x7f7681014700] ERROR - Error opening file '"/config/Library/Application Support/Plex Media Server/Cache/OCSP/main.der"' - No such file or directory (2)
+Jul 05, 2020 13:07:27.574 [0x7f7681014700] DEBUG - CERT: Installed intermediate certificate.
+Jul 05, 2020 13:07:27.574 [0x7f7633fff700] DEBUG - HTTP requesting GET http://ocspx.digicert.com/MFEwTzBNMEswSTAJBgUrDgMCGgUABBSnVdbEyh8T3xvVlkPGHNCJxnqCPgQUlIuJ90hyifJRStmIe%2BVhtaqc1QECEAGxCB%2Fyh8ymF38Wf%2FZxv7w%3D
+Jul 05, 2020 13:07:27.575 [0x7f7681014700] DEBUG - MyPlex: Updating device connections (from timer: 0)
+Jul 05, 2020 13:07:27.575 [0x7f7681014700] DEBUG - HTTP requesting PUT https://plex.tv/devices/84babd2b6413574365ceb3daa97f2ed6a2151f97?Connection[][uri]=http://172.19.0.3:32400&httpsEnabled=1&httpsRequired=0&dnsRebindingProtection=0&X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jul 05, 2020 13:07:27.599 [0x7f7680813700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:07:27.599 [0x7f76197fa700] DEBUG - Request: [172.19.0.1:54986 (Subnet)] GET /services/defaultLibraries (8 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:07:27.599 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:54986] 200 GET /services/defaultLibraries (8 live) GZIP 0ms 350 bytes (pipelined: 13)
+Jul 05, 2020 13:07:27.600 [0x7f7680813700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:07:27.601 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:55156 (Subnet)] GET /library/sections (8 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:07:27.601 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:55156] 200 GET /library/sections (8 live) GZIP 0ms 473 bytes (pipelined: 3)
+Jul 05, 2020 13:07:28.019 [0x7f761bfff700] DEBUG - HTTP requesting GET https://plex.tv/services/pubsub/servers
+Jul 05, 2020 13:07:28.322 [0x7f7633fff700] DEBUG - HTTP 200 response from GET http://ocspx.digicert.com/MFEwTzBNMEswSTAJBgUrDgMCGgUABBSnVdbEyh8T3xvVlkPGHNCJxnqCPgQUlIuJ90hyifJRStmIe%2BVhtaqc1QECEAGxCB%2Fyh8ymF38Wf%2FZxv7w%3D
+Jul 05, 2020 13:07:28.322 [0x7f7633fff700] INFO - OCSP: Successfully retrieved response.
+Jul 05, 2020 13:07:28.672 [0x7f7681014700] DEBUG - HTTP 200 response from PUT https://plex.tv/devices/84babd2b6413574365ceb3daa97f2ed6a2151f97?Connection[][uri]=http://172.19.0.3:32400&httpsEnabled=1&httpsRequired=0&dnsRebindingProtection=0&X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jul 05, 2020 13:07:28.927 [0x7f7681014700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:07:28.927 [0x7f76197fa700] DEBUG - Request: [172.19.0.1:55156 (Subnet)] GET /media/providers (8 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:07:28.928 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:55156] 200 GET /media/providers (8 live) GZIP 1ms 2592 bytes (pipelined: 4)
+Jul 05, 2020 13:07:29.041 [0x7f761bfff700] DEBUG - HTTP 200 response from GET https://plex.tv/services/pubsub/servers
+Jul 05, 2020 13:07:30.072 [0x7f7680813700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:07:30.073 [0x7f76197fa700] DEBUG - Request: [172.19.0.1:55156 (Subnet)] GET /system/agents?mediaType=1 (8 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:07:30.073 [0x7f76197fa700] DEBUG - [com.plexapp.system] Sending command over HTTP (GET): /system/agents?mediaType=1
+Jul 05, 2020 13:07:30.073 [0x7f76197fa700] DEBUG - HTTP requesting GET http://127.0.0.1:41139/system/agents?mediaType=1
+Jul 05, 2020 13:07:30.074 [0x7f7681014700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:07:30.074 [0x7f76667fc700] DEBUG - Request: [172.19.0.1:54986 (Subnet)] GET /system/scanners/1 (8 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:07:30.074 [0x7f76667fc700] DEBUG - [com.plexapp.system] Sending command over HTTP (GET): /system/scanners/1
+Jul 05, 2020 13:07:30.074 [0x7f76667fc700] DEBUG - HTTP requesting GET http://127.0.0.1:41139/system/scanners/1
+Jul 05, 2020 13:07:30.121 [0x7f76667fc700] DEBUG - HTTP 200 response from GET http://127.0.0.1:41139/system/scanners/1
+Jul 05, 2020 13:07:30.121 [0x7f76667fc700] DEBUG - [com.plexapp.system] HTTP reply status 200, with 299 bytes of content.
+Jul 05, 2020 13:07:30.121 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:54986] 200 GET /system/scanners/1 (8 live) GZIP 47ms 598 bytes (pipelined: 14)
+Jul 05, 2020 13:07:30.125 [0x7f76197fa700] DEBUG - HTTP 200 response from GET http://127.0.0.1:41139/system/agents?mediaType=1
+Jul 05, 2020 13:07:30.125 [0x7f76197fa700] DEBUG - [com.plexapp.system] HTTP reply status 200, with 2940 bytes of content.
+Jul 05, 2020 13:07:30.125 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:55156] 200 GET /system/agents?mediaType=1 (8 live) GZIP 52ms 810 bytes (pipelined: 5)
+Jul 05, 2020 13:07:30.296 [0x7f761bfff700] DEBUG - PubSubManager: Time to connect to pubsub.plex.tv was 293 ms.
+Jul 05, 2020 13:07:30.296 [0x7f761bfff700] DEBUG - PubSubManager: Time to connect to 45.33.73.250 was 295 ms.
+Jul 05, 2020 13:07:30.296 [0x7f761bfff700] DEBUG - PubSubManager: Time to connect to 45.79.197.109 was 315 ms.
+Jul 05, 2020 13:07:30.296 [0x7f761bfff700] DEBUG - PubSubManager: Time to connect to 45.33.119.35 was 324 ms.
+Jul 05, 2020 13:07:30.296 [0x7f761bfff700] DEBUG - PubSubManager: Time to connect to 172.105.99.32 was 335 ms.
+Jul 05, 2020 13:07:30.296 [0x7f761bfff700] DEBUG - PubSubManager: Time to connect to 184.105.148.114 was 414 ms.
+Jul 05, 2020 13:07:30.296 [0x7f761bfff700] DEBUG - PubSubManager: Time to connect to 139.162.158.105 was 424 ms.
+Jul 05, 2020 13:07:30.296 [0x7f761bfff700] DEBUG - PubSubManager: Time to connect to 178.79.179.11 was 434 ms.
+Jul 05, 2020 13:07:30.296 [0x7f761bfff700] DEBUG - PubSubManager: Time to connect to 82.94.168.18 was 493 ms.
+Jul 05, 2020 13:07:30.296 [0x7f761bfff700] DEBUG - PubSubManager: Time to connect to 172.105.203.197 was 651 ms.
+Jul 05, 2020 13:07:30.296 [0x7f761bfff700] DEBUG - PubSubManager: Time to connect to 139.162.20.120 was 836 ms.
+Jul 05, 2020 13:07:30.296 [0x7f761bfff700] DEBUG - PubSubManager: Updating best ping time for pubsub.plex.tv to 293 ms.
+Jul 05, 2020 13:07:30.296 [0x7f761bfff700] DEBUG - EventSource: Stopping.
+Jul 05, 2020 13:07:30.297 [0x7f761bfff700] DEBUG - EventSource: Stopping.
+Jul 05, 2020 13:07:30.297 [0x7f761bfff700] DEBUG - EventSource: Stopping.
+Jul 05, 2020 13:07:30.297 [0x7f761bfff700] DEBUG - EventSource: Stopping.
+Jul 05, 2020 13:07:30.297 [0x7f761bfff700] DEBUG - EventSource: Stopping.
+Jul 05, 2020 13:07:30.297 [0x7f761bfff700] DEBUG - EventSource: Stopping.
+Jul 05, 2020 13:07:30.297 [0x7f761bfff700] DEBUG - EventSource: Stopping.
+Jul 05, 2020 13:07:30.297 [0x7f761bfff700] DEBUG - EventSource: Stopping.
+Jul 05, 2020 13:07:30.297 [0x7f761bfff700] DEBUG - EventSource: Stopping.
+Jul 05, 2020 13:07:30.297 [0x7f761bfff700] DEBUG - EventSource: Stopping.
+Jul 05, 2020 13:07:30.297 [0x7f761bfff700] DEBUG - EventSource: Stopping.
+Jul 05, 2020 13:07:30.546 [0x7f7664ff9700] DEBUG - NAT: UPnP, didn't find usable IGD.
+Jul 05, 2020 13:07:30.546 [0x7f7664ff9700] DEBUG - NAT: PMP, attempting mapping.
+Jul 05, 2020 13:07:30.797 [0x7f7664ff9700] WARN - NAT: PMP, got an error: Not Supported by gateway.
+Jul 05, 2020 13:07:30.797 [0x7f7664ff9700] DEBUG - NAT: UPnP, attempting port mapping.
+Jul 05, 2020 13:07:31.065 [0x7f761affd700] DEBUG - NAT: UPnP, getPublicIP didn't find usable IGD.
+Jul 05, 2020 13:07:31.316 [0x7f761affd700] WARN - NAT: PMP, got an error: Not Supported by gateway.
+Jul 05, 2020 13:07:31.316 [0x7f761affd700] DEBUG - MyPlex: sendMapping resetting state - previous mapping state: 'Not Mapped'.
+Jul 05, 2020 13:07:31.316 [0x7f761affd700] DEBUG - MyPlex: mapping state set to 'Unknown'.
+Jul 05, 2020 13:07:31.317 [0x7f761affd700] DEBUG - MyPlex: Sending Server Info to myPlex (user=duran750@hotmail.com, ip=, port=0)
+Jul 05, 2020 13:07:31.317 [0x7f761affd700] DEBUG - HTTP requesting POST https://plex.tv/servers.xml?auth_token=xxxxxxxxxxxxxxxxxxxx
+Jul 05, 2020 13:07:32.323 [0x7f761affd700] DEBUG - HTTP 422 response from POST https://plex.tv/servers.xml?auth_token=xxxxxxxxxxxxxxxxxxxx
+Jul 05, 2020 13:07:32.323 [0x7f761affd700] DEBUG - MyPlex: Published Mapping State response was 422
+Jul 05, 2020 13:07:32.324 [0x7f761affd700] DEBUG - MyPlex: Got response for 84babd2b6413574365ceb3daa97f2ed6a2151f97 ~ registered :0
+Jul 05, 2020 13:07:32.324 [0x7f761affd700] DEBUG - MyPlex: updating mapped state - current state: 'Not Mapped'
+Jul 05, 2020 13:07:32.324 [0x7f761affd700] DEBUG - MyPlex: mapping state set to 'Not Mapped'.
+Jul 05, 2020 13:07:32.324 [0x7f761affd700] DEBUG - MyPlex: Updating device connections (from timer: 0)
+Jul 05, 2020 13:07:32.324 [0x7f761affd700] DEBUG - HTTP requesting PUT https://plex.tv/devices/84babd2b6413574365ceb3daa97f2ed6a2151f97?Connection[][uri]=http://172.19.0.3:32400&httpsEnabled=1&httpsRequired=0&dnsRebindingProtection=0&natLoopbackSupported=0&X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jul 05, 2020 13:07:32.328 [0x7f7680813700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:07:32.328 [0x7f76197fa700] DEBUG - Request: [172.19.0.1:55156 (Subnet)] PUT /myplex/refreshReachability (7 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:07:32.328 [0x7f76197fa700] DEBUG - MyPlex: async reachability check - current mapped state: 'Not Mapped'.
+Jul 05, 2020 13:07:32.328 [0x7f76197fa700] WARN - MyPlex: attempted a reachability check but we're not yet mapped.
+Jul 05, 2020 13:07:32.328 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:55156] 200 PUT /myplex/refreshReachability (7 live) GZIP 0ms 274 bytes (pipelined: 6)
+Jul 05, 2020 13:07:33.019 [0x7f75f3fff700] DEBUG - HTTP requesting GET https://plex.tv/api/resources.xml?includeHttps=1&includeRelay=1&auth_token=xxxxxxxxxxxxxxxxxxxx
+Jul 05, 2020 13:07:33.030 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (7 live) GZIP 20000ms 5 bytes (pipelined: 10)
+Jul 05, 2020 13:07:33.035 [0x7f7681014700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:07:33.036 [0x7f76667fc700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (7 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:07:33.036 [0x7f76667fc700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:07:33.347 [0x7f761affd700] DEBUG - HTTP 200 response from PUT https://plex.tv/devices/84babd2b6413574365ceb3daa97f2ed6a2151f97?Connection[][uri]=http://172.19.0.3:32400&httpsEnabled=1&httpsRequired=0&dnsRebindingProtection=0&natLoopbackSupported=0&X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jul 05, 2020 13:07:34.066 [0x7f75f3fff700] DEBUG - HTTP 200 response from GET https://plex.tv/api/resources.xml?includeHttps=1&includeRelay=1&auth_token=xxxxxxxxxxxxxxxxxxxx
+Jul 05, 2020 13:07:34.067 [0x7f76327fc700] DEBUG - Connection Tester: Testing the server duran-Virtual-Machine with 3 URLs.
+Jul 05, 2020 13:07:34.067 [0x7f761b7fe700] DEBUG - Connection Tester: Testing the server docker-plex with 2 URLs.
+Jul 05, 2020 13:07:34.069 [0x7f7619ffb700] DEBUG - HTTP requesting GET https://192-168-65-3.55587e5373c549b88aa34484f4c6cec4.plex.direct:32400
+Jul 05, 2020 13:07:34.069 [0x7f75f2ffd700] DEBUG - HTTP requesting GET https://192-168-25-111.a94794bbf8d64774a77292514e3e5a04.plex.direct:32400
+Jul 05, 2020 13:07:34.069 [0x7f75f1ffb700] DEBUG - HTTP requesting GET https://172-19-0-1.55587e5373c549b88aa34484f4c6cec4.plex.direct:32400
+Jul 05, 2020 13:07:34.069 [0x7f75f27fc700] DEBUG - HTTP requesting GET https://172-20-0-1.a94794bbf8d64774a77292514e3e5a04.plex.direct:32400
+Jul 05, 2020 13:07:34.071 [0x7f75f17fa700] DEBUG - HTTP requesting GET https://201-0-184-241.a94794bbf8d64774a77292514e3e5a04.plex.direct:24418
+Jul 05, 2020 13:07:34.085 [0x7f7681014700] DEBUG - CERT: incomplete TLS handshake: no shared cipher
+Jul 05, 2020 13:07:34.086 [0x7f7619ffb700] ERROR - Error issuing curl_easy_perform(handle): 35
+Jul 05, 2020 13:07:34.086 [0x7f7619ffb700] WARN - HTTP error requesting GET https://192-168-65-3.55587e5373c549b88aa34484f4c6cec4.plex.direct:32400 (35, SSL connect error) (OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to 192-168-65-3.55587e5373c549b88aa34484f4c6cec4.plex.direct:32400 )
+Jul 05, 2020 13:07:34.098 [0x7f75f1ffb700] ERROR - Error issuing curl_easy_perform(handle): 60
+Jul 05, 2020 13:07:34.098 [0x7f75f1ffb700] WARN - HTTP error requesting GET https://172-19-0-1.55587e5373c549b88aa34484f4c6cec4.plex.direct:32400 (60, SSL peer certificate or SSH remote key was not OK) (SSL: no alternative certificate subject name matches target host name '172-19-0-1.55587e5373c549b88aa34484f4c6cec4.plex.direct')
+Jul 05, 2020 13:07:34.110 [0x7f7681014700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:07:34.110 [0x7f76667fc700] DEBUG - Request: [172.19.0.1:55156 (Subnet)] GET /media/providers (8 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:07:34.111 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:55156] 200 GET /media/providers (8 live) GZIP 0ms 2592 bytes (pipelined: 7)
+Jul 05, 2020 13:07:34.122 [0x7f7680813700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:07:34.122 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:55000 (Subnet)] GET /media/providers (8 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:07:34.123 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:55000] 200 GET /media/providers (8 live) GZIP 0ms 2671 bytes (pipelined: 5)
+Jul 05, 2020 13:07:36.158 [0x7f75f17fa700] ERROR - Error issuing curl_easy_perform(handle): 7
+Jul 05, 2020 13:07:36.159 [0x7f75f17fa700] WARN - HTTP error requesting GET https://201-0-184-241.a94794bbf8d64774a77292514e3e5a04.plex.direct:24418 (7, Couldn't connect to server) (Failed to connect to 201-0-184-241.a94794bbf8d64774a77292514e3e5a04.plex.direct port 24418: Connection refused)
+Jul 05, 2020 13:07:36.472 [0x7f7681014700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:07:36.472 [0x7f76197fa700] DEBUG - Request: [172.19.0.1:55156 (Subnet)] GET /services/browse?includeFiles=1 (8 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:07:36.472 [0x7f76197fa700] DEBUG - Filesystem Type: overlay Path: / Name: overlay
+Jul 05, 2020 13:07:36.472 [0x7f76197fa700] DEBUG - Filesystem Type: cgroup Path: /sys/fs/cgroup/cpuset Name: cpuset
+Jul 05, 2020 13:07:36.472 [0x7f76197fa700] DEBUG - Filesystem Type: cgroup Path: /sys/fs/cgroup/cpu Name: cpu
+Jul 05, 2020 13:07:36.472 [0x7f76197fa700] DEBUG - Filesystem Type: cgroup Path: /sys/fs/cgroup/cpuacct Name: cpuacct
+Jul 05, 2020 13:07:36.472 [0x7f76197fa700] DEBUG - Filesystem Type: cgroup Path: /sys/fs/cgroup/blkio Name: blkio
+Jul 05, 2020 13:07:36.472 [0x7f76197fa700] DEBUG - Filesystem Type: cgroup Path: /sys/fs/cgroup/memory Name: memory
+Jul 05, 2020 13:07:36.472 [0x7f76197fa700] DEBUG - Filesystem Type: cgroup Path: /sys/fs/cgroup/devices Name: devices
+Jul 05, 2020 13:07:36.472 [0x7f76197fa700] DEBUG - Filesystem Type: cgroup Path: /sys/fs/cgroup/freezer Name: freezer
+Jul 05, 2020 13:07:36.472 [0x7f76197fa700] DEBUG - Filesystem Type: cgroup Path: /sys/fs/cgroup/net_cls Name: net_cls
+Jul 05, 2020 13:07:36.472 [0x7f76197fa700] DEBUG - Filesystem Type: cgroup Path: /sys/fs/cgroup/perf_event Name: perf_event
+Jul 05, 2020 13:07:36.472 [0x7f76197fa700] DEBUG - Filesystem Type: cgroup Path: /sys/fs/cgroup/net_prio Name: net_prio
+Jul 05, 2020 13:07:36.472 [0x7f76197fa700] DEBUG - Filesystem Type: cgroup Path: /sys/fs/cgroup/hugetlb Name: hugetlb
+Jul 05, 2020 13:07:36.472 [0x7f76197fa700] DEBUG - Filesystem Type: cgroup Path: /sys/fs/cgroup/pids Name: pids
+Jul 05, 2020 13:07:36.472 [0x7f76197fa700] DEBUG - Filesystem Type: cgroup Path: /sys/fs/cgroup/rdma Name: rdma
+Jul 05, 2020 13:07:36.473 [0x7f76197fa700] DEBUG - Filesystem Type: cgroup Path: /sys/fs/cgroup/systemd Name: cgroup
+Jul 05, 2020 13:07:36.473 [0x7f76197fa700] DEBUG - Filesystem Type: mqueue Path: /dev/mqueue Name: mqueue
+Jul 05, 2020 13:07:36.473 [0x7f76197fa700] DEBUG - Filesystem Type: ext4 Path: /config Name: /dev/sdd
+Jul 05, 2020 13:07:36.473 [0x7f76197fa700] DEBUG - Filesystem Type: ext4 Path: /tv Name: /dev/sdd
+Jul 05, 2020 13:07:36.473 [0x7f76197fa700] DEBUG - Filesystem Type: ext4 Path: /movies Name: /dev/sdd
+Jul 05, 2020 13:07:36.473 [0x7f76197fa700] DEBUG - Filesystem Type: ext4 Path: /etc/resolv.conf Name: /dev/sdc
+Jul 05, 2020 13:07:36.473 [0x7f76197fa700] DEBUG - Filesystem Type: ext4 Path: /etc/hostname Name: /dev/sdc
+Jul 05, 2020 13:07:36.473 [0x7f76197fa700] DEBUG - Filesystem Type: ext4 Path: /etc/hosts Name: /dev/sdc
+Jul 05, 2020 13:07:36.473 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:55156] 200 GET /services/browse?includeFiles=1 (8 live) GZIP 1ms 565 bytes (pipelined: 8)
+Jul 05, 2020 13:07:36.501 [0x7f7680813700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:07:36.501 [0x7f76667fc700] DEBUG - Request: [172.19.0.1:55156 (Subnet)] GET /services/browse/Lw==?includeFiles=1 (8 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:07:36.501 [0x7f76667fc700] DEBUG - DirectoryBrowser: Decoded [Lw==] to [/]
+Jul 05, 2020 13:07:36.512 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:55156] 200 GET /services/browse/Lw==?includeFiles=1 (8 live) GZIP 11ms 779 bytes (pipelined: 9)
+Jul 05, 2020 13:07:38.227 [0x7f7681014700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:07:38.228 [0x7f76667fc700] DEBUG - Request: [172.19.0.1:55156 (Subnet)] GET /services/browse/L21vdmllcw==?includeFiles=1 (8 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:07:38.228 [0x7f76667fc700] DEBUG - DirectoryBrowser: Decoded [L21vdmllcw==] to [/movies]
+Jul 05, 2020 13:07:38.228 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:55156] 200 GET /services/browse/L21vdmllcw==?includeFiles=1 (8 live) GZIP 0ms 350 bytes (pipelined: 10)
+Jul 05, 2020 13:07:39.072 [0x7f75f27fc700] ERROR - Error issuing curl_easy_perform(handle): 28
+Jul 05, 2020 13:07:39.072 [0x7f75f27fc700] DEBUG - HTTP simulating 408 after curl timeout
+Jul 05, 2020 13:07:39.073 [0x7f75f2ffd700] ERROR - Error issuing curl_easy_perform(handle): 28
+Jul 05, 2020 13:07:39.073 [0x7f75f2ffd700] DEBUG - HTTP simulating 408 after curl timeout
+Jul 05, 2020 13:07:40.424 [0x7f7680813700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:07:40.424 [0x7f76197fa700] DEBUG - Request: [172.19.0.1:55156 (Subnet)] POST /library/sections?name=Filmes&type=movie&agent=com.plexapp.agents.imdb&scanner=Plex%20Movie%20Scanner&language=pt&importFromiTunes=&enableAutoPhotoTags=&location=%2Fmovies (8 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:07:40.424 [0x7f76197fa700] DEBUG - Flushing directory modification time cache.
+Jul 05, 2020 13:07:40.424 [0x7f7633fff700] DEBUG - MyPlex: sendMapping resetting state - previous mapping state: 'Not Mapped'.
+Jul 05, 2020 13:07:40.425 [0x7f7633fff700] DEBUG - MyPlex: mapping state set to 'Unknown'.
+Jul 05, 2020 13:07:40.425 [0x7f76197fa700] DEBUG - Library Updater: Requested that section 1 be updated, force=0, deep=0, subdir= iTunes=0
+Jul 05, 2020 13:07:40.425 [0x7f76197fa700] DEBUG - Library Updater: Queueing section 1
+Jul 05, 2020 13:07:40.425 [0x7f76197fa700] INFO - LibraryUpdateManager path watching is disabled
+Jul 05, 2020 13:07:40.425 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:55156] 201 POST /library/sections?name=Filmes&type=movie&agent=com.plexapp.agents.imdb&scanner=Plex%20Movie%20Scanner&language=pt&importFromiTunes=&enableAutoPhotoTags=&location=%2Fmovies (8 live) GZIP 1ms 779 bytes (pipelined: 11)
+Jul 05, 2020 13:07:40.425 [0x7f7633fff700] DEBUG - MyPlex: Sending Server Info to myPlex (user=duran750@hotmail.com, ip=, port=0)
+Jul 05, 2020 13:07:40.426 [0x7f75f0ff9700] DEBUG - Activity: registered new activity 81e7b08b-0695-4f94-b90e-861ffb97e489 - Scanning
+Jul 05, 2020 13:07:40.426 [0x7f75f0ff9700] DEBUG - Scanning section 1
+Jul 05, 2020 13:07:40.426 [0x7f7633fff700] DEBUG - HTTP requesting POST https://plex.tv/servers.xml?auth_token=xxxxxxxxxxxxxxxxxxxx
+Jul 05, 2020 13:07:40.426 [0x7f75f0ff9700] DEBUG - Activity: updated activity 81e7b08b-0695-4f94-b90e-861ffb97e489 - completed 0.0% - Scanning Filmes
+Jul 05, 2020 13:07:40.426 [0x7f75f0ff9700] DEBUG - Job running: EAE_ROOT='/tmp/pms-da6569e7-b4e0-4286-957d-702fef8f0fe9/EasyAudioEncoder' FFMPEG_EXTERNAL_LIBS='/config/Library/Application\ Support/Plex\ Media\ Server/Codecs/99c90e0-3095-linux-x86_64/' X_PLEX_TOKEN='xxxxxxxxxxxxxxxxxxxx' '/usr/lib/plexmediaserver/Plex Media Scanner' '--scan' '--refresh' '--section' '1' '--activity' '81e7b08b-0695-4f94-b90e-861ffb97e489'
+Jul 05, 2020 13:07:40.426 [0x7f75f0ff9700] DEBUG - Jobs: Starting child process with pid 517
+Jul 05, 2020 13:07:40.440 [0x7f7680813700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:07:40.440 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:55156 (Subnet)] GET /media/providers (8 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:07:40.441 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:55156] 200 GET /media/providers (8 live) GZIP 1ms 2775 bytes (pipelined: 12)
+Jul 05, 2020 13:07:40.442 [0x7f7681014700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:07:40.442 [0x7f76667fc700] DEBUG - Request: [172.19.0.1:54986 (Subnet)] GET /library/sections (8 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:07:40.443 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:54986] 200 GET /library/sections (8 live) GZIP 0ms 740 bytes (pipelined: 15)
+Jul 05, 2020 13:07:40.521 [0x7f76197fa700] DEBUG - Request: [127.0.0.1:34440 (Loopback)] GET /:/metadata/notify/cullTimeline?librarySectionID=1&sinceTime=1593953260 (10 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:07:40.521 [0x7f76197fa700] DEBUG - Asked to cull library timeline before time 1593953260, we're starting with 0 items.
+Jul 05, 2020 13:07:40.521 [0x7f76197fa700] DEBUG - Library timeline cull complete with 0 items left.
+Jul 05, 2020 13:07:40.521 [0x7f76677fe700] DEBUG - Request: [127.0.0.1:34442 (Loopback)] PUT /activities/81e7b08b-0695-4f94-b90e-861ffb97e489?percentComplete=0 (10 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:07:40.521 [0x7f7680813700] DEBUG - Completed: [127.0.0.1:34440] 200 GET /:/metadata/notify/cullTimeline?librarySectionID=1&sinceTime=1593953260 (10 live) GZIP 0ms 166 bytes
+Jul 05, 2020 13:07:40.521 [0x7f7680813700] DEBUG - Completed: [127.0.0.1:34442] 200 PUT /activities/81e7b08b-0695-4f94-b90e-861ffb97e489?percentComplete=0 (10 live) GZIP 0ms 166 bytes
+Jul 05, 2020 13:07:40.591 [0x7f76667fc700] DEBUG - Request: [127.0.0.1:34446 (Loopback)] PUT /activities/81e7b08b-0695-4f94-b90e-861ffb97e489?percentComplete=99.000000 (9 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:07:40.592 [0x7f76667fc700] DEBUG - Activity: updated activity 81e7b08b-0695-4f94-b90e-861ffb97e489 - completed 99.0% - Scanning Filmes
+Jul 05, 2020 13:07:40.592 [0x7f7680813700] DEBUG - Completed: [127.0.0.1:34446] 200 PUT /activities/81e7b08b-0695-4f94-b90e-861ffb97e489?percentComplete=99.000000 (9 live) GZIP 1ms 166 bytes
+Jul 05, 2020 13:07:40.595 [0x7f76197fa700] DEBUG - Request: [127.0.0.1:34450 (Loopback)] PUT /activities/81e7b08b-0695-4f94-b90e-861ffb97e489?percentComplete=100 (9 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:07:40.595 [0x7f76197fa700] DEBUG - Activity: updated activity 81e7b08b-0695-4f94-b90e-861ffb97e489 - completed 100.0% - Scanning Filmes
+Jul 05, 2020 13:07:40.595 [0x7f76197fa700] DEBUG - Activity: Ended activity 81e7b08b-0695-4f94-b90e-861ffb97e489.
+Jul 05, 2020 13:07:40.595 [0x7f7681014700] DEBUG - Completed: [127.0.0.1:34450] 200 PUT /activities/81e7b08b-0695-4f94-b90e-861ffb97e489?percentComplete=100 (9 live) GZIP 0ms 166 bytes
+Jul 05, 2020 13:07:40.598 [0x7f7682016700] DEBUG - Jobs: '/usr/lib/plexmediaserver/Plex Media Scanner' exit code for process 517 is 0 (success)
+Jul 05, 2020 13:07:40.598 [0x7f7682016700] DEBUG - Collections: Found 0 collections tags in section 1.
+Jul 05, 2020 13:07:40.598 [0x7f7682016700] DEBUG - Collections: We had 0 collections in the library already.
+Jul 05, 2020 13:07:40.598 [0x7f7682016700] DEBUG - Collections: Synced tags in section 1 in 0ms.
+Jul 05, 2020 13:07:40.599 [0x7f7682016700] DEBUG - Collections: Refreshed attributes for 0 collections in section 1 in 0ms.
+Jul 05, 2020 13:07:40.599 [0x7f7682016700] DEBUG - Collection: Refreshed visibility in section 1 in 0ms.
+Jul 05, 2020 13:07:40.599 [0x7f75f0ff9700] DEBUG - Activity: registered new activity 41e5c1bb-6b35-4bd7-82c9-9a3b6815fad2 - Processing subscriptions
+Jul 05, 2020 13:07:40.599 [0x7f7632ffd700] DEBUG - Grabber: Cleaning up orphaned grabs.
+Jul 05, 2020 13:07:40.600 [0x7f7632ffd700] DEBUG - Grabber: Cleaned up 0 decrepit directories in 0.0 sec.
+Jul 05, 2020 13:07:40.600 [0x7f7632ffd700] DEBUG - Activity: registered new activity 648b143a-a272-4513-9d7a-6357226f334b - Processing subscriptions
+Jul 05, 2020 13:07:40.600 [0x7f7632ffd700] DEBUG - Subscription: Scheduling subscriptions.
+Jul 05, 2020 13:07:40.600 [0x7f7632ffd700] DEBUG - Subscription: Initialized 0 schedulers.
+Jul 05, 2020 13:07:40.600 [0x7f7632ffd700] DEBUG - Subscription: Starting with 0 grabs, scheduled 0 active ones preemptively.
+Jul 05, 2020 13:07:40.600 [0x7f7632ffd700] DEBUG - Subscription: Scheduled all subscriptions in 0 ms.
+Jul 05, 2020 13:07:40.600 [0x7f7632ffd700] DEBUG - Activity: Ended activity 648b143a-a272-4513-9d7a-6357226f334b.
+Jul 05, 2020 13:07:40.600 [0x7f7632ffd700] DEBUG - Subscription: There are 0 active grabs at the end.
+Jul 05, 2020 13:07:40.600 [0x7f7632ffd700] DEBUG - Activity: Ended activity 41e5c1bb-6b35-4bd7-82c9-9a3b6815fad2.
+Jul 05, 2020 13:07:40.601 [0x7f7632ffd700] DEBUG - Subscription: Refreshed all content in 1 ms.
+Jul 05, 2020 13:07:40.606 [0x7f7681014700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:07:40.606 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54986 (Subnet)] GET /library/sections (8 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:07:40.608 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:54986] 200 GET /library/sections (8 live) GZIP 1ms 744 bytes (pipelined: 16)
+Jul 05, 2020 13:07:41.464 [0x7f7633fff700] DEBUG - HTTP 422 response from POST https://plex.tv/servers.xml?auth_token=xxxxxxxxxxxxxxxxxxxx
+Jul 05, 2020 13:07:41.465 [0x7f7633fff700] DEBUG - MyPlex: Published Mapping State response was 422
+Jul 05, 2020 13:07:41.465 [0x7f7633fff700] DEBUG - MyPlex: Got response for 84babd2b6413574365ceb3daa97f2ed6a2151f97 ~ registered :0
+Jul 05, 2020 13:07:41.465 [0x7f7633fff700] DEBUG - MyPlex: updating mapped state - current state: 'Not Mapped'
+Jul 05, 2020 13:07:41.465 [0x7f7633fff700] DEBUG - MyPlex: mapping state set to 'Not Mapped'.
+Jul 05, 2020 13:07:41.466 [0x7f7633fff700] DEBUG - HTTP requesting GET https://plex.tv/api/v2/server/access_tokens?auth_token=xxxxxxxxxxxxxxxxxxxx&includeProfiles=1&includeProviders=1
+Jul 05, 2020 13:07:41.474 [0x7f7680813700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:07:41.474 [0x7f76197fa700] DEBUG - Request: [172.19.0.1:54986 (Subnet)] PUT /myplex/refreshReachability (8 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:07:41.474 [0x7f76197fa700] DEBUG - MyPlex: async reachability check - current mapped state: 'Not Mapped'.
+Jul 05, 2020 13:07:41.474 [0x7f76197fa700] WARN - MyPlex: attempted a reachability check but we're not yet mapped.
+Jul 05, 2020 13:07:41.475 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:54986] 200 PUT /myplex/refreshReachability (8 live) GZIP 0ms 274 bytes (pipelined: 17)
+Jul 05, 2020 13:07:42.543 [0x7f7633fff700] DEBUG - HTTP 200 response from GET https://plex.tv/api/v2/server/access_tokens?auth_token=xxxxxxxxxxxxxxxxxxxx&includeProfiles=1&includeProviders=1
+Jul 05, 2020 13:07:42.544 [0x7f7633fff700] DEBUG - MyPlex: updating with 38 access tokens
+Jul 05, 2020 13:07:42.544 [0x7f75f37fe700] DEBUG - HTTP requesting GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jul 05, 2020 13:07:42.810 [0x7f7664ff9700] DEBUG - NAT: UPnP, didn't find usable IGD.
+Jul 05, 2020 13:07:42.810 [0x7f7664ff9700] DEBUG - PublicAddressManager: Mapping failed.
+Jul 05, 2020 13:07:42.811 [0x7f7664ff9700] DEBUG - MyPlex: mapping state set to 'Mapped - Not Published'.
+Jul 05, 2020 13:07:42.811 [0x7f7664ff9700] DEBUG - MyPlex: sendMapping resetting state - previous mapping state: 'Mapped - Not Published'.
+Jul 05, 2020 13:07:42.811 [0x7f7664ff9700] DEBUG - MyPlex: mapping state set to 'Unknown'.
+Jul 05, 2020 13:07:42.814 [0x7f7664ff9700] DEBUG - MyPlex: Sending Server Info to myPlex (user=duran750@hotmail.com, ip=, port=0)
+Jul 05, 2020 13:07:42.814 [0x7f7664ff9700] DEBUG - HTTP requesting POST https://plex.tv/servers.xml?auth_token=xxxxxxxxxxxxxxxxxxxx
+Jul 05, 2020 13:07:43.648 [0x7f75f37fe700] DEBUG - HTTP 200 response from GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jul 05, 2020 13:07:43.908 [0x7f7664ff9700] DEBUG - HTTP 422 response from POST https://plex.tv/servers.xml?auth_token=xxxxxxxxxxxxxxxxxxxx
+Jul 05, 2020 13:07:43.909 [0x7f7664ff9700] DEBUG - MyPlex: Published Mapping State response was 422
+Jul 05, 2020 13:07:43.909 [0x7f7664ff9700] DEBUG - MyPlex: Got response for 84babd2b6413574365ceb3daa97f2ed6a2151f97 ~ registered :0
+Jul 05, 2020 13:07:43.909 [0x7f7664ff9700] DEBUG - MyPlex: updating mapped state - current state: 'Mapped - Not Published'
+Jul 05, 2020 13:07:43.909 [0x7f7664ff9700] DEBUG - MyPlex: mapping state set to 'Mapped - Publishing'.
+Jul 05, 2020 13:07:43.909 [0x7f7664ff9700] DEBUG - MyPlex: async reachability check - current mapped state: 'Mapped - Publishing'.
+Jul 05, 2020 13:07:43.909 [0x7f7664ff9700] DEBUG - MyPlex: Requesting reachability check.
+Jul 05, 2020 13:07:43.909 [0x7f7664ff9700] DEBUG - HTTP requesting PUT https://plex.tv/api/servers/84babd2b6413574365ceb3daa97f2ed6a2151f97/connectivity?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx&asyncIdentifier=2d33e60f-6b93-41fe-b16e-75837d318425
+Jul 05, 2020 13:07:44.069 [0x7f761b7fe700] WARN - Connection Tester: Error testing media server docker-plex in 10000 ms.
+Jul 05, 2020 13:07:44.069 [0x7f76327fc700] WARN - Connection Tester: Error testing media server duran-Virtual-Machine in 10000 ms.
+Jul 05, 2020 13:07:44.069 [0x7f75f3fff700] DEBUG - Media Server: Tested all servers in 10.0 seconds.
+Jul 05, 2020 13:07:45.040 [0x7f7664ff9700] DEBUG - HTTP 200 response from PUT https://plex.tv/api/servers/84babd2b6413574365ceb3daa97f2ed6a2151f97/connectivity?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx&asyncIdentifier=2d33e60f-6b93-41fe-b16e-75837d318425
+Jul 05, 2020 13:07:45.043 [0x7f7664ff9700] DEBUG - MyPlex: Last published value didn't change, we're done.
+Jul 05, 2020 13:07:45.050 [0x7f7681014700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:07:45.050 [0x7f76667fc700] DEBUG - Request: [172.19.0.1:54986 (Subnet)] PUT /myplex/refreshReachability (8 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:07:45.050 [0x7f76667fc700] DEBUG - MyPlex: async reachability check - current mapped state: 'Mapped - Publishing'.
+Jul 05, 2020 13:07:45.050 [0x7f76667fc700] DEBUG - MyPlex: we already have requested a connectivity refresh for async identifier 2d33e60f-6b93-41fe-b16e-75837d318425 which has not yet expired.
+Jul 05, 2020 13:07:45.050 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:54986] 200 PUT /myplex/refreshReachability (8 live) GZIP 0ms 274 bytes (pipelined: 18)
+Jul 05, 2020 13:07:45.114 [0x7f7680813700] DEBUG - EventSource: Got event [data] '<Message address="" port="0" asyncIdentifier="2d33e60f-6b93-41fe-b16e-75837d318425" connectivity="0" command="notifyConnectivity"/>'
+Jul 05, 2020 13:07:45.114 [0x7f7680813700] DEBUG - PubSub: Got notified of reachability for async identifier 2d33e60f-6b93-41fe-b16e-75837d318425: 0 for :0 (responded in 72 ms)
+Jul 05, 2020 13:07:45.114 [0x7f7680813700] DEBUG - MyPlex: reachability check - current mapping state: 'Mapped - Publishing'.
+Jul 05, 2020 13:07:45.114 [0x7f7680813700] DEBUG - MyPlex: mapping state set to 'Mapped - Not Published (Not Reachable)'.
+Jul 05, 2020 13:07:45.118 [0x7f7681014700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:07:45.118 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54986 (Subnet)] GET /myplex/account (8 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:07:45.119 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:54986] 200 GET /myplex/account (8 live) GZIP 0ms 1830 bytes (pipelined: 19)
+Jul 05, 2020 13:07:45.390 [0x7f7680813700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:07:45.390 [0x7f76197fa700] DEBUG - Request: [172.19.0.1:54986 (Subnet)] GET /media/providers (8 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:07:45.392 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:54986] 200 GET /media/providers (8 live) GZIP 2ms 2778 bytes (pipelined: 20)
+Jul 05, 2020 13:07:45.404 [0x7f7681014700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:07:45.404 [0x7f76667fc700] DEBUG - Request: [172.19.0.1:55000 (Subnet)] GET /media/providers (8 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:07:45.405 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:55000] 200 GET /media/providers (8 live) GZIP 1ms 2857 bytes (pipelined: 6)
+Jul 05, 2020 13:07:53.036 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (7 live) GZIP 20000ms 5 bytes (pipelined: 11)
+Jul 05, 2020 13:07:53.052 [0x7f7680813700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:07:53.052 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (7 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:07:53.052 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:08:13.054 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP 20001ms 5 bytes (pipelined: 12)
+Jul 05, 2020 13:08:13.067 [0x7f7681014700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:08:13.067 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:08:13.067 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:08:33.069 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP 20001ms 5 bytes (pipelined: 13)
+Jul 05, 2020 13:08:33.117 [0x7f7680813700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:08:33.117 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:08:33.117 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:08:42.464 [0x7f75f37fe700] DEBUG - BPQ: [Starting] -> [Processing]
+Jul 05, 2020 13:08:42.464 [0x7f75f37fe700] DEBUG - BPQ: generating queue items from 0 generator(s)
+Jul 05, 2020 13:08:42.464 [0x7f75f37fe700] DEBUG - BPQ: generated 0 item(s) for queue
+Jul 05, 2020 13:08:42.465 [0x7f75f37fe700] DEBUG - PlayQueue: 0 generated IDs compressed down to a 20 byte blob.
+Jul 05, 2020 13:08:42.465 [0x7f75f37fe700] DEBUG - PlayQueue: 0 generated IDs compressed down to a 20 byte blob.
+Jul 05, 2020 13:08:42.465 [0x7f75f37fe700] DEBUG - BPQ: [Processing] -> [Idle]
+Jul 05, 2020 13:08:53.118 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP 20000ms 5 bytes (pipelined: 14)
+Jul 05, 2020 13:08:53.143 [0x7f7680813700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:08:53.143 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:08:53.144 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:09:13.145 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP 20001ms 5 bytes (pipelined: 15)
+Jul 05, 2020 13:09:13.155 [0x7f7681014700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:09:13.155 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:09:13.155 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:09:21.719 [0x7f76677fe700] DEBUG - Request: [127.0.0.1:34478 (Loopback)] GET /servers (4 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:09:21.719 [0x7f7681014700] DEBUG - Completed: [127.0.0.1:34478] 200 GET /servers (4 live) GZIP 0ms 490 bytes
+Jul 05, 2020 13:09:21.722 [0x7f76677fe700] DEBUG - Request: [127.0.0.1:34480 (Loopback)] GET /library/sections (4 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:09:21.723 [0x7f7680813700] DEBUG - Completed: [127.0.0.1:34480] 200 GET /library/sections (4 live) GZIP 0ms 734 bytes
+Jul 05, 2020 13:09:21.729 [0x7f76677fe700] DEBUG - Request: [127.0.0.1:34482 (Loopback)] GET /channels/all (4 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:09:21.730 [0x7f7680813700] DEBUG - Completed: [127.0.0.1:34482] 200 GET /channels/all (4 live) GZIP 0ms 387 bytes
+Jul 05, 2020 13:09:21.733 [0x7f76677fe700] DEBUG - Request: [127.0.0.1:34484 (Loopback)] GET /library/sections (4 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:09:21.734 [0x7f7680813700] DEBUG - Completed: [127.0.0.1:34484] 200 GET /library/sections (4 live) GZIP 0ms 734 bytes
+Jul 05, 2020 13:09:21.735 [0x7f76677fe700] DEBUG - Request: [127.0.0.1:34486 (Loopback)] GET /channels/all (4 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:09:21.735 [0x7f7680813700] DEBUG - Completed: [127.0.0.1:34486] 200 GET /channels/all (4 live) GZIP 0ms 387 bytes
+Jul 05, 2020 13:09:33.156 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP 20000ms 5 bytes (pipelined: 16)
+Jul 05, 2020 13:09:33.177 [0x7f7681014700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:09:33.178 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:09:33.178 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:09:53.178 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP 20000ms 5 bytes (pipelined: 17)
+Jul 05, 2020 13:09:53.205 [0x7f7680813700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:09:53.206 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:09:53.206 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:10:13.206 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP 20000ms 5 bytes (pipelined: 18)
+Jul 05, 2020 13:10:13.213 [0x7f7681014700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:10:13.213 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:10:13.213 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:10:33.214 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP 20001ms 5 bytes (pipelined: 19)
+Jul 05, 2020 13:10:33.222 [0x7f7680813700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:10:33.222 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:10:33.222 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:10:53.223 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP 20001ms 5 bytes (pipelined: 20)
+Jul 05, 2020 13:10:53.241 [0x7f7680813700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:10:53.241 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:10:53.241 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:11:13.242 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP 20000ms 5 bytes (pipelined: 21)
+Jul 05, 2020 13:11:13.251 [0x7f7680813700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:11:13.251 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:11:13.251 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:11:33.252 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP 20000ms 5 bytes (pipelined: 22)
+Jul 05, 2020 13:11:33.258 [0x7f7681014700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:11:33.258 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:11:33.258 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:11:53.259 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP 20000ms 5 bytes (pipelined: 23)
+Jul 05, 2020 13:11:53.279 [0x7f7680813700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:11:53.280 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:11:53.280 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:12:13.280 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP 20000ms 5 bytes (pipelined: 24)
+Jul 05, 2020 13:12:13.286 [0x7f7680813700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:12:13.286 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:12:13.286 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:12:33.287 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP 20000ms 5 bytes (pipelined: 25)
+Jul 05, 2020 13:12:33.309 [0x7f7680813700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:12:33.309 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:12:33.309 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:12:53.310 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP 20000ms 5 bytes (pipelined: 26)
+Jul 05, 2020 13:12:53.347 [0x7f7680813700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:12:53.347 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:12:53.347 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:13:13.347 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP 20000ms 5 bytes (pipelined: 27)
+Jul 05, 2020 13:13:13.355 [0x7f7680813700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:13:13.355 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:13:13.355 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:13:33.356 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP 20001ms 5 bytes (pipelined: 28)
+Jul 05, 2020 13:13:33.390 [0x7f7680813700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:13:33.390 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:13:33.390 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:13:53.391 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP 20001ms 5 bytes (pipelined: 29)
+Jul 05, 2020 13:13:53.422 [0x7f7680813700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:13:53.422 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:13:53.423 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:14:13.423 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP 20001ms 5 bytes (pipelined: 30)
+Jul 05, 2020 13:14:13.433 [0x7f7680813700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:14:13.433 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:14:13.433 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:14:33.434 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP 20000ms 5 bytes (pipelined: 31)
+Jul 05, 2020 13:14:33.466 [0x7f7681014700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:14:33.467 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:14:33.467 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:14:53.467 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP 20000ms 5 bytes (pipelined: 32)
+Jul 05, 2020 13:14:53.499 [0x7f7681014700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:14:53.499 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:14:53.499 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:15:13.500 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP 20000ms 5 bytes (pipelined: 33)
+Jul 05, 2020 13:15:13.507 [0x7f7680813700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:15:13.508 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:15:13.508 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:15:33.509 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP 20001ms 5 bytes (pipelined: 34)
+Jul 05, 2020 13:15:33.537 [0x7f7681014700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:15:33.538 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:15:33.538 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:15:53.538 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP 20000ms 5 bytes (pipelined: 35)
+Jul 05, 2020 13:15:53.548 [0x7f7680813700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:15:53.549 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:15:53.549 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:16:13.550 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP 20000ms 5 bytes (pipelined: 36)
+Jul 05, 2020 13:16:13.557 [0x7f7680813700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:16:13.558 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:16:13.558 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:16:33.558 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP 20000ms 5 bytes (pipelined: 37)
+Jul 05, 2020 13:16:33.595 [0x7f7681014700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:16:33.596 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:16:33.596 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:16:53.596 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP 20000ms 5 bytes (pipelined: 38)
+Jul 05, 2020 13:16:53.605 [0x7f7681014700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:16:53.605 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:16:53.605 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:17:13.608 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP 20002ms 5 bytes (pipelined: 39)
+Jul 05, 2020 13:17:13.614 [0x7f7680813700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:17:13.615 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:17:13.615 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:17:33.615 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP 20000ms 5 bytes (pipelined: 40)
+Jul 05, 2020 13:17:33.652 [0x7f7681014700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:17:33.652 [0x7f7632ffd700] DEBUG - Auth: Refreshing tokens inside the token-based authentication filter.
+Jul 05, 2020 13:17:33.652 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:17:33.652 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:17:33.654 [0x7f7632ffd700] DEBUG - HTTP requesting GET https://plex.tv/api/v2/server/access_tokens?auth_token=xxxxxxxxxxxxxxxxxxxx&includeProfiles=1&includeProviders=1
+Jul 05, 2020 13:17:34.873 [0x7f7632ffd700] DEBUG - HTTP 200 response from GET https://plex.tv/api/v2/server/access_tokens?auth_token=xxxxxxxxxxxxxxxxxxxx&includeProfiles=1&includeProviders=1
+Jul 05, 2020 13:17:34.874 [0x7f7632ffd700] DEBUG - MyPlex: updating with 38 access tokens
+Jul 05, 2020 13:17:34.874 [0x7f7632ffd700] DEBUG - HTTP requesting GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jul 05, 2020 13:17:36.107 [0x7f7632ffd700] DEBUG - HTTP 200 response from GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jul 05, 2020 13:17:53.653 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP 20001ms 5 bytes (pipelined: 41)
+Jul 05, 2020 13:17:53.683 [0x7f7680813700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:17:53.683 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:17:53.683 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:18:13.684 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP 20000ms 5 bytes (pipelined: 42)
+Jul 05, 2020 13:18:13.695 [0x7f7680813700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:18:13.695 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:18:13.695 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:18:33.696 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP 20000ms 5 bytes (pipelined: 43)
+Jul 05, 2020 13:18:33.729 [0x7f7681014700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:18:33.729 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:18:33.729 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:18:53.730 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP 20000ms 5 bytes (pipelined: 44)
+Jul 05, 2020 13:18:53.759 [0x7f7680813700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:18:53.759 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:18:53.759 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:19:13.760 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP 20000ms 5 bytes (pipelined: 45)
+Jul 05, 2020 13:19:13.769 [0x7f7681014700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:19:13.769 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:19:13.769 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:19:33.770 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP 20000ms 5 bytes (pipelined: 46)
+Jul 05, 2020 13:19:33.803 [0x7f7680813700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:19:33.803 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:19:33.804 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:19:53.804 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP 20000ms 5 bytes (pipelined: 47)
+Jul 05, 2020 13:19:53.835 [0x7f7680813700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:19:53.836 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:19:53.836 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:20:13.836 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP 20000ms 5 bytes (pipelined: 48)
+Jul 05, 2020 13:20:13.847 [0x7f7680813700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:20:13.847 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:20:13.847 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:20:33.848 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP 20001ms 5 bytes (pipelined: 49)
+Jul 05, 2020 13:20:33.882 [0x7f7680813700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:20:33.883 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:20:33.883 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:20:53.883 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP 20000ms 5 bytes (pipelined: 50)
+Jul 05, 2020 13:20:53.892 [0x7f7681014700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:20:53.893 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:20:53.893 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:21:13.894 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP 20001ms 5 bytes (pipelined: 51)
+Jul 05, 2020 13:21:13.908 [0x7f7681014700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:21:13.909 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:21:13.909 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:21:33.909 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP 20000ms 5 bytes (pipelined: 52)
+Jul 05, 2020 13:21:33.918 [0x7f7681014700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:21:33.918 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:21:33.919 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:21:53.919 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP 20001ms 5 bytes (pipelined: 53)
+Jul 05, 2020 13:21:53.928 [0x7f7681014700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:21:53.928 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:21:53.928 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:22:13.929 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP 20000ms 5 bytes (pipelined: 54)
+Jul 05, 2020 13:22:13.939 [0x7f7681014700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:22:13.939 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:22:13.940 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:22:33.941 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP 20001ms 5 bytes (pipelined: 55)
+Jul 05, 2020 13:22:33.948 [0x7f7680813700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:22:33.949 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:22:33.949 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:22:53.949 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP 20000ms 5 bytes (pipelined: 56)
+Jul 05, 2020 13:22:53.959 [0x7f7680813700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:22:53.959 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:22:53.959 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:23:13.960 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP 20000ms 5 bytes (pipelined: 57)
+Jul 05, 2020 13:23:13.970 [0x7f7681014700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:23:13.970 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:23:13.970 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:23:33.971 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP 20000ms 5 bytes (pipelined: 58)
+Jul 05, 2020 13:23:33.980 [0x7f7680813700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:23:33.980 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:23:33.980 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:23:53.981 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP 20000ms 5 bytes (pipelined: 59)
+Jul 05, 2020 13:23:53.989 [0x7f7680813700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:23:53.989 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:23:53.989 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:24:13.990 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP 20000ms 5 bytes (pipelined: 60)
+Jul 05, 2020 13:24:13.998 [0x7f7680813700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:24:13.998 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:24:13.998 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:24:33.999 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP 20000ms 5 bytes (pipelined: 61)
+Jul 05, 2020 13:24:34.037 [0x7f7680813700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:24:34.038 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:24:34.038 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:24:54.038 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP 20000ms 5 bytes (pipelined: 62)
+Jul 05, 2020 13:24:54.059 [0x7f7681014700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:24:54.060 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:24:54.060 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:25:14.061 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP 20001ms 5 bytes (pipelined: 63)
+Jul 05, 2020 13:25:14.079 [0x7f7681014700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:25:14.080 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:25:14.080 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:25:34.081 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP 20001ms 5 bytes (pipelined: 64)
+Jul 05, 2020 13:25:34.099 [0x7f7680813700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:25:34.099 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:25:34.099 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:25:54.100 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP 20000ms 5 bytes (pipelined: 65)
+Jul 05, 2020 13:25:54.132 [0x7f7680813700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:25:54.132 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:25:54.132 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:26:14.132 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP 20000ms 5 bytes (pipelined: 66)
+Jul 05, 2020 13:26:14.149 [0x7f7681014700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:26:14.150 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:26:14.150 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:26:34.150 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP 20000ms 5 bytes (pipelined: 67)
+Jul 05, 2020 13:26:34.155 [0x7f7681014700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:26:34.155 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:26:34.156 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:26:54.156 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP 20000ms 5 bytes (pipelined: 68)
+Jul 05, 2020 13:26:54.173 [0x7f7681014700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:26:54.173 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:26:54.173 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:27:14.173 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP 20000ms 5 bytes (pipelined: 69)
+Jul 05, 2020 13:27:14.179 [0x7f7681014700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:27:14.179 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:27:14.179 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:27:34.179 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP 20000ms 5 bytes (pipelined: 70)
+Jul 05, 2020 13:27:34.185 [0x7f7680813700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:27:34.185 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:27:34.185 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:27:54.185 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP 20000ms 5 bytes (pipelined: 71)
+Jul 05, 2020 13:27:54.203 [0x7f7681014700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:27:54.203 [0x7f7633fff700] DEBUG - Auth: Refreshing tokens inside the token-based authentication filter.
+Jul 05, 2020 13:27:54.203 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:27:54.203 [0x7f7633fff700] DEBUG - HTTP requesting GET https://plex.tv/api/v2/server/access_tokens?auth_token=xxxxxxxxxxxxxxxxxxxx&includeProfiles=1&includeProviders=1
+Jul 05, 2020 13:27:54.203 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:27:55.289 [0x7f7633fff700] DEBUG - HTTP 200 response from GET https://plex.tv/api/v2/server/access_tokens?auth_token=xxxxxxxxxxxxxxxxxxxx&includeProfiles=1&includeProviders=1
+Jul 05, 2020 13:27:55.290 [0x7f7633fff700] DEBUG - MyPlex: updating with 38 access tokens
+Jul 05, 2020 13:27:55.290 [0x7f7633fff700] DEBUG - HTTP requesting GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jul 05, 2020 13:27:56.366 [0x7f7633fff700] DEBUG - HTTP 200 response from GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jul 05, 2020 13:28:14.204 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP 20000ms 5 bytes (pipelined: 72)
+Jul 05, 2020 13:28:14.222 [0x7f7681014700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:28:14.222 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:54992 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:28:14.222 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:41:35.578 [0x7f7681014700] DEBUG - EventSource: Failure in IdleTimeout (0 - Success).
+Jul 05, 2020 13:41:35.578 [0x7f7681014700] DEBUG - MyPlex: We appear to have lost Internet connectivity, resetting device URL cache.
+Jul 05, 2020 13:41:35.578 [0x7f7681014700] ERROR - EventSource: Retrying in 15 seconds.
+Jul 05, 2020 13:41:35.589 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:54992] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP 801366ms 5 bytes (pipelined: 73)
+Jul 05, 2020 13:41:35.589 [0x7f767bfff700] DEBUG - Sync: uploadStatus
+Jul 05, 2020 13:41:44.214 [0x7f7680813700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:41:44.214 [0x7f75f3fff700] DEBUG - Auth: Refreshing tokens inside the token-based authentication filter.
+Jul 05, 2020 13:41:44.214 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:55510 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:41:44.214 [0x7f75f3fff700] DEBUG - HTTP requesting GET https://plex.tv/api/v2/server/access_tokens?auth_token=xxxxxxxxxxxxxxxxxxxx&includeProfiles=1&includeProviders=1
+Jul 05, 2020 13:41:44.214 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:41:45.258 [0x7f75f3fff700] DEBUG - HTTP 200 response from GET https://plex.tv/api/v2/server/access_tokens?auth_token=xxxxxxxxxxxxxxxxxxxx&includeProfiles=1&includeProviders=1
+Jul 05, 2020 13:41:45.258 [0x7f75f3fff700] DEBUG - MyPlex: updating with 38 access tokens
+Jul 05, 2020 13:41:45.259 [0x7f75f3fff700] DEBUG - HTTP requesting GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jul 05, 2020 13:41:46.269 [0x7f75f3fff700] DEBUG - HTTP 200 response from GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jul 05, 2020 13:41:47.229 [0x7f7680813700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:41:47.230 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:55530 (Subnet)] GET /media/providers (4 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:41:47.231 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:55530] 200 GET /media/providers (4 live) GZIP 1ms 2778 bytes (pipelined: 1)
+Jul 05, 2020 13:41:47.250 [0x7f7681014700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:41:47.250 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:55536 (Subnet)] GET /media/providers (4 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:41:47.251 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:55536] 200 GET /media/providers (4 live) GZIP 1ms 2857 bytes (pipelined: 1)
+Jul 05, 2020 13:41:50.578 [0x7f7681014700] DEBUG - EventSource: Resolving pubsub.plex.tv port 443
+Jul 05, 2020 13:41:50.613 [0x7f7681014700] DEBUG - EventSource: Resolved pubsub.plex.tv to 45.56.116.228
+Jul 05, 2020 13:41:51.101 [0x7f7680813700] DEBUG - EventSource: Connected in 324 ms.
+Jul 05, 2020 13:41:51.101 [0x7f7680813700] DEBUG - EventSource: Wrote data, reading reply.
+Jul 05, 2020 13:41:51.666 [0x7f7681014700] DEBUG - EventSource: Read HTTP reply header.
+Jul 05, 2020 13:41:51.666 [0x7f7681014700] DEBUG - MyPlex: We appear to have regained Internet connectivity.
+Jul 05, 2020 13:41:51.669 [0x7f7681014700] DEBUG - PublicAddressManager: Obtaining public address and mapping port.
+Jul 05, 2020 13:41:51.670 [0x7f7681014700] DEBUG - MyPlex: async reachability check - current mapped state: 'Mapped - Not Published (Not Reachable)'.
+Jul 05, 2020 13:41:51.670 [0x7f7681014700] DEBUG - MyPlex: Requesting reachability check.
+Jul 05, 2020 13:41:51.670 [0x7f761bfff700] DEBUG - NAT: UPnP, attempting port mapping.
+Jul 05, 2020 13:41:51.670 [0x7f761a7fc700] DEBUG - PublicAddressManager: Obtaining public IP.
+Jul 05, 2020 13:41:51.670 [0x7f761a7fc700] DEBUG - HTTP requesting GET http://plex.tv/pms/:/ip
+Jul 05, 2020 13:41:51.670 [0x7f7681014700] DEBUG - HTTP requesting PUT https://plex.tv/api/servers/84babd2b6413574365ceb3daa97f2ed6a2151f97/connectivity?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx&asyncIdentifier=fe6d2673-041e-41cf-8eb8-538cd048a025
+Jul 05, 2020 13:41:52.127 [0x7f761a7fc700] DEBUG - HTTP 200 response from GET http://plex.tv/pms/:/ip
+Jul 05, 2020 13:41:52.127 [0x7f761a7fc700] DEBUG - PublicAddressManager: Got public IP from http://plex.tv: 201.0.184.237
+Jul 05, 2020 13:41:52.692 [0x7f7681014700] DEBUG - HTTP 200 response from PUT https://plex.tv/api/servers/84babd2b6413574365ceb3daa97f2ed6a2151f97/connectivity?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx&asyncIdentifier=fe6d2673-041e-41cf-8eb8-538cd048a025
+Jul 05, 2020 13:41:52.693 [0x7f7681014700] DEBUG - EventSource: Successfully connected to pubsub.plex.tv.
+Jul 05, 2020 13:41:53.113 [0x7f7680813700] DEBUG - EventSource: Got event [data] '<Message address="" port="0" asyncIdentifier="fe6d2673-041e-41cf-8eb8-538cd048a025" connectivity="0" command="notifyConnectivity"/>'
+Jul 05, 2020 13:41:53.113 [0x7f7680813700] DEBUG - PubSub: Got notified of reachability for async identifier fe6d2673-041e-41cf-8eb8-538cd048a025: 0 for :0 (responded in 420 ms)
+Jul 05, 2020 13:41:53.113 [0x7f7680813700] DEBUG - MyPlex: reachability check - current mapping state: 'Mapped - Not Published (Not Reachable)'.
+Jul 05, 2020 13:41:53.113 [0x7f7680813700] DEBUG - MyPlex: mapping state set to 'Mapped - Not Published (Not Reachable)'.
+Jul 05, 2020 13:41:53.128 [0x7f7681014700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:41:53.128 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:55560 (Subnet)] GET /myplex/account (4 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:41:53.129 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:55560] 200 GET /myplex/account (4 live) GZIP 0ms 1830 bytes (pipelined: 1)
+Jul 05, 2020 13:42:03.679 [0x7f761bfff700] DEBUG - NAT: UPnP, didn't find usable IGD.
+Jul 05, 2020 13:42:03.679 [0x7f761bfff700] DEBUG - NAT: PMP, attempting mapping.
+Jul 05, 2020 13:42:03.930 [0x7f761bfff700] WARN - NAT: PMP, got an error: Not Supported by gateway.
+Jul 05, 2020 13:42:03.930 [0x7f761bfff700] DEBUG - NAT: UPnP, attempting port mapping.
+Jul 05, 2020 13:42:04.141 [0x7f761a7fc700] DEBUG - NAT: UPnP, getPublicIP didn't find usable IGD.
+Jul 05, 2020 13:42:04.215 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:55510] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP 20001ms 5 bytes (pipelined: 1)
+Jul 05, 2020 13:42:04.232 [0x7f7680813700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:42:04.232 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:55570 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:42:04.232 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:42:04.391 [0x7f761a7fc700] WARN - NAT: PMP, got an error: Not Supported by gateway.
+Jul 05, 2020 13:42:04.392 [0x7f761a7fc700] DEBUG - MyPlex: sendMapping resetting state - previous mapping state: 'Mapped - Not Published (Not Reachable)'.
+Jul 05, 2020 13:42:04.392 [0x7f761a7fc700] DEBUG - MyPlex: mapping state set to 'Unknown'.
+Jul 05, 2020 13:42:04.392 [0x7f761a7fc700] DEBUG - MyPlex: Sending Server Info to myPlex (user=duran750@hotmail.com, ip=, port=0)
+Jul 05, 2020 13:42:04.393 [0x7f761a7fc700] DEBUG - HTTP requesting POST https://plex.tv/servers.xml?auth_token=xxxxxxxxxxxxxxxxxxxx
+Jul 05, 2020 13:42:05.401 [0x7f761a7fc700] DEBUG - HTTP 422 response from POST https://plex.tv/servers.xml?auth_token=xxxxxxxxxxxxxxxxxxxx
+Jul 05, 2020 13:42:05.401 [0x7f761a7fc700] DEBUG - MyPlex: Published Mapping State response was 422
+Jul 05, 2020 13:42:05.401 [0x7f761a7fc700] DEBUG - MyPlex: Got response for 84babd2b6413574365ceb3daa97f2ed6a2151f97 ~ registered :0
+Jul 05, 2020 13:42:05.401 [0x7f761a7fc700] DEBUG - MyPlex: updating mapped state - current state: 'Mapped - Not Published (Not Reachable)'
+Jul 05, 2020 13:42:05.401 [0x7f761a7fc700] DEBUG - MyPlex: mapping state set to 'Mapped - Publishing'.
+Jul 05, 2020 13:42:05.401 [0x7f761a7fc700] DEBUG - MyPlex: async reachability check - current mapped state: 'Mapped - Publishing'.
+Jul 05, 2020 13:42:05.401 [0x7f761a7fc700] DEBUG - MyPlex: requesting connectivity refresh too soon after the last request, skipping.
+Jul 05, 2020 13:42:05.402 [0x7f761a7fc700] DEBUG - MyPlex: Updating device connections (from timer: 0)
+Jul 05, 2020 13:42:05.402 [0x7f761a7fc700] DEBUG - HTTP requesting PUT https://plex.tv/devices/84babd2b6413574365ceb3daa97f2ed6a2151f97?Connection[][uri]=http://172.19.0.3:32400&httpsEnabled=1&httpsRequired=0&dnsRebindingProtection=0&natLoopbackSupported=0&X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jul 05, 2020 13:42:05.407 [0x7f7681014700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:42:05.407 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:55584 (Subnet)] PUT /myplex/refreshReachability (4 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:42:05.407 [0x7f76677fe700] DEBUG - MyPlex: async reachability check - current mapped state: 'Mapped - Publishing'.
+Jul 05, 2020 13:42:05.407 [0x7f76677fe700] DEBUG - MyPlex: requesting connectivity refresh too soon after the last request, skipping.
+Jul 05, 2020 13:42:05.407 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:55584] 200 PUT /myplex/refreshReachability (4 live) GZIP 0ms 274 bytes (pipelined: 1)
+Jul 05, 2020 13:42:06.407 [0x7f761a7fc700] DEBUG - HTTP 200 response from PUT https://plex.tv/devices/84babd2b6413574365ceb3daa97f2ed6a2151f97?Connection[][uri]=http://172.19.0.3:32400&httpsEnabled=1&httpsRequired=0&dnsRebindingProtection=0&natLoopbackSupported=0&X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jul 05, 2020 13:42:15.943 [0x7f761bfff700] DEBUG - NAT: UPnP, didn't find usable IGD.
+Jul 05, 2020 13:42:15.943 [0x7f761bfff700] DEBUG - PublicAddressManager: Mapping failed.
+Jul 05, 2020 13:42:15.944 [0x7f761bfff700] DEBUG - MyPlex: mapping state set to 'Mapped - Not Published'.
+Jul 05, 2020 13:42:15.944 [0x7f761bfff700] DEBUG - MyPlex: sendMapping resetting state - previous mapping state: 'Mapped - Not Published'.
+Jul 05, 2020 13:42:15.944 [0x7f761bfff700] DEBUG - MyPlex: mapping state set to 'Unknown'.
+Jul 05, 2020 13:42:15.945 [0x7f761bfff700] DEBUG - MyPlex: Sending Server Info to myPlex (user=duran750@hotmail.com, ip=, port=0)
+Jul 05, 2020 13:42:15.945 [0x7f761bfff700] DEBUG - HTTP requesting POST https://plex.tv/servers.xml?auth_token=xxxxxxxxxxxxxxxxxxxx
+Jul 05, 2020 13:42:16.973 [0x7f761bfff700] DEBUG - HTTP 422 response from POST https://plex.tv/servers.xml?auth_token=xxxxxxxxxxxxxxxxxxxx
+Jul 05, 2020 13:42:16.974 [0x7f761bfff700] DEBUG - MyPlex: Published Mapping State response was 422
+Jul 05, 2020 13:42:16.974 [0x7f761bfff700] DEBUG - MyPlex: Got response for 84babd2b6413574365ceb3daa97f2ed6a2151f97 ~ registered :0
+Jul 05, 2020 13:42:16.974 [0x7f761bfff700] DEBUG - MyPlex: updating mapped state - current state: 'Mapped - Not Published'
+Jul 05, 2020 13:42:16.974 [0x7f761bfff700] DEBUG - MyPlex: mapping state set to 'Mapped - Publishing'.
+Jul 05, 2020 13:42:16.974 [0x7f761bfff700] DEBUG - MyPlex: async reachability check - current mapped state: 'Mapped - Publishing'.
+Jul 05, 2020 13:42:16.974 [0x7f761bfff700] DEBUG - MyPlex: Requesting reachability check.
+Jul 05, 2020 13:42:16.974 [0x7f761bfff700] DEBUG - HTTP requesting PUT https://plex.tv/api/servers/84babd2b6413574365ceb3daa97f2ed6a2151f97/connectivity?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx&asyncIdentifier=cb5ebb17-a4e5-4f3a-b76c-75ebd3238362
+Jul 05, 2020 13:42:17.988 [0x7f761bfff700] DEBUG - HTTP 200 response from PUT https://plex.tv/api/servers/84babd2b6413574365ceb3daa97f2ed6a2151f97/connectivity?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx&asyncIdentifier=cb5ebb17-a4e5-4f3a-b76c-75ebd3238362
+Jul 05, 2020 13:42:17.989 [0x7f761bfff700] DEBUG - MyPlex: Last published value didn't change, we're done.
+Jul 05, 2020 13:42:17.994 [0x7f7681014700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:42:17.994 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:55606 (Subnet)] PUT /myplex/refreshReachability (4 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:42:17.994 [0x7f76677fe700] DEBUG - MyPlex: async reachability check - current mapped state: 'Mapped - Publishing'.
+Jul 05, 2020 13:42:17.994 [0x7f76677fe700] DEBUG - MyPlex: we already have requested a connectivity refresh for async identifier cb5ebb17-a4e5-4f3a-b76c-75ebd3238362 which has not yet expired.
+Jul 05, 2020 13:42:17.994 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:55606] 200 PUT /myplex/refreshReachability (4 live) GZIP 0ms 274 bytes (pipelined: 1)
+Jul 05, 2020 13:42:18.904 [0x7f7680813700] DEBUG - EventSource: Got event [data] '<Message address="" port="0" asyncIdentifier="cb5ebb17-a4e5-4f3a-b76c-75ebd3238362" connectivity="0" command="notifyConnectivity"/>'
+Jul 05, 2020 13:42:18.904 [0x7f7680813700] DEBUG - PubSub: Got notified of reachability for async identifier cb5ebb17-a4e5-4f3a-b76c-75ebd3238362: 0 for :0 (responded in 915 ms)
+Jul 05, 2020 13:42:18.904 [0x7f7680813700] DEBUG - MyPlex: reachability check - current mapping state: 'Mapped - Publishing'.
+Jul 05, 2020 13:42:18.904 [0x7f7680813700] DEBUG - MyPlex: mapping state set to 'Mapped - Not Published (Not Reachable)'.
+Jul 05, 2020 13:42:18.908 [0x7f7680813700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:42:18.908 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:55606 (Subnet)] GET /myplex/account (4 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:42:18.909 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:55606] 200 GET /myplex/account (4 live) GZIP 0ms 1830 bytes (pipelined: 2)
+Jul 05, 2020 13:42:24.233 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:55570] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP 20001ms 5 bytes (pipelined: 1)
+Jul 05, 2020 13:42:24.249 [0x7f7681014700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:42:24.249 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:55570 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:42:24.249 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:42:44.250 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:55570] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP 20001ms 5 bytes (pipelined: 2)
+Jul 05, 2020 13:42:44.265 [0x7f7681014700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:42:44.266 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:55570 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:42:44.266 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:43:04.266 [0x7f7681014700] DEBUG - Completed: [172.19.0.1:55570] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP 20000ms 5 bytes (pipelined: 3)
+Jul 05, 2020 13:43:04.298 [0x7f7680813700] DEBUG - Auth: authenticated user 1 as duran750
+Jul 05, 2020 13:43:04.298 [0x7f76677fe700] DEBUG - Request: [172.19.0.1:55570 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (3 live) GZIP Signed-in Token (duran750)
+Jul 05, 2020 13:43:04.298 [0x7f76677fe700] DEBUG - Content-Length is -1 (of total: -1).
+Jul 05, 2020 13:43:07.502 [0x7f7680813700] DEBUG - WebSocket: client initiated close
+Jul 05, 2020 13:43:07.503 [0x7f7681014700] DEBUG - handleStreamRead code 2: End of file
+Jul 05, 2020 13:43:07.503 [0x7f7681014700] DEBUG - NotificationStream: Removing because of error
+Jul 05, 2020 13:43:07.503 [0x7f7681014700] DEBUG - Completed after connection close: [172.19.0.1:55034] -3 GET /:/websockets/notifications (3 live) GZIP 2156420ms 9970 bytes
+Jul 05, 2020 13:43:24.299 [0x7f7680813700] DEBUG - Completed: [172.19.0.1:55570] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (2 live) GZIP 20000ms 5 bytes (pipelined: 4)
+Jul 05, 2020 13:43:25.582 [0x7f761bfff700] DEBUG - [CompanionProxy] player tahhxv7oumd6sxzxfxf3hqaz was last refreshed 10 seconds ago
+Jul 05, 2020 13:43:35.583 [0x7f75f3fff700] DEBUG - [CompanionProxy] player tahhxv7oumd6sxzxfxf3hqaz was last refreshed 20 seconds ago
+Jul 05, 2020 13:43:45.583 [0x7f7666ffd700] DEBUG - [CompanionProxy] player tahhxv7oumd6sxzxfxf3hqaz was last refreshed 30 seconds ago
+Jul 05, 2020 13:43:55.584 [0x7f7666ffd700] DEBUG - [CompanionProxy] player tahhxv7oumd6sxzxfxf3hqaz was last refreshed 40 seconds ago
+Jul 05, 2020 13:43:55.584 [0x7f7666ffd700] DEBUG - [CompanionProxy] player tahhxv7oumd6sxzxfxf3hqaz was not refreshed for over 30 seconds, dropping it.
+Jul 05, 2020 13:46:51.808 [0x7f7682016700] DEBUG - Shutting down with signal 15 (Terminated)
+Jul 05, 2020 13:46:51.808 [0x7f7682016700] DEBUG - Ordered to stop server.
+Jul 05, 2020 13:46:51.808 [0x7f7682016700] WARN - Timed out waiting for server to finish.
+Jul 05, 2020 13:46:51.808 [0x7f768beaff40] DEBUG - Stopping server...
+Jul 05, 2020 13:46:51.808 [0x7f768beaff40] DEBUG - HttpServer: Stopping server.
+Jul 05, 2020 13:46:51.808 [0x7f7667fff700] DEBUG - TranscodeJobManager: [Running] onServerShutdown
+Jul 05, 2020 13:46:51.808 [0x7f7667fff700] DEBUG - TranscodeJobManager: [Running] -> [Shutdown]
+Jul 05, 2020 13:46:51.808 [0x7f7667fff700] DEBUG - MetadataItemClusterRequestHandler: a shutdown event has been received
+Jul 05, 2020 13:46:51.808 [0x7f768beaff40] DEBUG - Server stopped.
+Jul 05, 2020 13:46:51.808 [0x7f768beaff40] DEBUG - NetworkService: Stopping advertisement.
+Jul 05, 2020 13:46:51.808 [0x7f768beaff40] DEBUG - Killing plug-ins.
+Jul 05, 2020 13:46:51.808 [0x7f768beaff40] DEBUG - [com.plexapp.system] Killing.
+Jul 05, 2020 13:46:51.808 [0x7f768beaff40] DEBUG - Waiting for Plex Tuner Service to exit.
+Jul 05, 2020 13:46:51.811 [0x7f7682016700] DEBUG - Jobs: '/usr/lib/plexmediaserver/Plex Tuner Service' exit code for process 359 is 0 (success)
+Jul 05, 2020 13:46:51.811 [0x7f7678944700] DEBUG - Plex Tuner Service exited.
+Jul 05, 2020 13:46:51.811 [0x7f7682016700] WARN - JobManager: Could not find job for handle 456
+Jul 05, 2020 13:46:51.811 [0x7f768beaff40] DEBUG - Killing job.
+Jul 05, 2020 13:46:51.811 [0x7f768beaff40] DEBUG - Signalling job ID 517 with 9
+Jul 05, 2020 13:46:51.811 [0x7f768beaff40] DEBUG - Database: Shutting down.
+Jul 05, 2020 13:46:51.811 [0x7f768beaff40] DEBUG - Captured session 0.
+Jul 05, 2020 13:46:51.811 [0x7f768beaff40] DEBUG - Captured session 1.
+Jul 05, 2020 13:46:51.811 [0x7f768beaff40] DEBUG - Captured session 2.
+Jul 05, 2020 13:46:51.811 [0x7f768beaff40] DEBUG - Captured session 3.
+Jul 05, 2020 13:46:51.811 [0x7f768beaff40] DEBUG - Captured session 4.
+Jul 05, 2020 13:46:51.811 [0x7f768beaff40] DEBUG - Captured session 5.
+Jul 05, 2020 13:46:51.811 [0x7f768beaff40] DEBUG - Captured session 6.
+Jul 05, 2020 13:46:51.811 [0x7f768beaff40] DEBUG - Captured session 7.
+Jul 05, 2020 13:46:51.811 [0x7f768beaff40] DEBUG - Captured session 8.
+Jul 05, 2020 13:46:51.811 [0x7f768beaff40] DEBUG - Captured session 9.
+Jul 05, 2020 13:46:51.811 [0x7f768beaff40] DEBUG - Captured session 10.
+Jul 05, 2020 13:46:51.811 [0x7f768beaff40] DEBUG - Captured session 11.
+Jul 05, 2020 13:46:51.811 [0x7f768beaff40] DEBUG - Captured session 12.
+Jul 05, 2020 13:46:51.811 [0x7f768beaff40] DEBUG - Captured session 13.
+Jul 05, 2020 13:46:51.811 [0x7f768beaff40] DEBUG - Captured session 14.
+Jul 05, 2020 13:46:51.811 [0x7f768beaff40] DEBUG - Captured session 15.
+Jul 05, 2020 13:46:51.811 [0x7f768beaff40] DEBUG - Captured session 16.
+Jul 05, 2020 13:46:51.811 [0x7f768beaff40] DEBUG - Captured session 17.
+Jul 05, 2020 13:46:51.811 [0x7f768beaff40] DEBUG - Captured session 18.
+Jul 05, 2020 13:46:51.811 [0x7f768beaff40] DEBUG - Captured session 19.
+Jul 05, 2020 13:46:51.818 [0x7f768beaff40] DEBUG - Database: Shutting down.
+Jul 05, 2020 13:46:51.818 [0x7f768beaff40] DEBUG - Captured session 0.
+Jul 05, 2020 13:46:51.818 [0x7f768beaff40] DEBUG - Captured session 1.

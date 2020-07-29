@@ -1,0 +1,49 @@
+2020-07-27 21:21:40,505 (7f44eb24c700) :  INFO (core:349) - Starting framework core - Version: 2.6.3, Build: b23ab38 (Mon Jul 20 09:44:03 UTC 2020)
+2020-07-27 21:21:40,505 (7f44eb24c700) :  DEBUG (core:361) - Using the elevated policy
+2020-07-27 21:21:40,506 (7f44eb24c700) :  DEBUG (core:450) - Starting runtime component.
+2020-07-27 21:21:40,512 (7f44eb24c700) :  DEBUG (core:450) - Starting caching component.
+2020-07-27 21:21:40,513 (7f44eb24c700) :  DEBUG (core:450) - Starting data component.
+2020-07-27 21:21:40,513 (7f44eb24c700) :  DEBUG (core:450) - Starting networking component.
+2020-07-27 21:21:40,514 (7f44eb24c700) :  DEBUG (networking:265) - No cookie jar found
+2020-07-27 21:21:40,514 (7f44eb24c700) :  DEBUG (networking:428) - Setting the default network timeout to 20.0
+2020-07-27 21:21:40,515 (7f44eb24c700) :  DEBUG (core:450) - Starting localization component.
+2020-07-27 21:21:40,515 (7f44eb24c700) :  INFO (localization:409) - Setting the default locale to en-us
+2020-07-27 21:21:40,515 (7f44eb24c700) :  DEBUG (core:450) - Starting messaging component.
+2020-07-27 21:21:40,516 (7f44eb24c700) :  DEBUG (core:450) - Starting debugging component.
+2020-07-27 21:21:40,517 (7f44eb24c700) :  DEBUG (core:450) - Starting services component.
+2020-07-27 21:21:40,517 (7f44caffd700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/system/messaging/clear_events/com.plexapp.agents.themoviedb'
+2020-07-27 21:21:40,518 (7f44eb24c700) :  DEBUG (core:450) - Starting myplex component.
+2020-07-27 21:21:40,522 (7f44eb24c700) :  DEBUG (core:450) - Starting notifications component.
+2020-07-27 21:21:40,659 (7f44eb24c700) :  DEBUG (accessor:68) - Creating a new model access point for provider com.plexapp.agents.themoviedb in namespace 'metadata'
+2020-07-27 21:21:40,665 (7f44eb24c700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/resourceHashes'
+2020-07-27 21:21:40,681 (7f44caffd700) :  DEBUG (services:265) - Plug-in is not daemonized - loading services from system
+2020-07-27 21:21:40,681 (7f44caffd700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_'
+2020-07-27 21:21:40,682 (7f44eb24c700) :  DEBUG (runtime:1117) - Created a thread named 'load_all_services'
+2020-07-27 21:21:40,683 (7f44eb24c700) :  DEBUG (runtime:1117) - Created a thread named 'get_server_info'
+2020-07-27 21:21:40,685 (7f44c9ffb700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400'
+2020-07-27 21:21:40,686 (7f44eb24c700) :  DEBUG (core:150) - Finished starting framework core
+2020-07-27 21:21:40,686 (7f44eb24c700) :  DEBUG (core:560) - Loading plug-in code
+2020-07-27 21:21:40,721 (7f44c9ffb700) :  DEBUG (core:538) - Machine identifier is ff16010b63cfd1311f99708cb62ff44242e360e1
+2020-07-27 21:21:40,725 (7f44c9ffb700) :  DEBUG (core:539) - Server version is 1.19.5.3112-b23ab3896
+2020-07-27 21:21:40,727 (7f44caffd700) :  DEBUG (services:362) - Loaded services
+2020-07-27 21:21:40,743 (7f44ca7fc700) :  DEBUG (services:438) - No shared code to load
+2020-07-27 21:21:41,004 (7f44eb24c700) :  DEBUG (core:566) - Finished loading plug-in code
+2020-07-27 21:21:41,004 (7f44eb24c700) :  DEBUG (messaging:69) - Exposing function GetImdbId for remote access
+2020-07-27 21:21:41,005 (7f44eb24c700) :  DEBUG (messaging:69) - Exposing function GetTvdbId for remote access
+2020-07-27 21:21:41,005 (7f44eb24c700) :  DEBUG (messaging:69) - Exposing function GetTvRageId for remote access
+2020-07-27 21:21:41,005 (7f44eb24c700) :  DEBUG (messaging:69) - Exposing function GetTMDbSearchResults for remote access
+2020-07-27 21:21:41,005 (7f44eb24c700) :  DEBUG (messaging:69) - Exposing function GetTMDbMetadata for remote access
+2020-07-27 21:21:41,006 (7f44eb24c700) :  DEBUG (agentkit:1132) - Creating new agent class called TMDbAgent
+2020-07-27 21:21:41,007 (7f44eb24c700) :  DEBUG (agentkit:937) - Updating agent information: [{'media_types': ['Movie'], 'accepts_from': ['com.plexapp.agents.localmedia'], 'fallback_agent': None, 'contributes_to': None, 'languages': ['en', 'cs', 'da', 'de', 'el', 'es', 'fi', 'fr', 'he', 'hr', 'hu', 'it', 'lv', 'lt', 'nl', 'no', 'pl', 'pt', 'ru', 'sk', 'sv', 'th', 'tr', 'vi', 'zh', 'ko'], 'persist_stored_files': True, 'version': 0, 'primary_provider': True, 'prefs': True, 'name': 'The Movie Database'}]
+2020-07-27 21:21:41,008 (7f44eb24c700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo2CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0CjIKczI5CmNvbS5wbGV4YXBwLmFnZW50cy50aGVtb3ZpZWRiczEwCmlkZW50aWZpZXJyMQpzMTAKYWdlbnRfaW5mbzEKcjIKMTAKcjMKczExCm1lZGlhX3R5cGVzcjQKczEyCmFjY2VwdHNfZnJvbW5zMTQKZmFsbGJhY2tfYWdlbnRuczE0CmNvbnRyaWJ1dGVzX3RvcjUKczkKbGFuZ3VhZ2VzYjFzMjAKcGVyc2lzdF9zdG9yZWRfZmlsZXNpMApzNwp2ZXJzaW9uYjFzMTYKcHJpbWFyeV9wcm92aWRlcmIxczUKcHJlZnNzMTgKVGhlIE1vdmllIERhdGFiYXNlczQKbmFtZTEKczUKTW92aWUxCnMyOQpjb20ucGxleGFwcC5hZ2VudHMubG9jYWxtZWRpYTI2CnMyCmVuczIKY3NzMgpkYXMyCmRlczIKZWxzMgplc3MyCmZpczIKZnJzMgpoZXMyCmhyczIKaHVzMgppdHMyCmx2czIKbHRzMgpubHMyCm5vczIKcGxzMgpwdHMyCnJ1czIKc2tzMgpzdnMyCnRoczIKdHJzMgp2aXMyCnpoczIKa29yMAo_'
+2020-07-27 21:21:41,017 (7f44eb24c700) :  DEBUG (agentkit:1132) - Creating new agent class called TMDbAgent
+2020-07-27 21:21:41,019 (7f44eb24c700) :  DEBUG (agentkit:937) - Updating agent information: [{'media_types': ['Movie'], 'accepts_from': ['com.plexapp.agents.localmedia'], 'fallback_agent': None, 'contributes_to': None, 'languages': ['en', 'cs', 'da', 'de', 'el', 'es', 'fi', 'fr', 'he', 'hr', 'hu', 'it', 'lv', 'lt', 'nl', 'no', 'pl', 'pt', 'ru', 'sk', 'sv', 'th', 'tr', 'vi', 'zh', 'ko'], 'persist_stored_files': True, 'version': 0, 'primary_provider': True, 'prefs': True, 'name': 'The Movie Database'}, {'media_types': ['TV_Show'], 'accepts_from': ['com.plexapp.agents.localmedia', 'com.plexapp.agents.thetvdb'], 'fallback_agent': None, 'contributes_to': ['com.plexapp.agents.thetvdb'], 'languages': ['en', 'cs', 'da', 'de', 'el', 'es', 'fi', 'fr', 'he', 'hr', 'hu', 'it', 'lv', 'lt', 'nl', 'no', 'pl', 'pt', 'ru', 'sk', 'sv', 'th', 'tr', 'vi', 'zh', 'ko'], 'persist_stored_files': True, 'version': 0, 'primary_provider': True, 'prefs': True, 'name': 'The Movie Database'}]
+2020-07-27 21:21:41,021 (7f44eb24c700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxMApkaWN0Cmxpc3QKZGljdApsaXN0Cmxpc3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0CjIKczI5CmNvbS5wbGV4YXBwLmFnZW50cy50aGVtb3ZpZWRiczEwCmlkZW50aWZpZXJyMQpzMTAKYWdlbnRfaW5mbzIKcjIKcjYKMTAKcjMKczExCm1lZGlhX3R5cGVzcjQKczEyCmFjY2VwdHNfZnJvbW5zMTQKZmFsbGJhY2tfYWdlbnRuczE0CmNvbnRyaWJ1dGVzX3RvcjUKczkKbGFuZ3VhZ2VzYjFzMjAKcGVyc2lzdF9zdG9yZWRfZmlsZXNpMApzNwp2ZXJzaW9uYjFzMTYKcHJpbWFyeV9wcm92aWRlcmIxczUKcHJlZnNzMTgKVGhlIE1vdmllIERhdGFiYXNlczQKbmFtZTEKczUKTW92aWUxCnMyOQpjb20ucGxleGFwcC5hZ2VudHMubG9jYWxtZWRpYTI2CnMyCmVuczIKY3NzMgpkYXMyCmRlczIKZWxzMgplc3MyCmZpczIKZnJzMgpoZXMyCmhyczIKaHVzMgppdHMyCmx2czIKbHRzMgpubHMyCm5vczIKcGxzMgpwdHMyCnJ1czIKc2tzMgpzdnMyCnRoczIKdHJzMgp2aXMyCnpoczIKa28xMApyNwpzMTEKbWVkaWFfdHlwZXNyOApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI5CnMxNApjb250cmlidXRlc190b3I1CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczE4ClRoZSBNb3ZpZSBEYXRhYmFzZXM0Cm5hbWUxCnM3ClRWX1Nob3cyCnMyOQpjb20ucGxleGFwcC5hZ2VudHMubG9jYWxtZWRpYXMyNgpjb20ucGxleGFwcC5hZ2VudHMudGhldHZkYjEKczI2CmNvbS5wbGV4YXBwLmFnZW50cy50aGV0dmRicjAK'
+2020-07-27 21:21:41,030 (7f44eb24c700) :  INFO (core:611) - Started plug-in
+2020-07-27 21:21:41,030 (7f44eb24c700) :  DEBUG (socketinterface:160) - Starting socket server
+2020-07-27 21:21:41,031 (7f44eb24c700) :  DEBUG (runtime:1117) - Created a thread named 'start'
+2020-07-27 21:21:41,032 (7f44eb24c700) :  INFO (socketinterface:184) - Socket server started on port 41213
+2020-07-27 21:21:41,032 (7f44eb24c700) :  INFO (pipeinterface:25) - Entering run loop
+2020-07-27 21:21:41,033 (7f44eb24c700) :  DEBUG (runtime:717) - Handling request GET /:/prefixes
+2020-07-27 21:21:41,034 (7f44eb24c700) :  DEBUG (runtime:814) - Found route matching /:/prefixes
+2020-07-27 21:21:41,035 (7f44eb24c700) :  DEBUG (runtime:924) - Response: [200] MediaContainer, 154 bytes

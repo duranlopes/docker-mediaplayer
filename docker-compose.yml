@@ -1,0 +1,40 @@
+---
+version: "2.1"
+services:
+  qbitorrent:
+    image: linuxserver/qbittorrent
+    container_name: qbitorrent
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=America/Sao_Paulo 
+      - UMASK_SET=022
+      - WEBUI_PORT=8080
+    volumes:
+      - ./qbittorrent/config:/config
+      - ./downloads:/downloads
+      - ./downloads/filmes:/filmes
+      - ./downloads/seriados:/seriados
+    ports:
+      - 8080:8080
+      - 6882:6881
+      - 6882:6881/udp
+    restart: unless-stopped
+
+  plex:
+    image: linuxserver/plex
+    container_name: plex
+    #network_mode: host
+    ports:
+      - 32410:32400
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - VERSION=docker
+      - UMASK_SET=022 #optional
+      - PLEX_CLAIM= #optional
+    volumes:
+      - ./plex/plexconfig:/config
+      - ./downloads/seriados:/tv
+      - ./downloads/filmes:/movies
+    restart: unless-stopped

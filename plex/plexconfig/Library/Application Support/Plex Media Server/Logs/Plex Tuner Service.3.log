@@ -1,0 +1,27 @@
+Jul 05, 2020 12:59:50.136 [0x7f179b6ee700] INFO - Plex Tuner Service v1.0.0.0 - Docker Docker Container (LinuxServer.io) x86_64 - build: 
+Jul 05, 2020 12:59:50.136 [0x7f179b6ee700] INFO - Linux version: 4.19.104-microsoft-standard (#1 SMP Wed Feb 19 06:37:35 UTC 2020), language: en-US
+Jul 05, 2020 12:59:50.136 [0x7f179b6ee700] INFO - Processor Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz
+Jul 05, 2020 12:59:50.136 [0x7f179b6ee700] INFO - /usr/lib/plexmediaserver/Plex Tuner Service /usr/lib/plexmediaserver/Resources/Tuner/Private /usr/lib/plexmediaserver/Resources/Tuner/Shared 1.19.4.2935-79e214ead 32600 /waitmutex
+Jul 05, 2020 12:59:50.135 [0x7f17a0692740] INFO - [I] broker_t::start...
+Jul 05, 2020 12:59:50.137 [0x7f17a0692740] INFO - [I] device_manager_t::init.
+Jul 05, 2020 12:59:50.137 [0x7f17a0692740] INFO - [I] device_manager_t::init. Initialize provider manager
+Jul 05, 2020 12:59:50.137 [0x7f17a0692740] INFO - [I] device_manager_t::init. Initialize all device auxes
+Jul 05, 2020 12:59:50.137 [0x7f17a0692740] INFO - [I] dvb_device_factory_t::get_aux_list
+Jul 05, 2020 12:59:50.137 [0x7f17a0692740] INFO - [I] tvbutler_aux_t::init
+Jul 05, 2020 12:59:50.139 [0x7f17a0692740] INFO - [I] web_server_t::start. Starting web server on port 32600
+Jul 05, 2020 12:59:58.466 [0x7f179a6ec700] INFO - [I] web_service_t::process_device_discovery
+Jul 05, 2020 12:59:58.466 [0x7f179a6ec700] INFO - [I] device_reactor_t::get_device_list ()
+Jul 05, 2020 12:59:58.466 [0x7f179a6ec700] INFO - [I] dvb_device_factory_t::get_device_list ()
+Jul 05, 2020 13:00:00.472 [0x7f179a6ec700] INFO - [I] SAT2IP - discover_satip_servers(): no servers found
+Jul 05, 2020 13:00:00.899 [0x7f179a6ec700] INFO - [I] v4l::DeviceGetList_impl. getting v4l device list
+Jul 05, 2020 13:00:00.904 [0x7f179a6ec700] INFO - [I] onetv_factory::DeviceGetListEx >>
+Jul 05, 2020 13:00:00.905 [0x7f179a6ec700] WARN - [W] onetv_factory::DeviceGetListEx. libusb_init returned an error -99
+Jul 05, 2020 13:00:55.109 [0x7f17a0692740] INFO - [I] device_manager_t::term
+Jul 05, 2020 13:00:55.110 [0x7f17a0692740] INFO - [I] device_manager_t::term. Stop all devices
+Jul 05, 2020 13:00:55.110 [0x7f17a0692740] INFO - [I] device_manager_t::term. Shut down all device auxes
+Jul 05, 2020 13:00:55.110 [0x7f17a0692740] INFO - [I] tvbutler_aux_t::term
+Jul 05, 2020 13:00:55.110 [0x7f17a0692740] INFO - [I] web_server_t::stop. Web server is stopped
+Jul 05, 2020 13:00:55.110 [0x7f17a0692740] INFO - [I] device_manager_t::term
+Jul 05, 2020 13:00:55.110 [0x7f17a0692740] INFO - [I] device_manager_t::term. Stop all devices
+Jul 05, 2020 13:00:55.110 [0x7f17a0692740] INFO - [I] device_manager_t::term. Shut down all device auxes
+Jul 05, 2020 13:00:55.110 [0x7f17a0692740] INFO - [I] broker_t::shutdown. Shutdown is completed.

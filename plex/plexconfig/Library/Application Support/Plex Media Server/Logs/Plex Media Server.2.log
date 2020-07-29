@@ -1,0 +1,337 @@
+Jul 05, 2020 13:00:58.817 [0x7f797a9a3700] INFO - Plex Media Server v1.19.4.2935-79e214ead - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 debian - GMT 00:00
+Jul 05, 2020 13:00:58.817 [0x7f797a9a3700] INFO - Linux version: 4.19.104-microsoft-standard, language: en-US
+Jul 05, 2020 13:00:58.817 [0x7f797a9a3700] INFO - Processor Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz
+Jul 05, 2020 13:00:58.817 [0x7f797a9a3700] INFO - /usr/lib/plexmediaserver/Plex Media Server
+Jul 05, 2020 13:00:58.818 [0x7f798403bf40] DEBUG - BPQ: [Idle] -> [Starting]
+Jul 05, 2020 13:00:58.818 [0x7f798403bf40] DEBUG - FeatureManager: Using cached data for features list
+Jul 05, 2020 13:00:58.818 [0x7f798403bf40] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.26.0, threadsafe=1
+Jul 05, 2020 13:00:58.836 [0x7f798403bf40] DEBUG - Running migrations. (EPG 0)
+Jul 05, 2020 13:00:58.837 [0x7f798403bf40] DEBUG - ChangestampAllocator: initialized to 0
+Jul 05, 2020 13:00:58.837 [0x7f798403bf40] DEBUG - Opening 2 database sessions to library (com.plexapp.plugins.library.blobs), SQLite 3.26.0, threadsafe=1
+Jul 05, 2020 13:00:58.839 [0x7f798403bf40] DEBUG - Running migrations. (EPG 0)
+Jul 05, 2020 13:00:58.845 [0x7f798403bf40] DEBUG - HttpServer: Listening on IPv6 as well as IPv4.
+Jul 05, 2020 13:00:58.845 [0x7f798403bf40] DEBUG - HttpServer: Listening on port 32400.
+Jul 05, 2020 13:00:58.845 [0x7f798403bf40] DEBUG - HttpServer: Listening on port 32401.
+Jul 05, 2020 13:00:58.847 [0x7f79799a1700] DEBUG - Grabber: Cleaning up orphaned grabs.
+Jul 05, 2020 13:00:58.847 [0x7f79799a1700] DEBUG - Grabber: Cleaned up 0 decrepit directories in 0.0 sec.
+Jul 05, 2020 13:00:58.847 [0x7f798403bf40] DEBUG - Media Provider: Registering provider com.plexapp.plugins.library
+Jul 05, 2020 13:00:58.847 [0x7f798403bf40] DEBUG - Auth: Refreshing tokens inside the token-based authentication filter.
+Jul 05, 2020 13:00:58.847 [0x7f798403bf40] DEBUG - MyPlex: mapping state set to 'Unknown'.
+Jul 05, 2020 13:00:58.847 [0x7f798403bf40] DEBUG - Relay: read 0 cached entries from hosts file
+Jul 05, 2020 13:00:58.847 [0x7f79799a1700] DEBUG - HTTP requesting GET https://plex.tv/media/providers?X-Plex-Token=
+Jul 05, 2020 13:00:58.847 [0x7f798403bf40] DEBUG - Opening 1 database sessions to library (), SQLite 3.26.0, threadsafe=1
+Jul 05, 2020 13:00:58.847 [0x7f7973fff700] DEBUG - Auth: Refreshing tokens inside the token-based authentication filter.
+Jul 05, 2020 13:00:58.848 [0x7f79729c9700] DEBUG - File "/usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead" changed: -1 => 2020-07-02 04:50:33 (1593665433).
+Jul 05, 2020 13:00:58.848 [0x7f79729c9700] DEBUG - File "/config/Library/Application Support/Plex Media Server/Plug-ins" changed: -1 => 2020-07-05 13:00:52 (1593954052).
+Jul 05, 2020 13:00:58.848 [0x7f79729c9700] DEBUG - Scanning for plug-ins in "/usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead"
+Jul 05, 2020 13:00:58.849 [0x7f79729c9700] DEBUG - Scanning for plug-ins in "/config/Library/Application Support/Plex Media Server/Plug-ins"
+Jul 05, 2020 13:00:58.849 [0x7f79729c9700] DEBUG - PluginRepository::setStartState: 1, startingSystem
+Jul 05, 2020 13:00:58.849 [0x7f79729c9700] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/System.bundle.
+Jul 05, 2020 13:00:58.849 [0x7f79729c9700] DEBUG - [com.plexapp.system] Setting plug-in to always running (daemon mode).
+Jul 05, 2020 13:00:58.850 [0x7f79729c9700] DEBUG - Starting file watcher for com.plexapp.system
+Jul 05, 2020 13:00:58.850 [0x7f79729c9700] DEBUG - Plugin: not setting user token for plugin
+Jul 05, 2020 13:00:58.850 [0x7f79729c9700] DEBUG - Spawned plug-in com.plexapp.system with PID 319
+Jul 05, 2020 13:00:58.850 [0x7f79729c9700] DEBUG - [com.plexapp.system] Sending command: GET /:/prefixes
+Jul 05, 2020 13:00:59.911 [0x7f79799a1700] DEBUG - HTTP 401 response from GET https://plex.tv/media/providers?X-Plex-Token=
+Jul 05, 2020 13:01:00.507 [0x7f79729c9700] DEBUG - Reading 486 bytes in the body, code is 200
+Jul 05, 2020 13:01:00.507 [0x7f79729c9700] DEBUG - [com.plexapp.system] Plug-in running on port 38843.
+Jul 05, 2020 13:01:00.507 [0x7f79729c9700] DEBUG -  * Plug-in handles prefix: /system
+Jul 05, 2020 13:01:00.507 [0x7f79729c9700] DEBUG -  * Plug-in handles prefix: /player
+Jul 05, 2020 13:01:00.507 [0x7f79729c9700] DEBUG - Read configuration for [com.plexapp.system], had 2 prefixes
+Jul 05, 2020 13:01:00.507 [0x7f79729c9700] DEBUG - Done with 1 synchronous plug-in starts, starting the rest in parallel.
+Jul 05, 2020 13:01:00.507 [0x7f79729c9700] DEBUG - PluginRepository::setStartState: 2, startingPlugins
+Jul 05, 2020 13:01:00.507 [0x7f79729c9700] DEBUG - Updating the list of agents known by the system.
+Jul 05, 2020 13:01:00.507 [0x7f79729c9700] DEBUG - [com.plexapp.system] Sending command over HTTP (GET): /system/agents
+Jul 05, 2020 13:01:00.507 [0x7f79729c9700] DEBUG - HTTP requesting GET http://127.0.0.1:38843/system/agents
+Jul 05, 2020 13:01:00.507 [0x7f798403bf40] DEBUG - Image transcode cache directory: "/config/Library/Application Support/Plex Media Server/Cache/PhotoTranscoder"
+Jul 05, 2020 13:01:00.507 [0x7f798403bf40] DEBUG - Transcoder: Cleaning old transcode directories.
+Jul 05, 2020 13:01:00.508 [0x7f798403bf40] DEBUG - MyPlex: stop public ip check and mapping - current mapped state: 'Unknown'.
+Jul 05, 2020 13:01:00.508 [0x7f798403bf40] DEBUG - NetworkInterface: Starting watch thread.
+Jul 05, 2020 13:01:00.508 [0x7f798403bf40] DEBUG - Network change.
+Jul 05, 2020 13:01:00.508 [0x7f79711c6700] DEBUG - NetworkInterface: Watching for changes on the interfaces.
+Jul 05, 2020 13:01:00.508 [0x7f798403bf40] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Jul 05, 2020 13:01:00.508 [0x7f798403bf40] DEBUG - Detected primary interface: 192.168.65.3
+Jul 05, 2020 13:01:00.508 [0x7f798403bf40] DEBUG - Network interfaces:
+Jul 05, 2020 13:01:00.508 [0x7f798403bf40] DEBUG -  * 1 lo (127.0.0.1) (loopback: 1)
+Jul 05, 2020 13:01:00.508 [0x7f798403bf40] DEBUG -  * 3 eth0 (192.168.65.3) (loopback: 0)
+Jul 05, 2020 13:01:00.508 [0x7f798403bf40] DEBUG -  * 4 docker0 (172.17.0.1) (loopback: 0)
+Jul 05, 2020 13:01:00.508 [0x7f798403bf40] DEBUG -  * 5 br-de7d7400c7f3 (172.18.0.1) (loopback: 0)
+Jul 05, 2020 13:01:00.508 [0x7f798403bf40] DEBUG -  * 8 br-8491bc2d68ce (172.19.0.1) (loopback: 0)
+Jul 05, 2020 13:01:00.508 [0x7f798403bf40] DEBUG -  * 1 lo (::1) (loopback: 1)
+Jul 05, 2020 13:01:00.508 [0x7f798403bf40] DEBUG -  * 3 eth0 (fe80::50:ff:fe00:1%eth0) (loopback: 0)
+Jul 05, 2020 13:01:00.508 [0x7f798403bf40] DEBUG -  * 4 docker0 (fe80::42:3bff:fe09:889a%docker0) (loopback: 0)
+Jul 05, 2020 13:01:00.508 [0x7f798403bf40] DEBUG -  * 8 br-8491bc2d68ce (fe80::42:9cff:fef9:448d%br-8491bc2d68ce) (loopback: 0)
+Jul 05, 2020 13:01:00.508 [0x7f798403bf40] DEBUG -  * 12 veth4d03865 (fe80::c463:f2ff:fe85:3787%veth4d03865) (loopback: 0)
+Jul 05, 2020 13:01:00.508 [0x7f798403bf40] DEBUG - Creating NetworkServices singleton.
+Jul 05, 2020 13:01:00.508 [0x7f798403bf40] DEBUG - NetworkServices: Initializing...
+Jul 05, 2020 13:01:00.508 [0x7f798403bf40] DEBUG - NetworkService: Creating new service.
+Jul 05, 2020 13:01:00.508 [0x7f798403bf40] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+Jul 05, 2020 13:01:00.508 [0x7f798403bf40] DEBUG - NetworkService: Quick dispatch of network change.
+Jul 05, 2020 13:01:00.508 [0x7f798403bf40] DEBUG - NetworkService: Creating new service.
+Jul 05, 2020 13:01:00.508 [0x7f798403bf40] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+Jul 05, 2020 13:01:00.508 [0x7f798403bf40] DEBUG - NetworkService: Quick dispatch of network change.
+Jul 05, 2020 13:01:00.508 [0x7f798403bf40] DEBUG - NetworkService: Creating new service.
+Jul 05, 2020 13:01:00.508 [0x7f798403bf40] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+Jul 05, 2020 13:01:00.508 [0x7f798403bf40] DEBUG - NetworkService: Quick dispatch of network change.
+Jul 05, 2020 13:01:00.508 [0x7f798403bf40] DEBUG - NetworkService: Creating new service.
+Jul 05, 2020 13:01:00.508 [0x7f798403bf40] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+Jul 05, 2020 13:01:00.508 [0x7f798403bf40] DEBUG - NetworkService: Quick dispatch of network change.
+Jul 05, 2020 13:01:00.508 [0x7f798403bf40] DEBUG - NetworkService: Creating new service.
+Jul 05, 2020 13:01:00.508 [0x7f798403bf40] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+Jul 05, 2020 13:01:00.508 [0x7f798403bf40] DEBUG - NetworkService: Quick dispatch of network change.
+Jul 05, 2020 13:01:00.508 [0x7f798403bf40] DEBUG - NetworkService: Creating new service.
+Jul 05, 2020 13:01:00.508 [0x7f798403bf40] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+Jul 05, 2020 13:01:00.508 [0x7f798403bf40] DEBUG - NetworkService: Quick dispatch of network change.
+Jul 05, 2020 13:01:00.508 [0x7f79719c7700] DEBUG - Network change for advertiser.
+Jul 05, 2020 13:01:00.508 [0x7f79719c7700] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32414
+Jul 05, 2020 13:01:00.508 [0x7f798403bf40] DEBUG - Starting HTTP server.
+Jul 05, 2020 13:01:00.508 [0x7f798403bf40] DEBUG - Running server...
+Jul 05, 2020 13:01:00.509 [0x7f79719c7700] DEBUG - Network change for advertiser.
+Jul 05, 2020 13:01:00.509 [0x7f79719c7700] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32410
+Jul 05, 2020 13:01:00.509 [0x7f79719c7700] DEBUG - Network change for advertiser.
+Jul 05, 2020 13:01:00.509 [0x7f79719c7700] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32412
+Jul 05, 2020 13:01:00.509 [0x7f798403bf40] DEBUG - Waiting for server condition to be signaled.
+Jul 05, 2020 13:01:00.509 [0x7f79719c7700] DEBUG - NetworkService: Network change for browser (polled=0), closing 0 browse sockets.
+Jul 05, 2020 13:01:00.509 [0x7f79719c7700] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32413
+Jul 05, 2020 13:01:00.509 [0x7f79719c7700] DEBUG - NetworkService: Browsing on interface 127.0.0.1 on broadcast address 127.255.255.255 (index: 0)
+Jul 05, 2020 13:01:00.509 [0x7f795ffff700] DEBUG - HttpServer: Set up a thread pool with 2 threads.
+Jul 05, 2020 13:01:00.509 [0x7f79719c7700] DEBUG - NetworkService: Browsing on interface 192.168.65.3 on broadcast address 192.168.65.15 (index: 1)
+Jul 05, 2020 13:01:00.509 [0x7f79719c7700] DEBUG - NetworkService: Browsing on interface 172.18.0.1 on broadcast address 172.18.255.255 (index: 2)
+Jul 05, 2020 13:01:00.509 [0x7f79719c7700] DEBUG - NetworkService: Browsing on interface 172.19.0.1 on broadcast address 172.19.255.255 (index: 3)
+Jul 05, 2020 13:01:00.509 [0x7f79719c7700] DEBUG - NetworkService: Network change for browser (polled=1), closing 0 browse sockets.
+Jul 05, 2020 13:01:00.509 [0x7f79719c7700] DEBUG - NetworkService: Browsing on interface 127.0.0.1 on broadcast address 127.255.255.255 (index: 0)
+Jul 05, 2020 13:01:00.510 [0x7f79719c7700] DEBUG - NetworkService: Browsing on interface 192.168.65.3 on broadcast address 192.168.65.15 (index: 1)
+Jul 05, 2020 13:01:00.510 [0x7f79719c7700] DEBUG - NetworkService: Browsing on interface 172.18.0.1 on broadcast address 172.18.255.255 (index: 2)
+Jul 05, 2020 13:01:00.510 [0x7f79719c7700] DEBUG - NetworkService: Browsing on interface 172.19.0.1 on broadcast address 172.19.255.255 (index: 3)
+Jul 05, 2020 13:01:00.510 [0x7f79719c7700] DEBUG - NetworkService: Network change for browser (polled=0), closing 0 browse sockets.
+Jul 05, 2020 13:01:00.510 [0x7f79719c7700] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:1901
+Jul 05, 2020 13:01:00.510 [0x7f795ffff700] DEBUG - HTTP requesting GET https://plex.tv/api/v2/user/privacy?X-Plex-Token=
+Jul 05, 2020 13:01:00.510 [0x7f79709c5700] DEBUG - Plex Tuner Service starting.
+Jul 05, 2020 13:01:00.510 [0x7f79719c7700] DEBUG - NetworkService: Browsing on interface 192.168.65.3 on broadcast address 239.255.255.250 (index: 0)
+Jul 05, 2020 13:01:00.510 [0x7f79709c5700] DEBUG - Job running: '/usr/lib/plexmediaserver/Plex Tuner Service' '/usr/lib/plexmediaserver/Resources/Tuner/Private' '/usr/lib/plexmediaserver/Resources/Tuner/Shared' '1.19.4.2935-79e214ead' '32600' '/waitmutex'
+Jul 05, 2020 13:01:00.510 [0x7f79719c7700] DEBUG - NetworkService: Browsing on interface 172.18.0.1 on broadcast address 239.255.255.250 (index: 1)
+Jul 05, 2020 13:01:00.510 [0x7f79719c7700] DEBUG - NetworkService: Browsing on interface 172.19.0.1 on broadcast address 239.255.255.250 (index: 2)
+Jul 05, 2020 13:01:00.510 [0x7f79709c5700] DEBUG - Jobs: Starting child process with pid 362
+Jul 05, 2020 13:01:00.511 [0x7f795f7fe700] DEBUG - Request: [127.0.0.1:33750 (Loopback)] GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_ (5 live) GZIP
+Jul 05, 2020 13:01:00.511 [0x7f795f7fe700] DEBUG - Translator: Found locale zh_CN
+Jul 05, 2020 13:01:00.511 [0x7f795f7fe700] DEBUG - Translator: Found locale ar
+Jul 05, 2020 13:01:00.511 [0x7f795f7fe700] DEBUG - Translator: Found locale et_EE
+Jul 05, 2020 13:01:00.511 [0x7f795f7fe700] DEBUG - Translator: Found locale it
+Jul 05, 2020 13:01:00.511 [0x7f795f7fe700] DEBUG - Translator: Found locale fi
+Jul 05, 2020 13:01:00.511 [0x7f795f7fe700] DEBUG - Translator: Found locale sv
+Jul 05, 2020 13:01:00.511 [0x7f795f7fe700] DEBUG - Translator: Found locale ru
+Jul 05, 2020 13:01:00.511 [0x7f795f7fe700] DEBUG - Translator: Found locale sr
+Jul 05, 2020 13:01:00.511 [0x7f795f7fe700] DEBUG - Translator: Found locale pl
+Jul 05, 2020 13:01:00.511 [0x7f795f7fe700] DEBUG - Translator: Found locale nl
+Jul 05, 2020 13:01:00.511 [0x7f795f7fe700] DEBUG - Translator: Found locale he
+Jul 05, 2020 13:01:00.511 [0x7f795f7fe700] DEBUG - Translator: Found locale ro
+Jul 05, 2020 13:01:00.511 [0x7f795f7fe700] DEBUG - Translator: Found locale hu
+Jul 05, 2020 13:01:00.511 [0x7f795f7fe700] DEBUG - Translator: Found locale ja_JP
+Jul 05, 2020 13:01:00.511 [0x7f795f7fe700] DEBUG - Translator: Found locale ko
+Jul 05, 2020 13:01:00.511 [0x7f795f7fe700] DEBUG - Translator: Found locale en
+Jul 05, 2020 13:01:00.511 [0x7f795f7fe700] DEBUG - Translator: Found locale da
+Jul 05, 2020 13:01:00.511 [0x7f795f7fe700] DEBUG - Translator: Found locale no
+Jul 05, 2020 13:01:00.511 [0x7f795f7fe700] DEBUG - Translator: Found locale hu_HU
+Jul 05, 2020 13:01:00.511 [0x7f795f7fe700] DEBUG - Translator: Found locale fr
+Jul 05, 2020 13:01:00.511 [0x7f795f7fe700] DEBUG - Translator: Found locale nl_BE
+Jul 05, 2020 13:01:00.511 [0x7f795f7fe700] DEBUG - Translator: Found locale af
+Jul 05, 2020 13:01:00.511 [0x7f795f7fe700] DEBUG - Translator: Found locale pt_BR
+Jul 05, 2020 13:01:00.511 [0x7f795f7fe700] DEBUG - Translator: Found locale de
+Jul 05, 2020 13:01:00.511 [0x7f795f7fe700] DEBUG - Translator: Found locale hr_HR
+Jul 05, 2020 13:01:00.511 [0x7f795f7fe700] DEBUG - Translator: Found locale lt
+Jul 05, 2020 13:01:00.511 [0x7f795f7fe700] DEBUG - Translator: Found locale es
+Jul 05, 2020 13:01:00.511 [0x7f795f7fe700] DEBUG - Translator: Found locale cs_CZ
+Jul 05, 2020 13:01:00.511 [0x7f795effd700] DEBUG - Request: [127.0.0.1:33752 (Loopback)] GET / (5 live) GZIP
+Jul 05, 2020 13:01:00.514 [0x7f795f7fe700] DEBUG - [com.plexapp.system] Sending command over HTTP (GET): /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
+Jul 05, 2020 13:01:00.514 [0x7f795f7fe700] DEBUG - HTTP requesting GET http://127.0.0.1:38843/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
+Jul 05, 2020 13:01:00.515 [0x7f795e7fc700] DEBUG - Request: [127.0.0.1:33754 (Loopback)] GET / (5 live) GZIP
+Jul 05, 2020 13:01:00.515 [0x7f795effd700] DEBUG - Request: [127.0.0.1:33756 (Loopback)] GET /servers (5 live) GZIP
+Jul 05, 2020 13:01:00.515 [0x7f797899f700] DEBUG - Completed: [127.0.0.1:33752] 200 GET / (5 live) GZIP 4ms 1981 bytes
+Jul 05, 2020 13:01:00.515 [0x7f79791a0700] DEBUG - Completed: [127.0.0.1:33756] 200 GET /servers (4 live) GZIP 4ms 495 bytes
+Jul 05, 2020 13:01:00.515 [0x7f797899f700] DEBUG - Completed: [127.0.0.1:33754] 200 GET / (4 live) GZIP 4ms 1981 bytes
+Jul 05, 2020 13:01:00.539 [0x7f795effd700] DEBUG - Request: [127.0.0.1:33770 (Loopback)] GET / (3 live) GZIP
+Jul 05, 2020 13:01:00.539 [0x7f797899f700] DEBUG - Completed: [127.0.0.1:33770] 200 GET / (3 live) GZIP 0ms 1981 bytes
+Jul 05, 2020 13:01:00.544 [0x7f795e7fc700] DEBUG - Request: [127.0.0.1:33772 (Loopback)] GET /library/sections (3 live) GZIP
+Jul 05, 2020 13:01:00.545 [0x7f797899f700] DEBUG - Completed: [127.0.0.1:33772] 200 GET /library/sections (3 live) GZIP 0ms 475 bytes
+Jul 05, 2020 13:01:00.552 [0x7f795dffb700] DEBUG - Request: [127.0.0.1:33774 (Loopback)] GET /channels/all (3 live) GZIP
+Jul 05, 2020 13:01:00.552 [0x7f797899f700] DEBUG - Completed: [127.0.0.1:33774] 200 GET /channels/all (3 live) GZIP 0ms 387 bytes
+Jul 05, 2020 13:01:00.778 [0x7f79729c9700] DEBUG - HTTP 200 response from GET http://127.0.0.1:38843/system/agents
+Jul 05, 2020 13:01:00.778 [0x7f79729c9700] DEBUG - [com.plexapp.system] HTTP reply status 200, with 12079 bytes of content.
+Jul 05, 2020 13:01:00.780 [0x7f79729c9700] DEBUG - The system knows about 15 agents.
+Jul 05, 2020 13:01:00.780 [0x7f795cff9700] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/TheTVDB.bundle.
+Jul 05, 2020 13:01:00.780 [0x7f793bfff700] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/MoviePosterDB.bundle.
+Jul 05, 2020 13:01:00.780 [0x7f79729c9700] DEBUG - Waiting for 20 plug-ins to finish starting.
+Jul 05, 2020 13:01:00.780 [0x7f795d7fa700] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/PlexMovie.bundle.
+Jul 05, 2020 13:01:00.781 [0x7f793bfff700] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.movieposterdb] yet.
+Jul 05, 2020 13:01:00.781 [0x7f793bfff700] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/PlexThemeMusic.bundle.
+Jul 05, 2020 13:01:00.781 [0x7f795d7fa700] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.imdb] yet.
+Jul 05, 2020 13:01:00.781 [0x7f795cff9700] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.thetvdb] yet.
+Jul 05, 2020 13:01:00.781 [0x7f795d7fa700] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/Musicbrainz.bundle.
+Jul 05, 2020 13:01:00.781 [0x7f795cff9700] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/LyricFind.bundle.
+Jul 05, 2020 13:01:00.781 [0x7f793bfff700] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.plexthememusic] yet.
+Jul 05, 2020 13:01:00.781 [0x7f793bfff700] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/Framework.bundle.
+Jul 05, 2020 13:01:00.781 [0x7f795d7fa700] DEBUG - Perfect cache hit, we don't need to start [org.musicbrainz.agents.music] yet.
+Jul 05, 2020 13:01:00.781 [0x7f795d7fa700] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/TheMovieDB.bundle.
+Jul 05, 2020 13:01:00.781 [0x7f795cff9700] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.lyricfind] yet.
+Jul 05, 2020 13:01:00.782 [0x7f795cff9700] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/OpenSubtitles.bundle.
+Jul 05, 2020 13:01:00.782 [0x7f793bfff700] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/HTbackdrops.bundle.
+Jul 05, 2020 13:01:00.782 [0x7f795d7fa700] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.themoviedb] yet.
+Jul 05, 2020 13:01:00.782 [0x7f795d7fa700] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/WebClient.bundle.
+Jul 05, 2020 13:01:00.782 [0x7f795cff9700] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.opensubtitles] yet.
+Jul 05, 2020 13:01:00.782 [0x7f795cff9700] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/PlexMusic.bundle.
+Jul 05, 2020 13:01:00.782 [0x7f793bfff700] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.htbackdrops] yet.
+Jul 05, 2020 13:01:00.782 [0x7f793bfff700] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/Fanart-TV.bundle.
+Jul 05, 2020 13:01:00.782 [0x7f795d7fa700] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/LastFM.bundle.
+Jul 05, 2020 13:01:00.782 [0x7f795cff9700] DEBUG - Perfect cache hit, we don't need to start [tv.plex.agents.music] yet.
+Jul 05, 2020 13:01:00.782 [0x7f795cff9700] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/Media-Flags.bundle.
+Jul 05, 2020 13:01:00.782 [0x7f793bfff700] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.fanarttv] yet.
+Jul 05, 2020 13:01:00.782 [0x7f793bfff700] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/LocalMedia.bundle.
+Jul 05, 2020 13:01:00.782 [0x7f795d7fa700] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.lastfm] yet.
+Jul 05, 2020 13:01:00.782 [0x7f795d7fa700] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/Scanners.bundle.
+Jul 05, 2020 13:01:00.783 [0x7f795cff9700] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/PersonalMedia.bundle.
+Jul 05, 2020 13:01:00.783 [0x7f795d7fa700] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/PlexMovieNew.bundle.
+Jul 05, 2020 13:01:00.783 [0x7f795cff9700] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.none] yet.
+Jul 05, 2020 13:01:00.783 [0x7f795cff9700] DEBUG - Starting plug-in /config/Library/Application Support/Plex Media Server/Plug-ins/Services.bundle.
+Jul 05, 2020 13:01:00.783 [0x7f793bfff700] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.localmedia] yet.
+Jul 05, 2020 13:01:00.783 [0x7f795d7fa700] DEBUG - Perfect cache hit, we don't need to start [tv.plex.agents.movie] yet.
+Jul 05, 2020 13:01:00.783 [0x7f79729c9700] DEBUG - Starting scheduled updates, every 3600 seconds
+Jul 05, 2020 13:01:00.783 [0x7f79729c9700] INFO - LibraryUpdateManager path watching is disabled
+Jul 05, 2020 13:01:00.783 [0x7f79729c9700] DEBUG - Done waiting for all plug-ins to start.
+Jul 05, 2020 13:01:00.784 [0x7f79729c9700] DEBUG - PluginRepository::setStartState: 3, complete
+Jul 05, 2020 13:01:00.784 [0x7f793b7fe700] DEBUG - Downloading document http://127.0.0.1:32400/:/plugins/com.plexapp.agents.imdb/prefs
+Jul 05, 2020 13:01:00.784 [0x7f793b7fe700] DEBUG - Starting file watcher for com.plexapp.agents.imdb
+Jul 05, 2020 13:01:00.784 [0x7f793b7fe700] DEBUG - Plugin: not setting user token for plugin
+Jul 05, 2020 13:01:00.784 [0x7f793b7fe700] DEBUG - Spawned plug-in com.plexapp.agents.imdb with PID 388
+Jul 05, 2020 13:01:00.784 [0x7f793b7fe700] DEBUG - [com.plexapp.agents.imdb] Sending command: GET /:/prefixes
+Jul 05, 2020 13:01:00.809 [0x7f795f7fe700] DEBUG - HTTP 200 response from GET http://127.0.0.1:38843/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
+Jul 05, 2020 13:01:00.809 [0x7f795f7fe700] DEBUG - [com.plexapp.system] HTTP reply status 200, with 59966 bytes of content.
+Jul 05, 2020 13:01:00.812 [0x7f79791a0700] DEBUG - Completed: [127.0.0.1:33750] 200 GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_ (2 live) GZIP 301ms 19262 bytes
+Jul 05, 2020 13:01:00.816 [0x7f7973fff700] DEBUG - Job running: '/usr/lib/plexmediaserver/CrashUploader' '--directory=/config/Library/Application Support/Plex Media Server/Crash Reports/1.19.4.2935-79e214ead' '--version=1.19.4.2935-79e214ead' '--platform=Linux' '--platformVersion=4.19.104-microsoft-standard' '--serverUuid=84babd2b6413574365ceb3daa97f2ed6a2151f97' '--userId=NOUSERID' '--sentryUrl=https://sentry.io/api/1233455/minidump' '--sentryKey=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx' '--vendor=Docker' '--model=x86_64' '--device=Docker Container (LinuxServer.io)'
+Jul 05, 2020 13:01:00.817 [0x7f7973fff700] DEBUG - Jobs: Starting child process with pid 389
+Jul 05, 2020 13:01:00.823 [0x7f797a1a2700] DEBUG - Jobs: '/usr/lib/plexmediaserver/CrashUploader' exit code for process 389 is 0 (success)
+Jul 05, 2020 13:01:01.411 [0x7f795e7fc700] DEBUG - Request: [127.0.0.1:33778 (Loopback)] GET /system/messaging/clear_events/com.plexapp.agents.imdb (2 live) GZIP
+Jul 05, 2020 13:01:01.411 [0x7f795e7fc700] DEBUG - [com.plexapp.system] Sending command over HTTP (GET): /system/messaging/clear_events/com.plexapp.agents.imdb
+Jul 05, 2020 13:01:01.412 [0x7f795e7fc700] DEBUG - HTTP requesting GET http://127.0.0.1:38843/system/messaging/clear_events/com.plexapp.agents.imdb
+Jul 05, 2020 13:01:01.449 [0x7f795e7fc700] DEBUG - HTTP 200 response from GET http://127.0.0.1:38843/system/messaging/clear_events/com.plexapp.agents.imdb
+Jul 05, 2020 13:01:01.449 [0x7f795e7fc700] DEBUG - [com.plexapp.system] HTTP reply status 200, with 0 bytes of content.
+Jul 05, 2020 13:01:01.449 [0x7f79791a0700] DEBUG - Completed: [127.0.0.1:33778] 200 GET /system/messaging/clear_events/com.plexapp.agents.imdb (2 live) GZIP 37ms 167 bytes
+Jul 05, 2020 13:01:01.521 [0x7f795effd700] DEBUG - Request: [127.0.0.1:33784 (Loopback)] GET /:/plugins/com.plexapp.system/resourceHashes (2 live) GZIP
+Jul 05, 2020 13:01:01.521 [0x7f795effd700] DEBUG - [com.plexapp.system] Sending command over HTTP (GET): /:/plugins/com.plexapp.system/resourceHashes
+Jul 05, 2020 13:01:01.522 [0x7f795effd700] DEBUG - HTTP requesting GET http://127.0.0.1:38843/:/plugins/com.plexapp.system/resourceHashes
+Jul 05, 2020 13:01:01.522 [0x7f795ffff700] DEBUG - HTTP 200 response from GET https://plex.tv/api/v2/user/privacy?X-Plex-Token=
+Jul 05, 2020 13:01:01.523 [0x7f795ffff700] DEBUG - HTTP requesting GET https://plex.tv/api/v2/release_channels?X-Plex-Token=
+Jul 05, 2020 13:01:01.602 [0x7f795effd700] DEBUG - HTTP 200 response from GET http://127.0.0.1:38843/:/plugins/com.plexapp.system/resourceHashes
+Jul 05, 2020 13:01:01.602 [0x7f795effd700] DEBUG - [com.plexapp.system] HTTP reply status 200, with 13276 bytes of content.
+Jul 05, 2020 13:01:01.602 [0x7f79791a0700] DEBUG - Completed: [127.0.0.1:33784] 200 GET /:/plugins/com.plexapp.system/resourceHashes (2 live) GZIP 81ms 3335 bytes
+Jul 05, 2020 13:01:01.615 [0x7f795dffb700] DEBUG - Request: [127.0.0.1:33796 (Loopback)] GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_ (2 live) GZIP
+Jul 05, 2020 13:01:01.615 [0x7f795dffb700] DEBUG - [com.plexapp.system] Sending command over HTTP (GET): /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
+Jul 05, 2020 13:01:01.616 [0x7f795dffb700] DEBUG - HTTP requesting GET http://127.0.0.1:38843/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
+Jul 05, 2020 13:01:01.616 [0x7f795f7fe700] DEBUG - Request: [127.0.0.1:33798 (Loopback)] GET / (3 live) GZIP
+Jul 05, 2020 13:01:01.617 [0x7f797899f700] DEBUG - Completed: [127.0.0.1:33798] 200 GET / (3 live) GZIP 0ms 1972 bytes
+Jul 05, 2020 13:01:01.633 [0x7f795dffb700] DEBUG - HTTP 200 response from GET http://127.0.0.1:38843/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
+Jul 05, 2020 13:01:01.633 [0x7f795dffb700] DEBUG - [com.plexapp.system] HTTP reply status 200, with 59966 bytes of content.
+Jul 05, 2020 13:01:01.635 [0x7f797899f700] DEBUG - Completed: [127.0.0.1:33796] 200 GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_ (2 live) GZIP 19ms 19262 bytes
+Jul 05, 2020 13:01:02.421 [0x7f795f7fe700] DEBUG - Request: [127.0.0.1:33804 (Loopback)] GET /:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczEwClBsZXggTW92aWVzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_ (2 live) GZIP
+Jul 05, 2020 13:01:02.421 [0x7f795f7fe700] DEBUG - [com.plexapp.system] Sending command over HTTP (GET): /:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczEwClBsZXggTW92aWVzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_
+Jul 05, 2020 13:01:02.421 [0x7f795f7fe700] DEBUG - HTTP requesting GET http://127.0.0.1:38843/:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczEwClBsZXggTW92aWVzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_
+Jul 05, 2020 13:01:02.429 [0x7f795f7fe700] DEBUG - HTTP 200 response from GET http://127.0.0.1:38843/:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczEwClBsZXggTW92aWVzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_
+Jul 05, 2020 13:01:02.429 [0x7f795f7fe700] DEBUG - [com.plexapp.system] HTTP reply status 200, with 16 bytes of content.
+Jul 05, 2020 13:01:02.429 [0x7f797899f700] DEBUG - Completed: [127.0.0.1:33804] 200 GET /:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczEwClBsZXggTW92aWVzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_ (2 live) GZIP 7ms 302 bytes
+Jul 05, 2020 13:01:02.433 [0x7f793b7fe700] DEBUG - Reading 148 bytes in the body, code is 200
+Jul 05, 2020 13:01:02.433 [0x7f793b7fe700] DEBUG - [com.plexapp.agents.imdb] Plug-in running on port 33177.
+Jul 05, 2020 13:01:02.433 [0x7f793b7fe700] DEBUG - Read configuration for [com.plexapp.agents.imdb], had 0 prefixes
+Jul 05, 2020 13:01:02.434 [0x7f793b7fe700] DEBUG - [com.plexapp.agents.imdb] Sending command over HTTP (GET): /:/plugins/com.plexapp.agents.imdb/prefs
+Jul 05, 2020 13:01:02.434 [0x7f793b7fe700] DEBUG - HTTP requesting GET http://127.0.0.1:33177/:/plugins/com.plexapp.agents.imdb/prefs
+Jul 05, 2020 13:01:02.450 [0x7f793b7fe700] DEBUG - HTTP 200 response from GET http://127.0.0.1:33177/:/plugins/com.plexapp.agents.imdb/prefs
+Jul 05, 2020 13:01:02.450 [0x7f793b7fe700] DEBUG - [com.plexapp.agents.imdb] HTTP reply status 200, with 2224 bytes of content.
+Jul 05, 2020 13:01:02.450 [0x7f793b7fe700] DEBUG - Caching document http://127.0.0.1:32400/:/plugins/com.plexapp.agents.imdb/prefs as bf1bfc5622b4356c7f44ced8cdf69d934adf09c3
+Jul 05, 2020 13:01:02.450 [0x7f793b7fe700] DEBUG - IVA: Downloading trailer lists.
+Jul 05, 2020 13:01:02.535 [0x7f795ffff700] DEBUG - HTTP 200 response from GET https://plex.tv/api/v2/release_channels?X-Plex-Token=
+Jul 05, 2020 13:01:02.536 [0x7f795ffff700] DEBUG - Running database fix-ups.
+Jul 05, 2020 13:01:02.536 [0x7f795ffff700] DEBUG - Database Fixups: Destroyed 0 transient items.
+Jul 05, 2020 13:01:02.537 [0x7f795ffff700] DEBUG - Running database fix-ups completed in 0.0 seconds.
+Jul 05, 2020 13:01:02.537 [0x7f795ffff700] DEBUG - HTTP requesting GET https://plex.tv/api/v2/features?X-Plex-Token=
+Jul 05, 2020 13:01:02.609 [0x7f793b7fe700] DEBUG - IVA: Downloaded 12 trailers for source 1.
+Jul 05, 2020 13:01:02.710 [0x7f793b7fe700] DEBUG - IVA: Downloaded 0 trailers for source 2.
+Jul 05, 2020 13:01:03.561 [0x7f795ffff700] DEBUG - HTTP 200 response from GET https://plex.tv/api/v2/features?X-Plex-Token=
+Jul 05, 2020 13:01:03.564 [0x7f7973fff700] DEBUG - DVR: Starting up.
+Jul 05, 2020 13:01:03.565 [0x7f79799a1700] DEBUG - HTTP requesting GET https://plex.tv/media/providers?X-Plex-Token=
+Jul 05, 2020 13:01:03.565 [0x7f7973fff700] DEBUG - Activity: registered new activity f8ac5d96-79f2-4953-bd02-8f813bf6676f - Processing subscriptions
+Jul 05, 2020 13:01:04.109 [0x7f795ffff700] DEBUG - MyPlex: Sending unclaimed device connections
+Jul 05, 2020 13:01:04.109 [0x7f795ffff700] DEBUG - HTTP requesting POST https://plex.tv/devices/84babd2b6413574365ceb3daa97f2ed6a2151f97/unclaimed?Connection[][uri]=http://192.168.65.3:32400&Connection[][uri]=http://172.18.0.1:32400&Connection[][uri]=http://172.19.0.1:32400
+Jul 05, 2020 13:01:04.550 [0x7f79799a1700] DEBUG - HTTP 401 response from GET https://plex.tv/media/providers?X-Plex-Token=
+Jul 05, 2020 13:01:05.221 [0x7f795ffff700] DEBUG - HTTP 200 response from POST https://plex.tv/devices/84babd2b6413574365ceb3daa97f2ed6a2151f97/unclaimed?Connection[][uri]=http://192.168.65.3:32400&Connection[][uri]=http://172.18.0.1:32400&Connection[][uri]=http://172.19.0.1:32400
+Jul 05, 2020 13:01:05.509 [0x7f79719c7700] DEBUG - NetworkServiceBrowser: SERVER arrived: 127.0.0.1 (docker-desktop)
+Jul 05, 2020 13:01:05.509 [0x7f79719c7700] DEBUG - Notifying the system bundle an update to server /system/notify/serverUpdated?host=127.0.0.1
+Jul 05, 2020 13:01:05.509 [0x7f79719c7700] DEBUG - [com.plexapp.system] Sending command over HTTP (GET): /system/notify/serverUpdated?host=127.0.0.1
+Jul 05, 2020 13:01:05.509 [0x7f79719c7700] DEBUG - HTTP requesting GET http://127.0.0.1:38843/system/notify/serverUpdated?host=127.0.0.1
+Jul 05, 2020 13:01:05.522 [0x7f795dffb700] DEBUG - Request: [127.0.0.1:33860 (Loopback)] GET /servers (2 live) GZIP
+Jul 05, 2020 13:01:05.523 [0x7f79791a0700] DEBUG - Completed: [127.0.0.1:33860] 200 GET /servers (2 live) GZIP 0ms 495 bytes
+Jul 05, 2020 13:01:05.526 [0x7f795effd700] DEBUG - Request: [127.0.0.1:33862 (Loopback)] GET /library/sections (2 live) GZIP
+Jul 05, 2020 13:01:05.526 [0x7f797899f700] DEBUG - Completed: [127.0.0.1:33862] 200 GET /library/sections (2 live) GZIP 0ms 475 bytes
+Jul 05, 2020 13:01:05.527 [0x7f795f7fe700] DEBUG - Request: [127.0.0.1:33864 (Loopback)] GET /channels/all (2 live) GZIP
+Jul 05, 2020 13:01:05.528 [0x7f797899f700] DEBUG - Completed: [127.0.0.1:33864] 200 GET /channels/all (2 live) GZIP 0ms 387 bytes
+Jul 05, 2020 13:01:05.529 [0x7f79719c7700] DEBUG - HTTP 200 response from GET http://127.0.0.1:38843/system/notify/serverUpdated?host=127.0.0.1
+Jul 05, 2020 13:01:05.529 [0x7f79719c7700] DEBUG - [com.plexapp.system] HTTP reply status 200, with 0 bytes of content.
+Jul 05, 2020 13:01:08.847 [0x7f7973fff700] DEBUG - DVR:Device: Discovering and refreshing all devices.
+Jul 05, 2020 13:01:08.847 [0x7f7973fff700] DEBUG - Grabber: HDHomerun discovered 0 compatible devices.
+Jul 05, 2020 13:01:08.847 [0x7f7973fff700] DEBUG - HTTP requesting POST http://127.0.0.1:32600/devices/discover
+Jul 05, 2020 13:01:11.076 [0x7f79711c6700] DEBUG - NetworkInterface: received Netlink message len=360, type=RTM_NEWLINK, flags=0x0
+Jul 05, 2020 13:01:11.076 [0x7f79711c6700] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=12, flags=0x11043, change=0x0
+Jul 05, 2020 13:01:11.076 [0x7f79711c6700] DEBUG - Network change.
+Jul 05, 2020 13:01:11.076 [0x7f79711c6700] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Jul 05, 2020 13:01:11.076 [0x7f79711c6700] DEBUG - Network change notification but nothing changed.
+Jul 05, 2020 13:01:11.290 [0x7f7973fff700] DEBUG - HTTP 200 response from POST http://127.0.0.1:32600/devices/discover
+Jul 05, 2020 13:01:13.566 [0x7f793b7fe700] DEBUG - Grabber: Cleaning up orphaned grabs.
+Jul 05, 2020 13:01:13.566 [0x7f793b7fe700] DEBUG - Grabber: Cleaned up 0 decrepit directories in 0.0 sec.
+Jul 05, 2020 13:01:13.566 [0x7f793b7fe700] DEBUG - Activity: registered new activity d5f55dea-5ba4-433e-bace-02cb5f708863 - Processing subscriptions
+Jul 05, 2020 13:01:13.566 [0x7f793b7fe700] DEBUG - Subscription: Scheduling subscriptions.
+Jul 05, 2020 13:01:13.567 [0x7f793b7fe700] DEBUG - Subscription: Initialized 0 schedulers.
+Jul 05, 2020 13:01:13.567 [0x7f793b7fe700] DEBUG - Subscription: Starting with 0 grabs, scheduled 0 active ones preemptively.
+Jul 05, 2020 13:01:13.567 [0x7f793b7fe700] DEBUG - Subscription: Scheduled all subscriptions in 0 ms.
+Jul 05, 2020 13:01:13.567 [0x7f793b7fe700] DEBUG - Activity: Ended activity d5f55dea-5ba4-433e-bace-02cb5f708863.
+Jul 05, 2020 13:01:13.567 [0x7f793b7fe700] DEBUG - Subscription: There are 0 active grabs at the end.
+Jul 05, 2020 13:01:13.567 [0x7f793b7fe700] DEBUG - Activity: Ended activity f8ac5d96-79f2-4953-bd02-8f813bf6676f.
+Jul 05, 2020 13:01:13.567 [0x7f793b7fe700] DEBUG - Subscription: Refreshed all content in 1 ms.
+Jul 05, 2020 13:02:09.088 [0x7f797a1a2700] DEBUG - Shutting down with signal 15 (Terminated)
+Jul 05, 2020 13:02:09.088 [0x7f797a1a2700] DEBUG - Ordered to stop server.
+Jul 05, 2020 13:02:09.088 [0x7f797a1a2700] WARN - Timed out waiting for server to finish.
+Jul 05, 2020 13:02:09.088 [0x7f798403bf40] DEBUG - Stopping server...
+Jul 05, 2020 13:02:09.088 [0x7f798403bf40] DEBUG - HttpServer: Stopping server.
+Jul 05, 2020 13:02:09.088 [0x7f795ffff700] DEBUG - TranscodeJobManager: [Running] onServerShutdown
+Jul 05, 2020 13:02:09.088 [0x7f795ffff700] DEBUG - TranscodeJobManager: [Running] -> [Shutdown]
+Jul 05, 2020 13:02:09.088 [0x7f795ffff700] DEBUG - MetadataItemClusterRequestHandler: a shutdown event has been received
+Jul 05, 2020 13:02:09.088 [0x7f798403bf40] DEBUG - Server stopped.
+Jul 05, 2020 13:02:09.088 [0x7f798403bf40] DEBUG - NetworkService: Stopping advertisement.
+Jul 05, 2020 13:02:09.088 [0x7f798403bf40] DEBUG - Killing plug-ins.
+Jul 05, 2020 13:02:09.088 [0x7f798403bf40] DEBUG - [com.plexapp.agents.imdb] Killing.
+Jul 05, 2020 13:02:09.088 [0x7f798403bf40] DEBUG - [com.plexapp.system] Killing.
+Jul 05, 2020 13:02:09.088 [0x7f798403bf40] DEBUG - Waiting for Plex Tuner Service to exit.
+Jul 05, 2020 13:02:09.092 [0x7f797a1a2700] DEBUG - Jobs: '/usr/lib/plexmediaserver/Plex Tuner Service' exit code for process 362 is 0 (success)
+Jul 05, 2020 13:02:09.092 [0x7f79709c5700] DEBUG - Plex Tuner Service exited.
+Jul 05, 2020 13:02:09.093 [0x7f797a1a2700] WARN - JobManager: Could not find job for handle 388
+Jul 05, 2020 13:02:09.094 [0x7f798403bf40] DEBUG - Database: Shutting down.
+Jul 05, 2020 13:02:09.094 [0x7f798403bf40] DEBUG - Captured session 0.
+Jul 05, 2020 13:02:09.094 [0x7f798403bf40] DEBUG - Captured session 1.
+Jul 05, 2020 13:02:09.094 [0x7f798403bf40] DEBUG - Captured session 2.
+Jul 05, 2020 13:02:09.094 [0x7f798403bf40] DEBUG - Captured session 3.
+Jul 05, 2020 13:02:09.094 [0x7f798403bf40] DEBUG - Captured session 4.
+Jul 05, 2020 13:02:09.094 [0x7f798403bf40] DEBUG - Captured session 5.
+Jul 05, 2020 13:02:09.094 [0x7f798403bf40] DEBUG - Captured session 6.
+Jul 05, 2020 13:02:09.094 [0x7f798403bf40] DEBUG - Captured session 7.
+Jul 05, 2020 13:02:09.094 [0x7f798403bf40] DEBUG - Captured session 8.
+Jul 05, 2020 13:02:09.094 [0x7f798403bf40] DEBUG - Captured session 9.
+Jul 05, 2020 13:02:09.094 [0x7f798403bf40] DEBUG - Captured session 10.
+Jul 05, 2020 13:02:09.094 [0x7f798403bf40] DEBUG - Captured session 11.
+Jul 05, 2020 13:02:09.094 [0x7f798403bf40] DEBUG - Captured session 12.
+Jul 05, 2020 13:02:09.094 [0x7f798403bf40] DEBUG - Captured session 13.
+Jul 05, 2020 13:02:09.094 [0x7f798403bf40] DEBUG - Captured session 14.
+Jul 05, 2020 13:02:09.094 [0x7f798403bf40] DEBUG - Captured session 15.
+Jul 05, 2020 13:02:09.094 [0x7f798403bf40] DEBUG - Captured session 16.
+Jul 05, 2020 13:02:09.094 [0x7f798403bf40] DEBUG - Captured session 17.
+Jul 05, 2020 13:02:09.094 [0x7f798403bf40] DEBUG - Captured session 18.
+Jul 05, 2020 13:02:09.094 [0x7f798403bf40] DEBUG - Captured session 19.
+Jul 05, 2020 13:02:09.097 [0x7f797a1a2700] WARN - JobManager: Could not find job for handle 319
+Jul 05, 2020 13:02:09.102 [0x7f798403bf40] DEBUG - Database: Shutting down.
+Jul 05, 2020 13:02:09.102 [0x7f798403bf40] DEBUG - Captured session 0.
+Jul 05, 2020 13:02:09.102 [0x7f798403bf40] DEBUG - Captured session 1.
